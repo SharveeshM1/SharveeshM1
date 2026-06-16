@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="220" viewBox="0 0 1800 220" role="img" aria-labelledby="title">
+  <title id="title">Bottom holographic wave</title>
+  <defs><linearGradient id="g" x1="0" y1="100" x2="1800" y2="180" gradientUnits="userSpaceOnUse"><stop stop-color="#8B5CF6" stop-opacity=".18"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".42"/><stop offset="1" stop-color="#8B5CF6" stop-opacity=".16"/></linearGradient></defs>
+  <rect width="1800" height="220" fill="#0D1117"/>
+  <path d="M0 56C320 152 530 28 846 106C1160 184 1390 132 1800 70V220H0Z" fill="url(#g)"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="120" viewBox="0 0 1800 120" role="img" aria-labelledby="title">
+  <title id="title">Holographic scanning line</title>
+  <defs><linearGradient id="g" x1="160" y1="60" x2="1640" y2="60" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#8B5CF6" stop-opacity="0"/><stop offset="35%" stop-color="#8B5CF6" stop-opacity=".6"/><stop offset="50%" stop-color="#F8FAFC"/><stop offset="65%" stop-color="#22D3EE" stop-opacity=".75"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><style>@keyframes dash{to{stroke-dashoffset:-420}}path{animation:dash 8s linear infinite}@media (prefers-reduced-motion:reduce){path{animation:none}}</style></defs>
+  <path d="M120 60H1680" stroke="url(#g)" stroke-width="3" stroke-linecap="round" stroke-dasharray="22 26" filter="url(#glow)"/>
+</svg>

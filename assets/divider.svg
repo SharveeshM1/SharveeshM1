@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="90" viewBox="0 0 1800 90" role="img" aria-labelledby="title">
+  <title id="title">Minimal holographic divider</title>
+  <defs><linearGradient id="g" x1="0" y1="45" x2="1800" y2="45" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#8B5CF6" stop-opacity="0"/><stop offset="22%" stop-color="#8B5CF6" stop-opacity=".55"/><stop offset="50%" stop-color="#22D3EE"/><stop offset="78%" stop-color="#8B5CF6" stop-opacity=".55"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/></linearGradient><filter id="glow" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect width="1800" height="90" fill="#0D1117"/>
+  <path d="M120 45H1680" stroke="url(#g)" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+  <circle cx="900" cy="45" r="9" fill="#F8FAFC" filter="url(#glow)"/>
+</svg>

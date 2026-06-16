@@ -1,0 +1,37 @@
+name: WakaTime Panel
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate WakaTime panel
+        run: |
+          mkdir -p output
+          cat > output/wakatime.svg <<'SVG'
+          <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+            <rect width="1200" height="360" fill="#0D1117"/>
+            <rect x="70" y="60" width="1060" height="240" rx="24" fill="#111827" stroke="#8B5CF6" stroke-opacity=".4"/>
+            <text x="120" y="135" font-family="Space Grotesk, Inter, sans-serif" font-size="42" fill="#F8FAFC" font-weight="700">Coding Activity</text>
+            <text x="120" y="205" font-family="JetBrains Mono, monospace" font-size="26" fill="#22D3EE">WakaTime-ready panel</text>
+            <text x="120" y="255" font-family="JetBrains Mono, monospace" font-size="22" fill="#F8FAFC" opacity=".68">Add WAKATIME_API_KEY to enable live stats later.</text>
+          </svg>
+          SVG
+      - name: Commit output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/wakatime.svg
+          git diff --cached --quiet || git commit -m "chore: update wakatime panel"
+          git push

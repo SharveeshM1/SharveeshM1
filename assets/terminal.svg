@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="2160" viewBox="0 0 3840 2160" role="img" aria-labelledby="title desc">
+  <title id="title">Holographic engineering terminal</title>
+  <desc id="desc">A premium dark terminal window with glowing AI systems logs, cyan command traces, and purple infrastructure accents.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="48%" r="75%">
+      <stop offset="0%" stop-color="#151026"/>
+      <stop offset="56%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#05070B"/>
+    </radialGradient>
+    <linearGradient id="edge" x1="540" y1="330" x2="3300" y2="1800" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8FAFC" stop-opacity=".16"/>
+      <stop offset="48%" stop-color="#22D3EE" stop-opacity=".05"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity=".14"/>
+    </linearGradient>
+    <linearGradient id="cursor" x1="920" y1="1538" x2="1240" y2="1538" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="13" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 .133 0 0 0 0 .827 0 0 0 0 .933 0 0 0 .75 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="depth" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="50" stdDeviation="50" flood-color="#000000" flood-opacity=".6"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="24" flood-color="#8B5CF6" flood-opacity=".28"/>
+    </filter>
+    <style>
+      .mono{font-family:"JetBrains Mono","IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace}
+      @keyframes blink{0%,46%{opacity:1}47%,100%{opacity:.08}}
+      @keyframes scan{to{stroke-dashoffset:-520}}
+      #caret{animation:blink 1.05s steps(1,end) infinite}
+      .scan{animation:scan 8s linear infinite}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+  </defs>
+  <rect width="3840" height="2160" fill="url(#bg)"/>
+  <g opacity=".2" fill="none" stroke-linecap="round">
+    <path class="scan" d="M300 1840C926 1480 1320 1728 1910 1300C2506 868 2950 1040 3540 612" stroke="#22D3EE" stroke-width="3" stroke-dasharray="22 32"/>
+    <path class="scan" d="M390 520C970 808 1298 510 1870 760C2450 1014 2846 1312 3428 1120" stroke="#8B5CF6" stroke-width="2" stroke-dasharray="14 30"/>
+  </g>
+  <g filter="url(#depth)">
+    <rect x="540" y="300" width="2760" height="1560" rx="34" fill="#070A10" fill-opacity=".9" stroke="url(#edge)" stroke-width="3"/>
+    <path d="M540 468H3300" stroke="#F8FAFC" stroke-opacity=".09" stroke-width="2"/>
+    <circle cx="650" cy="384" r="16" fill="#8B5CF6"/>
+    <circle cx="710" cy="384" r="16" fill="#22D3EE"/>
+    <circle cx="770" cy="384" r="16" fill="#F8FAFC" fill-opacity=".55"/>
+  </g>
+  <text x="900" y="396" class="mono" font-size="30" fill="#F8FAFC" fill-opacity=".64">~/SharveeshM1/inference-control</text>
+  <g class="mono" font-size="36" fill="#F8FAFC">
+    <text x="700" y="620" fill="#22D3EE">sharveesh@ai-systems</text>
+    <text x="1126" y="620" fill-opacity=".58">:</text>
+    <text x="1160" y="620" fill="#8B5CF6">~/agent-runtime</text>
+    <text x="1574" y="620" fill-opacity=".78">$ deploy --graph HELIOS --providers 4</text>
+    <text x="700" y="730" fill-opacity=".55">[init]</text>
+    <text x="840" y="730" fill-opacity=".82">loading context fabric, semantic memory and routing policies</text>
+    <text x="700" y="840" fill="#22D3EE">[ok]</text>
+    <text x="840" y="840" fill-opacity=".82">orchestrator ready  /  latency budget 37ms  /  stream enabled</text>
+    <text x="700" y="950" fill="#8B5CF6">[mesh]</text>
+    <text x="840" y="950" fill-opacity=".82">planner -> retriever -> verifier -> executor -> observer</text>
+    <text x="700" y="1060" fill="#22D3EE">[llm]</text>
+    <text x="840" y="1060" fill-opacity=".82">multi-provider inference routed through adaptive fallback</text>
+    <text x="700" y="1170" fill-opacity=".55">[event]</text>
+    <text x="840" y="1170" fill-opacity=".82">context.window.compacted  tokens=128k  cache=warm</text>
+    <text x="700" y="1280" fill="#22D3EE">[done]</text>
+    <text x="840" y="1280" fill-opacity=".82">system online</text>
+    <text x="700" y="1538" fill="#22D3EE">></text>
+    <text x="760" y="1538" fill-opacity=".82">run evaluation --suite distributed-agents</text>
+  </g>
+  <rect id="caret" x="1506" y="1496" width="22" height="58" rx="4" fill="url(#cursor)" filter="url(#glow)"/>
+  <g filter="url(#glow)" opacity=".86">
+    <path d="M700 1372H3140" stroke="#22D3EE" stroke-opacity=".28" stroke-width="2"/>
+    <path d="M700 1660H2070" stroke="#8B5CF6" stroke-opacity=".32" stroke-width="2"/>
+    <circle cx="3020" cy="620" r="74" fill="#22D3EE" fill-opacity=".08"/>
+    <circle cx="3020" cy="620" r="34" fill="none" stroke="#22D3EE" stroke-opacity=".56" stroke-width="4"/>
+  </g>
+</svg>

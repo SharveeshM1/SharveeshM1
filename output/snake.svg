@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title">
+  <title id="title">Contribution stream</title>
+  <rect width="1200" height="300" fill="#0D1117"/>
+  <path d="M90 160C230 80 340 220 490 140C640 60 760 210 920 130C1010 84 1080 96 1120 120" fill="none" stroke="#22D3EE" stroke-width="8" stroke-linecap="round"/>
+  <path d="M90 160C230 80 340 220 490 140C640 60 760 210 920 130C1010 84 1080 96 1120 120" fill="none" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round"/>
+  <text x="600" y="240" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="24" fill="#F8FAFC">SharveeshM1 contribution stream</text>
+</svg>

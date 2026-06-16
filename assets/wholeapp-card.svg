@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="640" viewBox="0 0 1400 640" role="img" aria-labelledby="title desc">
+  <title id="title">whole_app project card</title>
+  <desc id="desc">Project card for whole_app, a cross-platform commerce platform.</desc>
+  <defs><radialGradient id="bg" cx="50%" cy="42%" r="75%"><stop offset="0%" stop-color="#151026"/><stop offset="100%" stop-color="#0D1117"/></radialGradient><linearGradient id="edge" x1="100" y1="90" x2="1300" y2="550" gradientUnits="userSpaceOnUse"><stop stop-color="#F8FAFC" stop-opacity=".14"/><stop offset=".45" stop-color="#22D3EE" stop-opacity=".32"/><stop offset="1" stop-color="#8B5CF6" stop-opacity=".24"/></linearGradient><filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect width="1400" height="640" fill="url(#bg)"/><rect x="70" y="60" width="1260" height="520" rx="28" fill="#111827" fill-opacity=".5" stroke="url(#edge)" stroke-width="3"/>
+  <rect x="980" y="160" width="220" height="320" rx="34" fill="#0D1117" stroke="#22D3EE" stroke-opacity=".55" stroke-width="4" filter="url(#g)"/><path d="M1030 240H1150M1030 310H1150M1030 380H1112" stroke="#8B5CF6" stroke-width="9" stroke-linecap="round"/><circle cx="1090" cy="438" r="14" fill="#F8FAFC" fill-opacity=".72"/>
+  <text x="130" y="178" font-family="Space Grotesk, Inter, system-ui, sans-serif" font-size="70" fill="#F8FAFC" font-weight="700">whole_app</text><text x="130" y="238" font-family="JetBrains Mono, monospace" font-size="28" fill="#22D3EE">CROSS-PLATFORM COMMERCE</text>
+  <text x="130" y="336" font-family="Inter, system-ui, sans-serif" font-size="34" fill="#F8FAFC" fill-opacity=".76">Flutter and Firebase commerce system</text><text x="130" y="386" font-family="Inter, system-ui, sans-serif" font-size="34" fill="#F8FAFC" fill-opacity=".76">with realtime product workflows.</text>
+  <text x="130" y="492" font-family="JetBrains Mono, monospace" font-size="24" fill="#F8FAFC" fill-opacity=".58">github.com/SharveeshM1/whole_app</text>
+</svg>

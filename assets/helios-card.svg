@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="640" viewBox="0 0 1400 640" role="img" aria-labelledby="title desc">
+  <title id="title">HELIOS project card</title>
+  <desc id="desc">Project card for HELIOS, a multi-agent AI platform.</desc>
+  <defs><radialGradient id="bg" cx="50%" cy="42%" r="75%"><stop offset="0%" stop-color="#151026"/><stop offset="100%" stop-color="#0D1117"/></radialGradient><linearGradient id="edge" x1="100" y1="90" x2="1300" y2="550" gradientUnits="userSpaceOnUse"><stop stop-color="#F8FAFC" stop-opacity=".16"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".35"/><stop offset="1" stop-color="#8B5CF6" stop-opacity=".26"/></linearGradient><filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect width="1400" height="640" fill="url(#bg)"/><rect x="70" y="60" width="1260" height="520" rx="28" fill="#111827" fill-opacity=".5" stroke="url(#edge)" stroke-width="3"/>
+  <circle cx="1090" cy="320" r="132" fill="#22D3EE" fill-opacity=".08" filter="url(#g)"/><path d="M1090 164L1224 242V398L1090 476L956 398V242Z" fill="none" stroke="#22D3EE" stroke-opacity=".6" stroke-width="4" filter="url(#g)"/><path d="M1018 322L1072 270L1150 292L1192 250M1072 270L1100 356L1170 378" fill="none" stroke="#8B5CF6" stroke-width="4" stroke-linecap="round"/>
+  <text x="130" y="178" font-family="Space Grotesk, Inter, system-ui, sans-serif" font-size="70" fill="#F8FAFC" font-weight="700">HELIOS</text><text x="130" y="238" font-family="JetBrains Mono, monospace" font-size="28" fill="#22D3EE">MULTI-AGENT AI PLATFORM</text>
+  <text x="130" y="336" font-family="Inter, system-ui, sans-serif" font-size="34" fill="#F8FAFC" fill-opacity=".76">Orchestration, context engineering and</text><text x="130" y="386" font-family="Inter, system-ui, sans-serif" font-size="34" fill="#F8FAFC" fill-opacity=".76">multi-provider LLM inference.</text>
+  <text x="130" y="492" font-family="JetBrains Mono, monospace" font-size="24" fill="#F8FAFC" fill-opacity=".58">github.com/SharveeshM1/HELIOS</text>
+</svg>

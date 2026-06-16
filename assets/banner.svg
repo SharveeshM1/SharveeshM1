@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="1600" viewBox="0 0 3840 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Sharveesh M premium AI systems banner</title>
+  <desc id="desc">A futuristic black 4K GitHub profile banner with holographic neural geometry, purple and cyan glows, and premium AI infrastructure styling.</desc>
+  <defs>
+    <radialGradient id="bgA" cx="50%" cy="50%" r="74%">
+      <stop offset="0%" stop-color="#151024"/>
+      <stop offset="48%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#05070B"/>
+    </radialGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F8FAFC" stop-opacity=".74"/>
+      <stop offset="8%" stop-color="#22D3EE" stop-opacity=".88"/>
+      <stop offset="34%" stop-color="#8B5CF6" stop-opacity=".5"/>
+      <stop offset="72%" stop-color="#8B5CF6" stop-opacity=".08"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="holo" x1="620" y1="1260" x2="3220" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".08"/>
+      <stop offset="44%" stop-color="#22D3EE" stop-opacity=".82"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity=".08"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="920" y1="278" x2="2920" y2="1300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8FAFC" stop-opacity=".18"/>
+      <stop offset="43%" stop-color="#22D3EE" stop-opacity=".04"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity=".13"/>
+    </linearGradient>
+    <linearGradient id="strokeA" x1="710" y1="1140" x2="3140" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".24"/>
+      <stop offset="52%" stop-color="#22D3EE" stop-opacity=".78"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity=".28"/>
+    </linearGradient>
+    <pattern id="microGrid" width="96" height="96" patternUnits="userSpaceOnUse">
+      <path d="M96 0H0V96" fill="none" stroke="#22D3EE" stroke-opacity=".055" stroke-width="1"/>
+      <path d="M48 0V96M0 48H96" fill="none" stroke="#8B5CF6" stroke-opacity=".035" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.545 0 0 0 0 0.361 0 0 0 0 0.965 0 0 0 .72 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="cyanGlow" x="-90%" y="-90%" width="280%" height="280%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.133 0 0 0 0 0.827 0 0 0 0 0.933 0 0 0 .78 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="depth" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="38" stdDeviation="46" flood-color="#000000" flood-opacity=".54"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="24" flood-color="#8B5CF6" flood-opacity=".34"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="16" flood-color="#22D3EE" flood-opacity=".22"/>
+    </filter>
+    <clipPath id="stageClip">
+      <rect x="0" y="0" width="3840" height="1600" rx="0"/>
+    </clipPath>
+    <style>
+      .mono{font-family:"JetBrains Mono","IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace}
+      .display{font-family:"Space Grotesk","Inter","SF Pro Display",system-ui,sans-serif}
+      .thin{vector-effect:non-scaling-stroke}
+      @keyframes drift{0%,100%{transform:translate3d(0,0,0)}50%{transform:translate3d(0,-22px,0)}}
+      @keyframes pulse{0%,100%{opacity:.44}50%{opacity:.86}}
+      @keyframes dash{to{stroke-dashoffset:-720}}
+      @keyframes rotateSlow{to{transform:rotate(360deg)}}
+      #floatLayer{animation:drift 9s ease-in-out infinite;transform-origin:1920px 800px}
+      #scanLines path{animation:dash 10s linear infinite}
+      #ringSystem{animation:rotateSlow 36s linear infinite;transform-origin:1920px 805px}
+      #corePulse{animation:pulse 5s ease-in-out infinite}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+  </defs>
+  <g clip-path="url(#stageClip)">
+    <rect width="3840" height="1600" fill="url(#bgA)"/>
+    <rect width="3840" height="1600" fill="url(#microGrid)" opacity=".72"/>
+    <path d="M0 1320C620 1170 1052 1272 1544 1062C2048 846 2322 502 3840 420V1600H0Z" fill="#8B5CF6" opacity=".035"/>
+    <path d="M0 320C596 472 1020 366 1516 556C2050 760 2492 1050 3840 1038V0H0Z" fill="#22D3EE" opacity=".035"/>
+    <g opacity=".28">
+      <path d="M-120 1238L804 860L1588 1044L2256 702L3140 796L3980 428" fill="none" stroke="#22D3EE" stroke-opacity=".28" stroke-width="2"/>
+      <path d="M-90 1338L780 982L1624 1138L2328 814L3152 912L3970 550" fill="none" stroke="#8B5CF6" stroke-opacity=".24" stroke-width="2"/>
+      <path d="M-40 1428L780 1100L1568 1248L2328 960L3140 1044L3930 706" fill="none" stroke="#F8FAFC" stroke-opacity=".08" stroke-width="1"/>
+    </g>
+    <g id="scanLines" opacity=".42">
+      <path d="M370 438H1240C1360 438 1408 486 1510 548L1698 662C1810 730 1892 738 2014 694L2420 548C2514 514 2600 520 2690 568L3482 994" fill="none" stroke="url(#holo)" stroke-width="3" stroke-linecap="round" stroke-dasharray="22 30"/>
+      <path d="M464 1112H1098C1240 1112 1332 1068 1436 974L1680 754C1808 638 1942 602 2108 640L2448 718C2568 746 2654 716 2746 632L3332 96" fill="none" stroke="url(#holo)" stroke-width="2" stroke-linecap="round" stroke-dasharray="18 34"/>
+    </g>
+    <g id="floatLayer">
+      <g id="ringSystem" opacity=".95">
+        <ellipse cx="1920" cy="805" rx="610" ry="184" fill="none" stroke="url(#strokeA)" stroke-width="2.5" stroke-dasharray="28 26" filter="url(#cyanGlow)"/>
+        <ellipse cx="1920" cy="805" rx="514" ry="154" fill="none" stroke="#8B5CF6" stroke-opacity=".34" stroke-width="2" transform="rotate(18 1920 805)"/>
+        <ellipse cx="1920" cy="805" rx="744" ry="238" fill="none" stroke="#22D3EE" stroke-opacity=".16" stroke-width="1.5" transform="rotate(-14 1920 805)"/>
+      </g>
+      <g filter="url(#depth)">
+        <path d="M1920 404L2286 606V1004L1920 1206L1554 1004V606Z" fill="#0D1117" fill-opacity=".66" stroke="url(#glass)" stroke-width="2.5"/>
+        <path d="M1920 492L2206 650V962L1920 1120L1634 962V650Z" fill="none" stroke="#22D3EE" stroke-opacity=".32" stroke-width="2"/>
+        <path d="M1920 590L2118 700V918L1920 1030L1722 918V700Z" fill="#111827" fill-opacity=".36" stroke="#8B5CF6" stroke-opacity=".36" stroke-width="1.5"/>
+      </g>
+      <circle id="corePulse" cx="1920" cy="805" r="342" fill="url(#coreGlow)" filter="url(#softGlow)" opacity=".72"/>
+      <g fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#cyanGlow)">
+        <path d="M1772 774L1858 690L1986 724L2070 640M1858 690L1908 838L2048 890L2138 812M1908 838L1790 942L1908 1014L2048 890" stroke="#22D3EE" stroke-opacity=".78" stroke-width="4"/>
+        <path d="M1702 862L1576 936L1430 902M2128 708L2288 640L2416 700M2050 970L2202 1060L2390 1018M1790 652L1624 566L1448 616" stroke="#8B5CF6" stroke-opacity=".58" stroke-width="3"/>
+      </g>
+      <g filter="url(#softGlow)">
+        <circle cx="1772" cy="774" r="12" fill="#F8FAFC"/>
+        <circle cx="1858" cy="690" r="10" fill="#22D3EE"/>
+        <circle cx="1986" cy="724" r="11" fill="#8B5CF6"/>
+        <circle cx="2070" cy="640" r="9" fill="#22D3EE"/>
+        <circle cx="1908" cy="838" r="13" fill="#F8FAFC"/>
+        <circle cx="2048" cy="890" r="11" fill="#22D3EE"/>
+        <circle cx="2138" cy="812" r="8" fill="#8B5CF6"/>
+        <circle cx="1790" cy="942" r="9" fill="#22D3EE"/>
+        <circle cx="1908" cy="1014" r="10" fill="#8B5CF6"/>
+      </g>
+    </g>
+    <g opacity=".96">
+      <text x="180" y="560" class="mono" fill="#22D3EE" font-size="34" letter-spacing="5">AI SYSTEMS ENGINEER</text>
+      <text x="176" y="710" class="display" fill="#F8FAFC" font-size="124" font-weight="700">Sharveesh M</text>
+      <text x="184" y="796" class="display" fill="#F8FAFC" fill-opacity=".72" font-size="42" font-weight="400">LLM applications, multi-agent infrastructure and backend systems.</text>
+      <g class="mono" font-size="25" fill="#F8FAFC" fill-opacity=".72">
+        <text x="184" y="930">AI Engineer Intern @ ITOMATA</text>
+        <text x="184" y="982">Previous: Flutter Developer Intern @ RABLO</text>
+      </g>
+      <path d="M184 846H858" stroke="url(#holo)" stroke-width="4" stroke-linecap="round" filter="url(#cyanGlow)"/>
+    </g>
+    <g class="mono" font-size="24" fill="#F8FAFC" fill-opacity=".62">
+      <text x="2694" y="1322">MULTI-AGENT ARCHITECTURES</text>
+      <text x="2694" y="1376">CONTEXT ENGINEERING</text>
+      <text x="2694" y="1430">INFERENCE INFRASTRUCTURE</text>
+    </g>
+    <g opacity=".82" filter="url(#softGlow)">
+      <circle cx="332" cy="332" r="3.5" fill="#22D3EE"/>
+      <circle cx="584" cy="244" r="2.5" fill="#8B5CF6"/>
+      <circle cx="1076" cy="354" r="3" fill="#F8FAFC"/>
+      <circle cx="2658" cy="284" r="3" fill="#22D3EE"/>
+      <circle cx="3094" cy="412" r="2.5" fill="#8B5CF6"/>
+      <circle cx="3488" cy="284" r="3.5" fill="#F8FAFC"/>
+      <circle cx="312" cy="1250" r="2.5" fill="#8B5CF6"/>
+      <circle cx="1068" cy="1336" r="3" fill="#22D3EE"/>
+      <circle cx="2512" cy="1242" r="2.5" fill="#F8FAFC"/>
+      <circle cx="3530" cy="1196" r="3" fill="#22D3EE"/>
+    </g>
+  </g>
+</svg>

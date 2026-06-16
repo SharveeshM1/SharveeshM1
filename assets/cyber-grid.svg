@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="2160" viewBox="0 0 3840 2160" role="img" aria-labelledby="title desc">
+  <title id="title">Cyber infrastructure perspective grid</title>
+  <desc id="desc">A premium black 4K cyber grid with holographic perspective lines, glass depth planes, and purple cyan glows.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="58%" r="78%">
+      <stop offset="0%" stop-color="#121827"/>
+      <stop offset="54%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#04060A"/>
+    </radialGradient>
+    <linearGradient id="horizon" x1="0" y1="980" x2="3840" y2="980" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0"/>
+      <stop offset="48%" stop-color="#22D3EE" stop-opacity=".72"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="floorLine" x1="1920" y1="876" x2="1920" y2="2160" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity=".8"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity=".05"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="1040" y1="500" x2="2800" y2="1540" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8FAFC" stop-opacity=".13"/>
+      <stop offset="42%" stop-color="#22D3EE" stop-opacity=".035"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity=".13"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 .133 0 0 0 0 .827 0 0 0 0 .933 0 0 0 .76 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="purpleGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 .545 0 0 0 0 .361 0 0 0 0 .965 0 0 0 .68 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      @keyframes scan{to{stroke-dashoffset:-760}}
+      @keyframes hover{0%,100%{transform:translate3d(0,0,0)}50%{transform:translate3d(0,-26px,0)}}
+      #scan path{animation:scan 8s linear infinite}
+      #monoliths{animation:hover 9s ease-in-out infinite}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+  </defs>
+  <rect width="3840" height="2160" fill="url(#bg)"/>
+  <path d="M0 980H3840" stroke="url(#horizon)" stroke-width="4" filter="url(#glow)"/>
+  <g opacity=".52" fill="none" stroke-linecap="round">
+    <path d="M1920 876L-180 2160" stroke="url(#floorLine)" stroke-width="2"/>
+    <path d="M1920 876L260 2160" stroke="url(#floorLine)" stroke-width="2"/>
+    <path d="M1920 876L650 2160" stroke="url(#floorLine)" stroke-width="2"/>
+    <path d="M1920 876L1010 2160" stroke="url(#floorLine)" stroke-width="2"/>
+    <path d="M1920 876L1340 2160" stroke="url(#floorLine)" stroke-width="2"/>
+    <path d="M1920 876L1640 2160" stroke="url(#floorLine)" stroke-width="2"/>
+    <path d="M1920 876L1920 2160" stroke="url(#floorLine)" stroke-width="2.5"/>
+    <path d="M1920 876L2200 2160" stroke="url(#floorLine)" stroke-width="2"/>
+    <path d="M1920 876L2500 2160" stroke="url(#floorLine)" stroke-width="2"/>
+    <path d="M1920 876L2830 2160" stroke="url(#floorLine)" stroke-width="2"/>
+    <path d="M1920 876L3190 2160" stroke="url(#floorLine)" stroke-width="2"/>
+    <path d="M1920 876L3580 2160" stroke="url(#floorLine)" stroke-width="2"/>
+    <path d="M1920 876L4020 2160" stroke="url(#floorLine)" stroke-width="2"/>
+  </g>
+  <g opacity=".46" fill="none" filter="url(#glow)">
+    <path d="M1566 1094H2274" stroke="#22D3EE" stroke-opacity=".58" stroke-width="2"/>
+    <path d="M1308 1252H2532" stroke="#22D3EE" stroke-opacity=".42" stroke-width="2"/>
+    <path d="M1032 1422H2808" stroke="#8B5CF6" stroke-opacity=".42" stroke-width="2"/>
+    <path d="M730 1608H3110" stroke="#22D3EE" stroke-opacity=".3" stroke-width="2"/>
+    <path d="M392 1816H3448" stroke="#8B5CF6" stroke-opacity=".25" stroke-width="2"/>
+    <path d="M18 2050H3822" stroke="#22D3EE" stroke-opacity=".2" stroke-width="2"/>
+  </g>
+  <g id="scan" opacity=".6" fill="none" stroke-linecap="round" filter="url(#glow)">
+    <path d="M660 1520H3180" stroke="#22D3EE" stroke-width="3" stroke-dasharray="46 38"/>
+    <path d="M1010 1328H2830" stroke="#8B5CF6" stroke-width="2.5" stroke-dasharray="28 42"/>
+  </g>
+  <g id="monoliths" filter="url(#purpleGlow)">
+    <path d="M1368 650L1648 538L1648 1196L1368 1316Z" fill="#0D1117" fill-opacity=".58" stroke="url(#glass)" stroke-width="2"/>
+    <path d="M1648 538L1874 650V1308L1648 1196Z" fill="#111827" fill-opacity=".44" stroke="#22D3EE" stroke-opacity=".2" stroke-width="2"/>
+    <path d="M2220 520L2548 650V1348L2220 1208Z" fill="#0D1117" fill-opacity=".6" stroke="url(#glass)" stroke-width="2"/>
+    <path d="M1986 662L2220 520V1208L1986 1360Z" fill="#111827" fill-opacity=".38" stroke="#8B5CF6" stroke-opacity=".26" stroke-width="2"/>
+    <path d="M880 882L1116 790V1378L880 1488Z" fill="#0D1117" fill-opacity=".48" stroke="#22D3EE" stroke-opacity=".18" stroke-width="2"/>
+    <path d="M2918 820L3184 922V1518L2918 1396Z" fill="#0D1117" fill-opacity=".48" stroke="#8B5CF6" stroke-opacity=".22" stroke-width="2"/>
+  </g>
+  <g opacity=".72" filter="url(#glow)">
+    <circle cx="1920" cy="876" r="7" fill="#F8FAFC"/>
+    <circle cx="1566" cy="1094" r="4" fill="#22D3EE"/>
+    <circle cx="2274" cy="1094" r="4" fill="#8B5CF6"/>
+    <circle cx="1032" cy="1422" r="3.5" fill="#22D3EE"/>
+    <circle cx="2808" cy="1422" r="3.5" fill="#F8FAFC"/>
+    <circle cx="392" cy="1816" r="3" fill="#8B5CF6"/>
+    <circle cx="3448" cy="1816" r="3" fill="#22D3EE"/>
+  </g>
+</svg>

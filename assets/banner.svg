@@ -58,8 +58,8 @@
       <rect x="0" y="0" width="3840" height="1600" rx="0"/>
     </clipPath>
     <style>
-      .mono{font-family:"JetBrains Mono","IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace}
-      .display{font-family:"Space Grotesk","Inter","SF Pro Display",system-ui,sans-serif}
+      .mono{font-family:"Courier New",monospace}
+      .display{font-family:"Arial Black","Impact",Arial,sans-serif}
       .thin{vector-effect:non-scaling-stroke}
       @keyframes drift{0%,100%{transform:translate3d(0,0,0)}50%{transform:translate3d(0,-22px,0)}}
       @keyframes pulse{0%,100%{opacity:.44}50%{opacity:.86}}

@@ -30,8 +30,8 @@
       <feDropShadow dx="0" dy="0" stdDeviation="20" flood-color="#8B5CF6" flood-opacity=".22"/>
     </filter>
     <style>
-      .mono{font-family:"JetBrains Mono","IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace}
-      .display{font-family:"Space Grotesk","Inter","SF Pro Display",system-ui,sans-serif}
+      .mono{font-family:"Courier New",monospace}
+      .display{font-family:"Arial Black","Impact",Arial,sans-serif}
       @keyframes dash{to{stroke-dashoffset:-640}}
       @keyframes pulse{0%,100%{opacity:.52}50%{opacity:.96}}
       .flow{animation:dash 9s linear infinite}

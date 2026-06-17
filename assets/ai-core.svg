@@ -8,8 +8,8 @@
     <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="14" result="b"/><feColorMatrix in="b" type="matrix" values="0 0 0 0 .133 0 0 0 0 .827 0 0 0 0 .933 0 0 0 .74 0"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <filter id="depth" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="34" stdDeviation="38" flood-color="#000" flood-opacity=".62"/><feDropShadow dx="0" dy="0" stdDeviation="22" flood-color="#8B5CF6" flood-opacity=".32"/></filter>
     <style>
-      .display{font-family:"Space Grotesk","Inter",system-ui,sans-serif}
-      .mono{font-family:"JetBrains Mono","IBM Plex Mono",ui-monospace,monospace}
+      .display{font-family:"Arial Black","Impact",Arial,sans-serif}
+      .mono{font-family:"Courier New",monospace}
       @keyframes spin{to{transform:rotate(360deg)}}@keyframes dash{to{stroke-dashoffset:-620}}
       #rings{animation:spin 36s linear infinite;transform-origin:1200px 700px}.flow{animation:dash 8s linear infinite}
       @media (prefers-reduced-motion:reduce){*{animation:none!important}}

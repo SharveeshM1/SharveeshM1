@@ -6,8 +6,8 @@
     <linearGradient id="edge" x1="280" y1="960" x2="2060" y2="320" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#8B5CF6" stop-opacity=".2"/><stop offset="48%" stop-color="#22D3EE" stop-opacity=".78"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity=".2"/></linearGradient>
     <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="11" result="blur"/><feColorMatrix in="blur" type="matrix" values="0 0 0 0 .133 0 0 0 0 .827 0 0 0 0 .933 0 0 0 .74 0"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <style>
-      .mono{font-family:"JetBrains Mono","IBM Plex Mono",ui-monospace,monospace}
-      .display{font-family:"Space Grotesk","Inter",system-ui,sans-serif}
+      .mono{font-family:"Courier New",monospace}
+      .display{font-family:"Arial Black","Impact",Arial,sans-serif}
       @keyframes drift{0%,100%{transform:translate3d(0,0,0)}50%{transform:translate3d(12px,-16px,0)}}@keyframes dash{to{stroke-dashoffset:-720}}
       #map{animation:drift 11s ease-in-out infinite}.link{animation:dash 11s linear infinite}
       @media (prefers-reduced-motion:reduce){*{animation:none!important}}

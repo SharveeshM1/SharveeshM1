@@ -52,8 +52,8 @@
   </defs>
   <rect width="3840" height="2160" fill="url(#bg)"/>
   <rect width="3840" height="2160" fill="url(#grid)" opacity=".7"/>
-  <text x="1920" y="220" text-anchor="middle" font-family="Space Grotesk, Inter, system-ui, sans-serif" font-size="124" font-weight="700" fill="#F8FAFC">AI Systems</text>
-  <text x="1920" y="306" text-anchor="middle" font-family="JetBrains Mono, IBM Plex Mono, monospace" font-size="32" fill="#22D3EE" letter-spacing="5">CONTEXT GRAPH / INFERENCE MESH / AGENT ROUTING</text>
+  <text x="1920" y="220" text-anchor="middle" font-family="Arial Black, Impact, Arial, sans-serif" font-size="124" font-weight="700" fill="#F8FAFC">AI Systems</text>
+  <text x="1920" y="306" text-anchor="middle" font-family="Courier New, monospace" font-size="32" fill="#22D3EE" letter-spacing="5">CONTEXT GRAPH / INFERENCE MESH / AGENT ROUTING</text>
   <path d="M0 1640C716 1416 1132 1598 1716 1262C2280 938 2558 530 3840 416V2160H0Z" fill="#8B5CF6" opacity=".035"/>
   <path d="M0 488C536 616 1078 472 1620 688C2222 928 2776 1188 3840 1018V0H0Z" fill="#22D3EE" opacity=".03"/>
   <g filter="url(#depth)">
@@ -92,7 +92,7 @@
       <circle class="nodePulse" cx="3368" cy="1480" r="15" fill="#8B5CF6"/>
     </g>
   </g>
-  <g opacity=".32" class="mono" font-family="JetBrains Mono, IBM Plex Mono, monospace" font-size="28" fill="#F8FAFC">
+  <g opacity=".32" class="mono" font-family="Courier New, monospace" font-size="28" fill="#F8FAFC">
     <text x="214" y="268">context.graph / inference.mesh / agent.routing</text>
     <text x="2642" y="1944">distributed intelligence substrate</text>
   </g>

@@ -19,7 +19,7 @@
       <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <style>
-      .mono{font-family:"JetBrains Mono","IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace}
+      .mono{font-family:"Courier New",monospace}
       @keyframes fallA{0%{transform:translateY(-260px);opacity:.18}40%{opacity:.9}100%{transform:translateY(360px);opacity:.16}}
       @keyframes fallB{0%{transform:translateY(-160px);opacity:.12}50%{opacity:.66}100%{transform:translateY(280px);opacity:.12}}
       .a{animation:fallA 7s linear infinite}

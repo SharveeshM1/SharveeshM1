@@ -19,6 +19,8 @@
 
 <div align="center">
 
+<img src="assets/starfield.svg" width="100%" alt="Starfield systems backdrop"/>
+
 <img src="assets/neural-network.svg" width="49%" alt="AI systems neural network"/>
 <img src="assets/ai-core.svg" width="49%" alt="AI core architecture diagram"/>
 
@@ -28,6 +30,13 @@
 
 <div align="center">
 
+<img src="assets/tech-stack-title.svg" width="100%" alt="Tech stack wall"/>
+
+<img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,opencv&theme=dark&perline=8" height="64" alt="AI stack icons"/>
+<img src="https://skillicons.dev/icons?i=java,spring,fastapi,nodejs,express,postgres,mongodb,redis,kafka,docker,rabbitmq&theme=dark&perline=11" width="100%" alt="Backend stack icons"/>
+<img src="https://skillicons.dev/icons?i=flutter,dart,nextjs,react,tailwind,firebase,ts&theme=dark&perline=8" height="64" alt="Frontend stack icons"/>
+<img src="https://skillicons.dev/icons?i=git,github,githubactions,linux,aws,gcp,vercel,vscode&theme=dark&perline=8" height="64" alt="DevOps stack icons"/>
+
 <img src="assets/tech-stack-wall.svg" width="100%" alt="AI, backend, frontend, and devops technology stack wall"/>
 
 <img src="assets/holographic-line.svg" width="100%" alt=""/>
@@ -35,6 +44,8 @@
 </div>
 
 <div align="center">
+
+<img src="assets/cyber-grid.svg" width="100%" alt="Cyber grid transition"/>
 
 <img src="assets/operating-surface.svg" width="100%" alt="AI command center operating surface"/>
 
@@ -75,25 +86,17 @@
 
 <div align="center">
 
-<img src="assets/section-trophy-wall.svg" width="100%" alt="Trophy wall"/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=SharveeshM1&theme=onedark&no-frame=true&no-bg=true&margin-w=12&margin-h=12&row=2&column=4" width="100%" alt="GitHub trophy wall"/>
-
-<img src="assets/holographic-line.svg" width="100%" alt=""/>
-
-</div>
-
-<div align="center">
-
 <img src="assets/section-3d-contributions.svg" width="100%" alt="3D contributions"/>
 
-<img src="profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D GitHub contribution graph"/>
+<img src="output/profile-3d-contrib.svg" width="100%" alt="3D GitHub contribution graph"/>
 
 <img src="assets/wave-top.svg" width="100%" alt=""/>
 
 </div>
 
 <div align="center">
+
+<img src="assets/floating-particles.svg" width="100%" alt="Floating particle field"/>
 
 <img src="assets/constellation.svg" width="100%" alt="Neural constellation map"/>
 
@@ -103,6 +106,8 @@
 
 <div align="center">
 
+<img src="assets/particles.svg" width="100%" alt="Particle transition"/>
+
 <img src="assets/matrix.svg" width="100%" alt="Animated matrix signal"/>
 
 <img src="assets/holographic-line.svg" width="100%" alt=""/>
@@ -111,9 +116,16 @@
 
 <div align="center">
 
+<img src="output/metrics.svg" width="49%" alt="Profile metrics"/>
+<img src="output/wakatime.svg" width="49%" alt="Wakatime metrics"/>
+
 <img src="output/snake.svg" width="100%" alt="Snake contribution animation"/>
 
 <img src="output/pacman-contribution-graph-dark.svg" width="100%" alt="Pacman contribution graph"/>
+
+<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="assets/glass-card.svg" width="49%" alt="Glassmorphism panel"/>
+<img src="assets/orb.svg" width="49%" alt="Glowing AI orb"/>
 
 <img src="assets/wave-bottom.svg" width="100%" alt=""/>
 <img src="assets/footer.svg" width="100%" alt="Building intelligent systems. Sharveesh M. AI Systems Engineer."/>

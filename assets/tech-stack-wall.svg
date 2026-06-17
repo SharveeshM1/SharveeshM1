@@ -9,8 +9,8 @@
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10" result="b"/><feColorMatrix in="b" type="matrix" values="0 0 0 0 .133 0 0 0 0 .827 0 0 0 0 .933 0 0 0 .66 0"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <filter id="depth" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="26" stdDeviation="30" flood-color="#000" flood-opacity=".55"/><feDropShadow dx="0" dy="0" stdDeviation="14" flood-color="#8B5CF6" flood-opacity=".2"/></filter>
     <style>
-      .display{font-family:"Space Grotesk","Inter",system-ui,sans-serif}
-      .mono{font-family:"JetBrains Mono","IBM Plex Mono",ui-monospace,monospace}
+      .display{font-family:"Arial Black","Impact",Arial,sans-serif}
+      .mono{font-family:"Courier New",monospace}
       .title{font-size:44px;font-weight:700;fill:#F8FAFC}
       .label{font-size:27px;fill:#F8FAFC;fill-opacity:.86}
       .small{font-size:22px;fill:#22D3EE;letter-spacing:4px}

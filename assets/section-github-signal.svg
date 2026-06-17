@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="170" viewBox="0 0 2400 170" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Signal</title>
+  <desc id="desc">Compact holographic section label for GitHub analytics.</desc>
+  <defs><linearGradient id="g" x1="260" y1="120" x2="2140" y2="50" gradientUnits="userSpaceOnUse"><stop stop-color="#8B5CF6" stop-opacity=".15"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".9"/><stop offset="1" stop-color="#8B5CF6" stop-opacity=".15"/></linearGradient><filter id="glow" x="-20%" y="-100%" width="140%" height="300%"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect width="2400" height="170" fill="#0D1117"/>
+  <path d="M140 92H950M1450 92H2260" stroke="url(#g)" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+  <text x="1200" y="104" text-anchor="middle" font-family="Space Grotesk, Inter, system-ui, sans-serif" font-size="54" font-weight="700" fill="#F8FAFC">GitHub Signal</text>
+</svg>

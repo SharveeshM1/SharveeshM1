@@ -17,68 +17,46 @@
 
 </div>
 
-## AI Systems
-
 <div align="center">
 
-<img src="assets/neural-network.svg" width="100%" alt="AI systems neural network"/>
+<img src="assets/neural-network.svg" width="49%" alt="AI systems neural network"/>
+<img src="assets/ai-core.svg" width="49%" alt="AI core architecture diagram"/>
 
 <img src="assets/neural-divider.svg" width="100%" alt=""/>
 
 </div>
-
-## AI Core
-
-<div align="center">
-
-<img src="assets/ai-core.svg" width="100%" alt="AI core architecture diagram"/>
-
-<img src="assets/gradient-line.svg" width="100%" alt=""/>
-
-</div>
-
-## Tech Stack Wall
 
 <div align="center">
 
 <img src="assets/tech-stack-wall.svg" width="100%" alt="AI, backend, frontend, and devops technology stack wall"/>
 
-<br/>
-
-<img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,java,spring,fastapi,nodejs,express,postgres,mongodb,redis,kafka,docker,rabbitmq,flutter,dart,nextjs,react,tailwind,firebase,ts,git,github,githubactions,linux,aws,gcp,vercel,vscode&perline=10&theme=dark" width="100%" alt="Large technology icons"/>
-
 <img src="assets/holographic-line.svg" width="100%" alt=""/>
 
 </div>
-
-## Operating Surface
 
 <div align="center">
 
 <img src="assets/operating-surface.svg" width="100%" alt="AI command center operating surface"/>
 
-<img src="assets/dashboard.svg" width="39%" alt="AI systems dashboard"/>
-<img src="assets/terminal.svg" width="59%" alt="Holographic engineering terminal"/>
-
-<img src="assets/particles.svg" width="100%" alt=""/>
+<img src="assets/gradient-line.svg" width="100%" alt=""/>
 
 </div>
 
-## Featured Systems
-
 <div align="center">
 
-<a href="https://github.com/SharveeshM1/HELIOS"><img src="assets/helios-card.svg" width="32%" alt="HELIOS project card"/></a>
-<a href="https://github.com/SharveeshM1/Midas"><img src="assets/midas-card.svg" width="32%" alt="MIDAS project card"/></a>
-<a href="https://github.com/SharveeshM1/whole_app"><img src="assets/wholeapp-card.svg" width="32%" alt="whole_app project card"/></a>
+<img src="assets/section-featured-systems.svg" width="100%" alt="Featured systems"/>
+
+<a href="https://github.com/SharveeshM1/HELIOS"><img src="assets/helios-card.svg" width="49%" alt="HELIOS project card"/></a>
+<a href="https://github.com/SharveeshM1/Midas"><img src="assets/midas-card.svg" width="49%" alt="MIDAS project card"/></a>
+<a href="https://github.com/SharveeshM1/whole_app"><img src="assets/wholeapp-card.svg" width="49%" alt="whole_app project card"/></a>
 
 <img src="assets/neural-divider.svg" width="100%" alt=""/>
 
 </div>
 
-## GitHub Signal
-
 <div align="center">
+
+<img src="assets/section-github-signal.svg" width="100%" alt="GitHub signal"/>
 
 <img height="178" src="https://github-readme-stats.vercel.app/api?username=SharveeshM1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=8B5CF6&text_color=F8FAFC" alt="GitHub stats"/>
 <img height="178" src="https://streak-stats.demolab.com?user=SharveeshM1&theme=tokyonight&hide_border=true&background=0D1117&ring=22D3EE&fire=8B5CF6&currStreakLabel=22D3EE" alt="GitHub streak"/>
@@ -95,9 +73,9 @@
 
 </div>
 
-## Trophy Wall
-
 <div align="center">
+
+<img src="assets/section-trophy-wall.svg" width="100%" alt="Trophy wall"/>
 
 <img src="https://github-profile-trophy.vercel.app/?username=SharveeshM1&theme=onedark&no-frame=true&no-bg=true&margin-w=12&margin-h=12&row=2&column=4" width="100%" alt="GitHub trophy wall"/>
 
@@ -105,17 +83,15 @@
 
 </div>
 
-## 3D Contributions
-
 <div align="center">
+
+<img src="assets/section-3d-contributions.svg" width="100%" alt="3D contributions"/>
 
 <img src="profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D GitHub contribution graph"/>
 
 <img src="assets/wave-top.svg" width="100%" alt=""/>
 
 </div>
-
-## Neural Constellation
 
 <div align="center">
 
@@ -125,8 +101,6 @@
 
 </div>
 
-## Matrix Signal
-
 <div align="center">
 
 <img src="assets/matrix.svg" width="100%" alt="Animated matrix signal"/>
@@ -134,8 +108,6 @@
 <img src="assets/holographic-line.svg" width="100%" alt=""/>
 
 </div>
-
-## Footer
 
 <div align="center">
 

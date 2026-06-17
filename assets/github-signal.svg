@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="760" viewBox="0 0 2400 760" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Signal Dashboard</title>
+  <desc id="desc">A premium dashboard frame for contribution and activity signal.</desc>
+  <defs><radialGradient id="bg" cx="50%" cy="45%" r="76%"><stop offset="0%" stop-color="#151026"/><stop offset="60%" stop-color="#0D1117"/><stop offset="100%" stop-color="#05070B"/></radialGradient><linearGradient id="edge" x1="120" y1="120" x2="2280" y2="650" gradientUnits="userSpaceOnUse"><stop stop-color="#8B5CF6" stop-opacity=".16"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".72"/><stop offset="1" stop-color="#8B5CF6" stop-opacity=".2"/></linearGradient><filter id="glow" x="-30%" y="-80%" width="160%" height="260%"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect width="2400" height="760" fill="url(#bg)"/>
+  <rect x="100" y="96" width="2200" height="560" rx="34" fill="#111827" fill-opacity=".42" stroke="url(#edge)" stroke-width="3"/>
+  <text x="1200" y="190" text-anchor="middle" font-family="Arial Black,Impact,Arial,sans-serif" font-size="72" fill="#F8FAFC">GITHUB SIGNAL</text>
+  <text x="1200" y="246" text-anchor="middle" font-family="Courier New,monospace" font-size="25" font-weight="700" fill="#22D3EE" letter-spacing="6">CONTRIBUTION FIELD / ACTIVITY GRAPH / 3D SIGNAL</text>
+  <g filter="url(#glow)" fill="none" stroke-linecap="round">
+    <path d="M310 470L610 392L910 430L1210 330L1510 374L1810 292L2090 346" stroke="#22D3EE" stroke-width="7"/>
+    <path d="M310 540L610 500L910 522L1210 462L1510 478L1810 420L2090 446" stroke="#8B5CF6" stroke-opacity=".55" stroke-width="5"/>
+  </g>
+  <g fill="#22D3EE" filter="url(#glow)"><circle cx="610" cy="392" r="13"/><circle cx="1210" cy="330" r="13"/><circle cx="1810" cy="292" r="13"/></g>
+</svg>

@@ -1,16 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1200" viewBox="0 0 2400 1200" role="img" aria-labelledby="title desc">
-  <title id="title">AI core processor</title>
-  <desc id="desc">A premium holographic AI core chip with purple and cyan neural circuitry on a black background.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1400" viewBox="0 0 2400 1400" role="img" aria-labelledby="title desc">
+  <title id="title">AI core architecture</title>
+  <desc id="desc">A premium AI core architecture diagram with a central orb connected to six system layers.</desc>
   <defs>
-    <radialGradient id="bg" cx="50%" cy="50%" r="70%"><stop offset="0%" stop-color="#151026"/><stop offset="58%" stop-color="#0D1117"/><stop offset="100%" stop-color="#05070B"/></radialGradient>
-    <linearGradient id="edge" x1="520" y1="920" x2="1880" y2="240" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#8B5CF6" stop-opacity=".18"/><stop offset="50%" stop-color="#22D3EE" stop-opacity=".86"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity=".22"/></linearGradient>
+    <radialGradient id="bg" cx="50%" cy="50%" r="72%"><stop offset="0%" stop-color="#151026"/><stop offset="58%" stop-color="#0D1117"/><stop offset="100%" stop-color="#05070B"/></radialGradient>
+    <radialGradient id="orb" cx="50%" cy="45%" r="55%"><stop offset="0%" stop-color="#F8FAFC"/><stop offset="10%" stop-color="#22D3EE"/><stop offset="42%" stop-color="#8B5CF6" stop-opacity=".75"/><stop offset="80%" stop-color="#8B5CF6" stop-opacity=".08"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+    <linearGradient id="edge" x1="430" y1="1080" x2="1970" y2="260" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#8B5CF6" stop-opacity=".18"/><stop offset="50%" stop-color="#22D3EE" stop-opacity=".86"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity=".22"/></linearGradient>
     <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="14" result="b"/><feColorMatrix in="b" type="matrix" values="0 0 0 0 .133 0 0 0 0 .827 0 0 0 0 .933 0 0 0 .74 0"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <filter id="depth" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="34" stdDeviation="38" flood-color="#000" flood-opacity=".62"/><feDropShadow dx="0" dy="0" stdDeviation="22" flood-color="#8B5CF6" flood-opacity=".32"/></filter>
-    <style>@keyframes spin{to{transform:rotate(360deg)}}@keyframes dash{to{stroke-dashoffset:-520}}#rings{animation:spin 34s linear infinite;transform-origin:1200px 600px}.flow{animation:dash 8s linear infinite}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+    <style>
+      .display{font-family:"Space Grotesk","Inter",system-ui,sans-serif}
+      .mono{font-family:"JetBrains Mono","IBM Plex Mono",ui-monospace,monospace}
+      @keyframes spin{to{transform:rotate(360deg)}}@keyframes dash{to{stroke-dashoffset:-620}}
+      #rings{animation:spin 36s linear infinite;transform-origin:1200px 700px}.flow{animation:dash 8s linear infinite}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
   </defs>
-  <rect width="2400" height="1200" fill="url(#bg)"/>
-  <g id="rings" fill="none" filter="url(#glow)"><ellipse cx="1200" cy="600" rx="640" ry="190" stroke="url(#edge)" stroke-width="4" stroke-dasharray="34 28"/><ellipse cx="1200" cy="600" rx="480" ry="142" stroke="#8B5CF6" stroke-opacity=".36" stroke-width="3" transform="rotate(18 1200 600)"/></g>
-  <g filter="url(#depth)"><path d="M1200 246L1512 420V780L1200 954L888 780V420Z" fill="#0D1117" fill-opacity=".72" stroke="url(#edge)" stroke-width="3"/><path d="M1200 348L1424 474V726L1200 852L976 726V474Z" fill="#111827" fill-opacity=".5" stroke="#F8FAFC" stroke-opacity=".13" stroke-width="2"/></g>
-  <g fill="none" stroke-linecap="round" filter="url(#glow)"><path class="flow" d="M470 600H888M1512 600H1930M1200 246V84M1200 954V1116M888 420L584 246M1512 420L1816 246M888 780L584 954M1512 780L1816 954" stroke="url(#edge)" stroke-width="4" stroke-dasharray="22 28"/><path d="M1080 590L1160 520L1266 552L1340 486M1160 520L1204 648L1306 686L1376 620M1204 648L1120 724L1204 782L1306 686" stroke="#22D3EE" stroke-opacity=".78" stroke-width="4"/></g>
-  <g fill="#F8FAFC" filter="url(#glow)"><circle cx="1160" cy="520" r="9"/><circle cx="1266" cy="552" r="9" fill="#22D3EE"/><circle cx="1204" cy="648" r="12"/><circle cx="1306" cy="686" r="9" fill="#8B5CF6"/><circle cx="1120" cy="724" r="8" fill="#22D3EE"/></g>
+  <rect width="2400" height="1400" fill="url(#bg)"/>
+  <text x="1200" y="114" text-anchor="middle" class="display" font-size="72" font-weight="700" fill="#F8FAFC">AI Core</text>
+  <text x="1200" y="166" text-anchor="middle" class="mono" font-size="24" fill="#22D3EE" letter-spacing="4">CONTEXT / AGENTS / INFERENCE / MEMORY / VECTORS / EVALUATION</text>
+  <g id="rings" fill="none" filter="url(#glow)">
+    <ellipse cx="1200" cy="700" rx="520" ry="160" stroke="url(#edge)" stroke-width="4" stroke-dasharray="34 28"/>
+    <ellipse cx="1200" cy="700" rx="400" ry="122" stroke="#8B5CF6" stroke-opacity=".36" stroke-width="3" transform="rotate(18 1200 700)"/>
+  </g>
+  <g fill="none" stroke-linecap="round" filter="url(#glow)">
+    <path class="flow" d="M1200 700L486 412M1200 700L1200 314M1200 700L1914 412M1200 700L486 986M1200 700L1200 1088M1200 700L1914 986" stroke="url(#edge)" stroke-width="4" stroke-dasharray="24 30"/>
+  </g>
+  <g filter="url(#depth)">
+    <circle cx="1200" cy="700" r="218" fill="url(#orb)"/>
+    <path d="M1200 478L1392 590V812L1200 922L1008 812V590Z" fill="#0D1117" fill-opacity=".28" stroke="url(#edge)" stroke-width="3"/>
+  </g>
+  <g class="display" font-size="32" font-weight="700" fill="#F8FAFC" filter="url(#depth)">
+    <g><rect x="210" y="320" width="552" height="184" rx="26" fill="#111827" fill-opacity=".62" stroke="#22D3EE" stroke-opacity=".32" stroke-width="2"/><text x="486" y="425" text-anchor="middle">Context Engineering</text></g>
+    <g><rect x="924" y="222" width="552" height="184" rx="26" fill="#111827" fill-opacity=".62" stroke="#8B5CF6" stroke-opacity=".34" stroke-width="2"/><text x="1200" y="327" text-anchor="middle">Multi-Agent Runtime</text></g>
+    <g><rect x="1638" y="320" width="552" height="184" rx="26" fill="#111827" fill-opacity=".62" stroke="#22D3EE" stroke-opacity=".32" stroke-width="2"/><text x="1914" y="425" text-anchor="middle">Inference Layer</text></g>
+    <g><rect x="210" y="894" width="552" height="184" rx="26" fill="#111827" fill-opacity=".62" stroke="#8B5CF6" stroke-opacity=".34" stroke-width="2"/><text x="486" y="999" text-anchor="middle">Memory Layer</text></g>
+    <g><rect x="924" y="996" width="552" height="184" rx="26" fill="#111827" fill-opacity=".62" stroke="#22D3EE" stroke-opacity=".32" stroke-width="2"/><text x="1200" y="1101" text-anchor="middle">Vector Layer</text></g>
+    <g><rect x="1638" y="894" width="552" height="184" rx="26" fill="#111827" fill-opacity=".62" stroke="#8B5CF6" stroke-opacity=".34" stroke-width="2"/><text x="1914" y="999" text-anchor="middle">Evaluation Layer</text></g>
+  </g>
+  <g fill="#22D3EE" filter="url(#glow)">
+    <circle cx="486" cy="412" r="10"/><circle cx="1200" cy="314" r="10" fill="#8B5CF6"/><circle cx="1914" cy="412" r="10"/><circle cx="486" cy="986" r="10" fill="#8B5CF6"/><circle cx="1200" cy="1088" r="10"/><circle cx="1914" cy="986" r="10" fill="#8B5CF6"/>
+  </g>
 </svg>

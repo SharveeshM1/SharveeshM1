@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1180" viewBox="0 0 2400 1180" role="img" aria-labelledby="title desc">
+  <title id="title">AI operating surface</title>
+  <desc id="desc">A 40/60 AI command center surface with a dashboard panel on the left and a terminal panel on the right.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="76%"><stop offset="0%" stop-color="#151026"/><stop offset="57%" stop-color="#0D1117"/><stop offset="100%" stop-color="#05070B"/></radialGradient>
+    <linearGradient id="edge" x1="120" y1="120" x2="2280" y2="1050" gradientUnits="userSpaceOnUse"><stop stop-color="#F8FAFC" stop-opacity=".16"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".48"/><stop offset="1" stop-color="#8B5CF6" stop-opacity=".28"/></linearGradient>
+    <linearGradient id="flow" x1="260" y1="900" x2="2140" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#8B5CF6" stop-opacity=".24"/><stop offset=".52" stop-color="#22D3EE" stop-opacity=".86"/><stop offset="1" stop-color="#8B5CF6" stop-opacity=".24"/></linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="12" result="b"/><feColorMatrix in="b" type="matrix" values="0 0 0 0 .133 0 0 0 0 .827 0 0 0 0 .933 0 0 0 .7 0"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="depth" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="38" stdDeviation="38" flood-color="#000" flood-opacity=".58"/><feDropShadow dx="0" dy="0" stdDeviation="22" flood-color="#8B5CF6" flood-opacity=".24"/></filter>
+    <style>
+      .display{font-family:"Space Grotesk","Inter",system-ui,sans-serif}
+      .mono{font-family:"JetBrains Mono","IBM Plex Mono",ui-monospace,monospace}
+      @keyframes dash{to{stroke-dashoffset:-620}}.flow{animation:dash 9s linear infinite}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+  </defs>
+  <rect width="2400" height="1180" fill="url(#bg)"/>
+  <text x="1200" y="108" text-anchor="middle" class="display" font-size="72" font-weight="700" fill="#F8FAFC">Operating Surface</text>
+  <text x="1200" y="160" text-anchor="middle" class="mono" font-size="23" fill="#22D3EE" letter-spacing="4">DASHBOARD CONTROL PLANE / HOLOGRAPHIC TERMINAL</text>
+  <g filter="url(#depth)">
+    <rect x="105" y="230" width="840" height="800" rx="32" fill="#111827" fill-opacity=".52" stroke="url(#edge)" stroke-width="3"/>
+    <rect x="1005" y="230" width="1290" height="800" rx="32" fill="#070A10" fill-opacity=".88" stroke="url(#edge)" stroke-width="3"/>
+  </g>
+  <g class="mono" fill="#F8FAFC">
+    <text x="180" y="320" font-size="24" fill="#22D3EE" letter-spacing="4">AI OPS DASHBOARD</text>
+    <text x="1080" y="320" font-size="24" fill="#22D3EE" letter-spacing="4">~/agent-runtime</text>
+  </g>
+  <g filter="url(#glow)" fill="none" stroke-linecap="round">
+    <path class="flow" d="M190 690C280 560 390 760 500 610C590 490 710 540 840 430" stroke="url(#flow)" stroke-width="5" stroke-dasharray="24 28"/>
+    <path d="M190 820L330 760L470 800L610 710L760 740L860 660" stroke="#22D3EE" stroke-opacity=".68" stroke-width="5"/>
+    <path d="M1080 470H2210M1080 620H1960M1080 770H2130M1080 910H1810" stroke="#22D3EE" stroke-opacity=".2" stroke-width="2"/>
+  </g>
+  <g class="mono" fill="#F8FAFC">
+    <text x="190" y="430" font-size="24" fill-opacity=".62">AGENT LATENCY</text><text x="190" y="506" font-size="66" font-weight="700">37ms</text>
+    <text x="530" y="430" font-size="24" fill-opacity=".62">TOKENS / SEC</text><text x="530" y="506" font-size="66" font-weight="700">18.4K</text>
+    <text x="190" y="946" font-size="24" fill-opacity=".62">context routes</text><text x="430" y="946" font-size="24" fill="#22D3EE">128 online</text>
+    <text x="1080" y="430" font-size="34" fill="#22D3EE">sharveesh@ai-systems</text><text x="1510" y="430" font-size="34" fill-opacity=".82">$ deploy --graph HELIOS</text>
+    <text x="1080" y="560" font-size="30" fill="#8B5CF6">[mesh]</text><text x="1230" y="560" font-size="30" fill-opacity=".82">planner -> retriever -> verifier -> executor</text>
+    <text x="1080" y="710" font-size="30" fill="#22D3EE">[llm]</text><text x="1230" y="710" font-size="30" fill-opacity=".82">adaptive multi-provider inference online</text>
+    <text x="1080" y="860" font-size="30" fill="#8B5CF6">[eval]</text><text x="1230" y="860" font-size="30" fill-opacity=".82">distributed agents suite passing</text>
+    <text x="1080" y="970" font-size="30" fill="#22D3EE">&gt;</text><text x="1135" y="970" font-size="30" fill-opacity=".82">observe --latency --memory --events</text>
+  </g>
+</svg>

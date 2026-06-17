@@ -58,8 +58,6 @@
 
 <img src="assets/github-signal.svg" width="100%" alt="GitHub signal dashboard"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SharveeshM1&theme=tokyo-night&hide_border=true&area=true&bg_color=0D1117&color=F8FAFC&line=22D3EE&point=8B5CF6&area_color=8B5CF6" width="100%" alt="GitHub activity graph"/>
-
 <img src="output/profile-3d-contrib.svg" width="100%" alt="3D GitHub contribution graph"/>
 
 <img src="assets/gradient-line.svg" width="100%" alt=""/>

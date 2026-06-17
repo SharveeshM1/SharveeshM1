@@ -1,14 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="760" viewBox="0 0 2400 760" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="900" viewBox="0 0 2400 900" role="img" aria-labelledby="title desc">
   <title id="title">GitHub Signal Dashboard</title>
-  <desc id="desc">A premium dashboard frame for contribution and activity signal.</desc>
-  <defs><radialGradient id="bg" cx="50%" cy="45%" r="76%"><stop offset="0%" stop-color="#151026"/><stop offset="60%" stop-color="#0D1117"/><stop offset="100%" stop-color="#05070B"/></radialGradient><linearGradient id="edge" x1="120" y1="120" x2="2280" y2="650" gradientUnits="userSpaceOnUse"><stop stop-color="#8B5CF6" stop-opacity=".16"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".72"/><stop offset="1" stop-color="#8B5CF6" stop-opacity=".2"/></linearGradient><filter id="glow" x="-30%" y="-80%" width="160%" height="260%"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-  <rect width="2400" height="760" fill="url(#bg)"/>
-  <rect x="100" y="96" width="2200" height="560" rx="34" fill="#111827" fill-opacity=".42" stroke="url(#edge)" stroke-width="3"/>
-  <text x="1200" y="190" text-anchor="middle" font-family="Arial Black,Impact,Arial,sans-serif" font-size="72" fill="#F8FAFC">GITHUB SIGNAL</text>
-  <text x="1200" y="246" text-anchor="middle" font-family="Courier New,monospace" font-size="25" font-weight="700" fill="#22D3EE" letter-spacing="6">CONTRIBUTION FIELD / ACTIVITY GRAPH / 3D SIGNAL</text>
-  <g filter="url(#glow)" fill="none" stroke-linecap="round">
-    <path d="M310 470L610 392L910 430L1210 330L1510 374L1810 292L2090 346" stroke="#22D3EE" stroke-width="7"/>
-    <path d="M310 540L610 500L910 522L1210 462L1510 478L1810 420L2090 446" stroke="#8B5CF6" stroke-opacity=".55" stroke-width="5"/>
+  <desc id="desc">A single premium dashboard for stats, contribution signal, and activity graph.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="76%"><stop offset="0%" stop-color="#151026"/><stop offset="60%" stop-color="#0D1117"/><stop offset="100%" stop-color="#05070B"/></radialGradient>
+    <linearGradient id="edge" x1="120" y1="120" x2="2280" y2="770" gradientUnits="userSpaceOnUse"><stop stop-color="#8B5CF6" stop-opacity=".16"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".72"/><stop offset="1" stop-color="#8B5CF6" stop-opacity=".2"/></linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F8FAFC" stop-opacity=".11"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".035"/><stop offset="1" stop-color="#8B5CF6" stop-opacity=".12"/></linearGradient>
+    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="depth" x="-25%" y="-40%" width="150%" height="180%"><feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000" flood-opacity=".58"/><feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#22D3EE" flood-opacity=".2"/></filter>
+  </defs>
+  <rect width="2400" height="900" fill="url(#bg)"/>
+  <rect x="90" y="88" width="2220" height="724" rx="34" fill="#111827" fill-opacity=".42" stroke="url(#edge)" stroke-width="3" filter="url(#depth)"/>
+  <text x="1200" y="178" text-anchor="middle" font-family="Arial Black,Impact,Arial,sans-serif" font-size="76" fill="#F8FAFC">GITHUB SIGNAL</text>
+  <text x="1200" y="234" text-anchor="middle" font-family="Courier New,monospace" font-size="24" font-weight="700" fill="#22D3EE" letter-spacing="6">STATS / CONTRIBUTION FIELD / ACTIVITY GRAPH</text>
+  <g filter="url(#depth)">
+    <rect x="150" y="310" width="560" height="410" rx="26" fill="url(#panel)" stroke="#22D3EE" stroke-opacity=".28" stroke-width="2"/>
+    <rect x="780" y="310" width="760" height="410" rx="26" fill="url(#panel)" stroke="#8B5CF6" stroke-opacity=".3" stroke-width="2"/>
+    <rect x="1610" y="310" width="640" height="410" rx="26" fill="url(#panel)" stroke="#22D3EE" stroke-opacity=".28" stroke-width="2"/>
   </g>
-  <g fill="#22D3EE" filter="url(#glow)"><circle cx="610" cy="392" r="13"/><circle cx="1210" cy="330" r="13"/><circle cx="1810" cy="292" r="13"/></g>
+  <g font-family="Arial Black,Impact,Arial,sans-serif" fill="#F8FAFC">
+    <text x="210" y="378" font-size="38">Stats</text>
+    <text x="840" y="378" font-size="38">Activity Graph</text>
+    <text x="1670" y="378" font-size="38">Contribution Field</text>
+  </g>
+  <g font-family="Courier New,monospace" font-size="25" font-weight="700" fill="#F8FAFC" fill-opacity=".78">
+    <text x="210" y="458">repositories: focused</text>
+    <text x="210" y="520">runtime: active</text>
+    <text x="210" y="582">systems: AI / backend</text>
+    <text x="210" y="644">signal: shipping</text>
+  </g>
+  <g filter="url(#glow)" fill="none" stroke-linecap="round">
+    <path d="M860 610L980 548L1100 580L1220 468L1340 508L1460 430" stroke="#22D3EE" stroke-width="7"/>
+    <path d="M860 654L980 622L1100 638L1220 586L1340 602L1460 552" stroke="#8B5CF6" stroke-opacity=".56" stroke-width="5"/>
+  </g>
+  <g fill="#22D3EE" filter="url(#glow)"><circle cx="980" cy="548" r="12"/><circle cx="1220" cy="468" r="12"/><circle cx="1460" cy="430" r="12"/></g>
+  <g transform="translate(1680 452)" filter="url(#glow)" fill="none" stroke-linecap="round">
+    <path d="M0 128L120 70L246 106L392 24" stroke="#22D3EE" stroke-width="6"/>
+    <path d="M0 190L120 162L246 174L392 138" stroke="#8B5CF6" stroke-width="5" stroke-opacity=".62"/>
+    <circle cx="120" cy="70" r="12" fill="#22D3EE"/><circle cx="246" cy="106" r="12" fill="#F8FAFC"/><circle cx="392" cy="24" r="12" fill="#8B5CF6"/>
+  </g>
 </svg>

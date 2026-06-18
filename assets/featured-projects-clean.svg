@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+  <title id="title">Featured Projects</title>
+  <desc id="desc">Three polished project cards for HELIOS, MIDAS, and whole_app.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#070B14"/>
+      <stop offset="1" stop-color="#0B1020"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111827" stop-opacity=".94"/>
+      <stop offset="1" stop-color="#0B1020" stop-opacity=".9"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000000" flood-opacity=".42"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#22D3EE" flood-opacity=".10"/>
+    </filter>
+    <style>
+      .title{font:800 42px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#F8FAFC}
+      .name{font:900 38px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#F8FAFC}
+      .body{font:650 25px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#D8DEE9}
+      .tag{font:750 20px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#BBD7E8}
+      .url{font:700 19px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#22D3EE}
+    </style>
+  </defs>
+  <rect width="1600" height="520" rx="28" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1598" height="518" rx="28" fill="none" stroke="#263244" stroke-width="2"/>
+  <text x="80" y="86" class="title">Featured Projects</text>
+  <rect x="80" y="112" width="1440" height="2" fill="url(#accent)" opacity=".72"/>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(80 160)">
+      <rect width="450" height="280" rx="18" fill="url(#card)" stroke="#22D3EE" stroke-opacity=".36" stroke-width="2"/>
+      <rect x="0" y="0" width="450" height="5" rx="2.5" fill="url(#accent)"/>
+      <text x="34" y="58" class="name">HELIOS</text>
+      <text x="34" y="105" class="body">Multi-agent AI platform.</text>
+      <g class="tag">
+        <text x="34" y="153">Context engineering</text>
+        <text x="34" y="190">Tool calling</text>
+        <text x="34" y="227">Multi-provider LLM orchestration</text>
+      </g>
+      <text x="34" y="260" class="url">github.com/SharveeshM1/HELIOS</text>
+    </g>
+
+    <g transform="translate(575 160)">
+      <rect width="450" height="280" rx="18" fill="url(#card)" stroke="#8B5CF6" stroke-opacity=".38" stroke-width="2"/>
+      <rect x="0" y="0" width="450" height="5" rx="2.5" fill="url(#accent)"/>
+      <text x="34" y="58" class="name">MIDAS</text>
+      <text x="34" y="105" class="body">AI-powered fintech platform.</text>
+      <g class="tag">
+        <text x="34" y="153">Spring Boot</text>
+        <text x="34" y="190">Flutter</text>
+        <text x="34" y="227">PostgreSQL</text>
+      </g>
+      <text x="34" y="260" class="url">github.com/SharveeshM1/Midas</text>
+    </g>
+
+    <g transform="translate(1070 160)">
+      <rect width="450" height="280" rx="18" fill="url(#card)" stroke="#22D3EE" stroke-opacity=".36" stroke-width="2"/>
+      <rect x="0" y="0" width="450" height="5" rx="2.5" fill="url(#accent)"/>
+      <text x="34" y="58" class="name">whole_app</text>
+      <text x="34" y="105" class="body">Cross-platform commerce platform.</text>
+      <g class="tag">
+        <text x="34" y="153">Flutter</text>
+        <text x="34" y="190">Firebase</text>
+        <text x="34" y="227">Realtime workflows</text>
+      </g>
+      <text x="34" y="260" class="url">github.com/SharveeshM1/whole_app</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1700" viewBox="0 0 1600 1700" role="img" aria-labelledby="title desc">
+  <title id="title">Tech Stack Wall</title>
+  <desc id="desc">Four clean technology stack cards with readable labels for AI, backend, frontend, and DevOps cloud technologies.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070B14"/>
+      <stop offset="0.56" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#070B14"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#0B1020" stop-opacity=".88"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22D3EE" stop-opacity=".76"/>
+      <stop offset=".52" stop-color="#8B5CF6" stop-opacity=".62"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity=".26"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-25%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity=".42"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#22D3EE" flood-opacity=".12"/>
+    </filter>
+    <style>
+      .title{font:800 42px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#F8FAFC}
+      .section{font:800 34px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#F8FAFC}
+      .meta{font:600 19px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#8EA0B8}
+      .label{font:750 21px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#E5E7EB}
+      .icon{font:900 22px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#07111F}
+      .line{stroke:#263244;stroke-width:1.5}
+    </style>
+  </defs>
+
+  <rect width="1600" height="1700" rx="28" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1598" height="1698" rx="28" fill="none" stroke="#263244" stroke-width="2"/>
+  <text x="80" y="90" class="title">Tech Stack Wall</text>
+  <text x="80" y="126" class="meta">Readable, grouped, and intentionally spaced. Full names stay visible at GitHub width.</text>
+
+  <g filter="url(#soft)">
+    <rect x="60" y="170" width="1480" height="500" rx="18" fill="url(#card)" stroke="url(#stroke)" stroke-width="2"/>
+    <text x="100" y="230" class="section">AI Stack</text>
+    <line x1="100" y1="256" x2="1500" y2="256" class="line"/>
+    <g transform="translate(100 294)">
+      <g transform="translate(0 0)"><rect width="260" height="58" rx="14" fill="#0E1A2D" stroke="#22D3EE" stroke-opacity=".32"/><circle cx="32" cy="29" r="18" fill="#22D3EE"/><text x="32" y="36" text-anchor="middle" class="icon">O</text><text x="62" y="37" class="label">OpenAI</text></g>
+      <g transform="translate(280 0)"><rect width="260" height="58" rx="14" fill="#0E1A2D" stroke="#8B5CF6" stroke-opacity=".36"/><circle cx="32" cy="29" r="18" fill="#8B5CF6"/><text x="32" y="36" text-anchor="middle" class="icon">C</text><text x="62" y="37" class="label">Claude</text></g>
+      <g transform="translate(560 0)"><rect width="260" height="58" rx="14" fill="#0E1A2D" stroke="#22D3EE" stroke-opacity=".32"/><circle cx="32" cy="29" r="18" fill="#22D3EE"/><text x="32" y="36" text-anchor="middle" class="icon">G</text><text x="62" y="37" class="label">Gemini</text></g>
+      <g transform="translate(840 0)"><rect width="260" height="58" rx="14" fill="#0E1A2D" stroke="#8B5CF6" stroke-opacity=".36"/><circle cx="32" cy="29" r="18" fill="#8B5CF6"/><text x="32" y="36" text-anchor="middle" class="icon">L</text><text x="62" y="37" class="label">LangChain</text></g>
+      <g transform="translate(1120 0)"><rect width="260" height="58" rx="14" fill="#0E1A2D" stroke="#22D3EE" stroke-opacity=".32"/><circle cx="32" cy="29" r="18" fill="#22D3EE"/><text x="32" y="36" text-anchor="middle" class="icon">L</text><text x="62" y="37" class="label">LangGraph</text></g>
+
+      <g transform="translate(0 78)"><rect width="260" height="58" rx="14" fill="#0E1A2D" stroke="#8B5CF6" stroke-opacity=".36"/><circle cx="32" cy="29" r="18" fill="#8B5CF6"/><text x="32" y="36" text-anchor="middle" class="icon">O</text><text x="62" y="37" class="label">Ollama</text></g>
+      <g transform="translate(280 78)"><rect width="260" height="58" rx="14" fill="#0E1A2D" stroke="#22D3EE" stroke-opacity=".32"/><circle cx="32" cy="29" r="18" fill="#FFD21E"/><text x="32" y="36" text-anchor="middle" class="icon">H</text><text x="62" y="37" class="label">HuggingFace</text></g>
+      <g transform="translate(560 78)"><rect width="260" height="58" rx="14" fill="#0E1A2D" stroke="#8B5CF6" stroke-opacity=".36"/><circle cx="32" cy="29" r="18" fill="#8B5CF6"/><text x="32" y="36" text-anchor="middle" class="icon">P</text><text x="62" y="37" class="label">Pinecone</text></g>
+      <g transform="translate(840 78)"><rect width="260" height="58" rx="14" fill="#0E1A2D" stroke="#22D3EE" stroke-opacity=".32"/><circle cx="32" cy="29" r="18" fill="#22D3EE"/><text x="32" y="36" text-anchor="middle" class="icon">Q</text><text x="62" y="37" class="label">Qdrant</text></g>
+      <g transform="translate(1120 78)"><rect width="260" height="58" rx="14" fill="#0E1A2D" stroke="#8B5CF6" stroke-opacity=".36"/><circle cx="32" cy="29" r="18" fill="#8B5CF6"/><text x="32" y="36" text-anchor="middle" class="icon">F</text><text x="62" y="37" class="label">FAISS</text></g>
+
+      <g transform="translate(0 156)"><rect width="260" height="58" rx="14" fill="#0E1A2D" stroke="#22D3EE" stroke-opacity=".32"/><circle cx="32" cy="29" r="18" fill="#EE4C2C"/><text x="32" y="36" text-anchor="middle" class="icon">P</text><text x="62" y="37" class="label">PyTorch</text></g>
+      <g transform="translate(280 156)"><rect width="260" height="58" rx="14" fill="#0E1A2D" stroke="#8B5CF6" stroke-opacity=".36"/><circle cx="32" cy="29" r="18" fill="#FF6F00"/><text x="32" y="36" text-anchor="middle" class="icon">T</text><text x="62" y="37" class="label">TensorFlow</text></g>
+      <g transform="translate(560 156)"><rect width="260" height="58" rx="14" fill="#0E1A2D" stroke="#22D3EE" stroke-opacity=".32"/><circle cx="32" cy="29" r="18" fill="#FFD21E"/><text x="32" y="36" text-anchor="middle" class="icon">T</text><text x="62" y="37" class="label">Transformers</text></g>
+      <g transform="translate(840 156)"><rect width="260" height="58" rx="14" fill="#0E1A2D" stroke="#8B5CF6" stroke-opacity=".36"/><circle cx="32" cy="29" r="18" fill="#F7931E"/><text x="32" y="36" text-anchor="middle" class="icon">S</text><text x="62" y="37" class="label">Scikit-Learn</text></g>
+      <g transform="translate(1120 156)"><rect width="260" height="58" rx="14" fill="#0E1A2D" stroke="#22D3EE" stroke-opacity=".32"/><circle cx="32" cy="29" r="18" fill="#22D3EE"/><text x="32" y="36" text-anchor="middle" class="icon">E</text><text x="62" y="37" class="label">Embeddings</text></g>
+
+      <g transform="translate(0 234)"><rect width="260" height="58" rx="14" fill="#0E1A2D" stroke="#8B5CF6" stroke-opacity=".36"/><circle cx="32" cy="29" r="18" fill="#8B5CF6"/><text x="32" y="36" text-anchor="middle" class="icon">R</text><text x="62" y="37" class="label">RAG</text></g>
+      <g transform="translate(280 234)"><rect width="260" height="58" rx="14" fill="#0E1A2D" stroke="#22D3EE" stroke-opacity=".32"/><circle cx="32" cy="29" r="18" fill="#22D3EE"/><text x="32" y="36" text-anchor="middle" class="icon">P</text><text x="62" y="37" class="label">Prompt Engineering</text></g>
+      <g transform="translate(560 234)"><rect width="260" height="58" rx="14" fill="#0E1A2D" stroke="#8B5CF6" stroke-opacity=".36"/><circle cx="32" cy="29" r="18" fill="#8B5CF6"/><text x="32" y="36" text-anchor="middle" class="icon">T</text><text x="62" y="37" class="label">Tool Calling</text></g>
+      <g transform="translate(840 234)"><rect width="260" height="58" rx="14" fill="#0E1A2D" stroke="#22D3EE" stroke-opacity=".32"/><circle cx="32" cy="29" r="18" fill="#22D3EE"/><text x="32" y="36" text-anchor="middle" class="icon">M</text><text x="62" y="37" class="label">Multi-Agent Systems</text></g>
+      <g transform="translate(1120 234)"><rect width="260" height="58" rx="14" fill="#0E1A2D" stroke="#8B5CF6" stroke-opacity=".36"/><circle cx="32" cy="29" r="18" fill="#8B5CF6"/><text x="32" y="36" text-anchor="middle" class="icon">C</text><text x="62" y="37" class="label">Context Engineering</text></g>
+    </g>
+  </g>
+
+  <g filter="url(#soft)">
+    <rect x="60" y="700" width="1480" height="430" rx="18" fill="url(#card)" stroke="url(#stroke)" stroke-width="2"/>
+    <text x="100" y="760" class="section">Backend Stack</text>
+    <line x1="100" y1="786" x2="1500" y2="786" class="line"/>
+    <g transform="translate(100 824)">
+      <g transform="translate(0 0)"><rect width="260" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#F97316"/><text x="32" y="36" text-anchor="middle" class="icon">J</text><text x="62" y="37" class="label">Java</text></g>
+      <g transform="translate(280 0)"><rect width="260" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#3776AB"/><text x="32" y="36" text-anchor="middle" class="icon">P</text><text x="62" y="37" class="label">Python</text></g>
+      <g transform="translate(560 0)"><rect width="260" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#6DB33F"/><text x="32" y="36" text-anchor="middle" class="icon">S</text><text x="62" y="37" class="label">Spring Boot</text></g>
+      <g transform="translate(840 0)"><rect width="260" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#009688"/><text x="32" y="36" text-anchor="middle" class="icon">F</text><text x="62" y="37" class="label">FastAPI</text></g>
+      <g transform="translate(1120 0)"><rect width="260" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#5FA04E"/><text x="32" y="36" text-anchor="middle" class="icon">N</text><text x="62" y="37" class="label">Node.js</text></g>
+      <g transform="translate(0 78)"><rect width="260" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#E5E7EB"/><text x="32" y="36" text-anchor="middle" class="icon">E</text><text x="62" y="37" class="label">Express</text></g>
+      <g transform="translate(280 78)"><rect width="260" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#4169E1"/><text x="32" y="36" text-anchor="middle" class="icon">P</text><text x="62" y="37" class="label">PostgreSQL</text></g>
+      <g transform="translate(560 78)"><rect width="260" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#47A248"/><text x="32" y="36" text-anchor="middle" class="icon">M</text><text x="62" y="37" class="label">MongoDB</text></g>
+      <g transform="translate(840 78)"><rect width="260" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#DC382D"/><text x="32" y="36" text-anchor="middle" class="icon">R</text><text x="62" y="37" class="label">Redis</text></g>
+      <g transform="translate(1120 78)"><rect width="260" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#E5E7EB"/><text x="32" y="36" text-anchor="middle" class="icon">K</text><text x="62" y="37" class="label">Kafka</text></g>
+      <g transform="translate(0 156)"><rect width="260" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#FF6600"/><text x="32" y="36" text-anchor="middle" class="icon">R</text><text x="62" y="37" class="label">RabbitMQ</text></g>
+      <g transform="translate(280 156)"><rect width="260" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#2496ED"/><text x="32" y="36" text-anchor="middle" class="icon">D</text><text x="62" y="37" class="label">Docker</text></g>
+      <g transform="translate(560 156)"><rect width="260" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#326CE5"/><text x="32" y="36" text-anchor="middle" class="icon">K</text><text x="62" y="37" class="label">Kubernetes</text></g>
+      <g transform="translate(840 156)"><rect width="260" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#22D3EE"/><text x="32" y="36" text-anchor="middle" class="icon">R</text><text x="62" y="37" class="label">REST APIs</text></g>
+      <g transform="translate(1120 156)"><rect width="260" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#8B5CF6"/><text x="32" y="36" text-anchor="middle" class="icon">M</text><text x="62" y="37" class="label">Microservices</text></g>
+      <g transform="translate(0 234)"><rect width="260" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#22D3EE"/><text x="32" y="36" text-anchor="middle" class="icon">E</text><text x="62" y="37" class="label">Event Driven Systems</text></g>
+      <g transform="translate(280 234)"><rect width="260" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#8B5CF6"/><text x="32" y="36" text-anchor="middle" class="icon">D</text><text x="62" y="37" class="label">Distributed Systems</text></g>
+    </g>
+  </g>
+
+  <g filter="url(#soft)">
+    <rect x="60" y="1160" width="710" height="470" rx="18" fill="url(#card)" stroke="url(#stroke)" stroke-width="2"/>
+    <text x="100" y="1220" class="section">Frontend Stack</text>
+    <line x1="100" y1="1246" x2="730" y2="1246" class="line"/>
+    <g transform="translate(100 1284)">
+      <g transform="translate(0 0)"><rect width="300" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#02569B"/><text x="32" y="36" text-anchor="middle" class="icon">F</text><text x="62" y="37" class="label">Flutter</text></g>
+      <g transform="translate(320 0)"><rect width="300" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#0175C2"/><text x="32" y="36" text-anchor="middle" class="icon">D</text><text x="62" y="37" class="label">Dart</text></g>
+      <g transform="translate(0 78)"><rect width="300" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#61DAFB"/><text x="32" y="36" text-anchor="middle" class="icon">R</text><text x="62" y="37" class="label">React</text></g>
+      <g transform="translate(320 78)"><rect width="300" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#E5E7EB"/><text x="32" y="36" text-anchor="middle" class="icon">N</text><text x="62" y="37" class="label">Next.js</text></g>
+      <g transform="translate(0 156)"><rect width="300" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#3178C6"/><text x="32" y="36" text-anchor="middle" class="icon">T</text><text x="62" y="37" class="label">TypeScript</text></g>
+      <g transform="translate(320 156)"><rect width="300" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#06B6D4"/><text x="32" y="36" text-anchor="middle" class="icon">T</text><text x="62" y="37" class="label">TailwindCSS</text></g>
+      <g transform="translate(0 234)"><rect width="300" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#FFCA28"/><text x="32" y="36" text-anchor="middle" class="icon">F</text><text x="62" y="37" class="label">Firebase</text></g>
+      <g transform="translate(320 234)"><rect width="142" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#E34F26"/><text x="32" y="36" text-anchor="middle" class="icon">H</text><text x="62" y="37" class="label">HTML</text></g>
+      <g transform="translate(478 234)"><rect width="142" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#1572B6"/><text x="32" y="36" text-anchor="middle" class="icon">C</text><text x="62" y="37" class="label">CSS</text></g>
+    </g>
+  </g>
+
+  <g filter="url(#soft)">
+    <rect x="830" y="1160" width="710" height="470" rx="18" fill="url(#card)" stroke="url(#stroke)" stroke-width="2"/>
+    <text x="870" y="1220" class="section">DevOps + Cloud</text>
+    <line x1="870" y1="1246" x2="1500" y2="1246" class="line"/>
+    <g transform="translate(870 1284)">
+      <g transform="translate(0 0)"><rect width="300" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#F05032"/><text x="32" y="36" text-anchor="middle" class="icon">G</text><text x="62" y="37" class="label">Git</text></g>
+      <g transform="translate(320 0)"><rect width="300" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#E5E7EB"/><text x="32" y="36" text-anchor="middle" class="icon">G</text><text x="62" y="37" class="label">GitHub</text></g>
+      <g transform="translate(0 78)"><rect width="300" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#2088FF"/><text x="32" y="36" text-anchor="middle" class="icon">G</text><text x="62" y="37" class="label">GitHub Actions</text></g>
+      <g transform="translate(320 78)"><rect width="300" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#FCC624"/><text x="32" y="36" text-anchor="middle" class="icon">L</text><text x="62" y="37" class="label">Linux</text></g>
+      <g transform="translate(0 156)"><rect width="300" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#2496ED"/><text x="32" y="36" text-anchor="middle" class="icon">D</text><text x="62" y="37" class="label">Docker</text></g>
+      <g transform="translate(320 156)"><rect width="300" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#FF9900"/><text x="32" y="36" text-anchor="middle" class="icon">A</text><text x="62" y="37" class="label">AWS</text></g>
+      <g transform="translate(0 234)"><rect width="300" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#4285F4"/><text x="32" y="36" text-anchor="middle" class="icon">G</text><text x="62" y="37" class="label">GCP</text></g>
+      <g transform="translate(320 234)"><rect width="142" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#E5E7EB"/><text x="32" y="36" text-anchor="middle" class="icon">V</text><text x="62" y="37" class="label">Vercel</text></g>
+      <g transform="translate(478 234)"><rect width="142" height="58" rx="14" fill="#0E1A2D"/><circle cx="32" cy="29" r="18" fill="#007ACC"/><text x="32" y="36" text-anchor="middle" class="icon">V</text><text x="62" y="37" class="label">VSCode</text></g>
+    </g>
+  </g>
+</svg>

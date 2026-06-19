@@ -24,7 +24,7 @@
 
 <br/><br/>
 
-<img src="assets/github-signal.svg" width="100%" alt="GitHub Signal with 3D contribution island, radar chart, language distribution, contribution count, blue cubes, and wave divider"/>
+<img src="output/profile-3d-contrib.svg" width="100%" alt="GitHub Signal with 3D contribution island, radar chart, language distribution, contribution count, blue cubes, and wave divider"/>
 
 <br/><br/>
 

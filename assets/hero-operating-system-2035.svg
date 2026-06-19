@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3600" height="1900" viewBox="0 0 3600 1900" role="img" aria-labelledby="title desc">
+  <title id="title">Sharveesh M 2035 operating system hero</title>
+  <desc id="desc">A maximal deep-space hero with a huge 3D core, orbit systems, particles, stars, animated trails, and large typography.</desc>
+  <defs>
+    <radialGradient id="space" cx="58%" cy="44%" r="82%">
+      <stop stop-color="#2e1065"/>
+      <stop offset=".22" stop-color="#0f2747"/>
+      <stop offset=".52" stop-color="#060817"/>
+      <stop offset=".82" stop-color="#030712"/>
+      <stop offset="1" stop-color="#010208"/>
+    </radialGradient>
+    <radialGradient id="nebulaA" cx="50%" cy="50%" r="58%">
+      <stop stop-color="#67e8f9" stop-opacity=".72"/>
+      <stop offset=".22" stop-color="#8b5cf6" stop-opacity=".42"/>
+      <stop offset=".62" stop-color="#ec4899" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebulaB" cx="50%" cy="50%" r="58%">
+      <stop stop-color="#f59e0b" stop-opacity=".32"/>
+      <stop offset=".38" stop-color="#38bdf8" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="56%">
+      <stop stop-color="#ffffff" stop-opacity=".95"/>
+      <stop offset=".12" stop-color="#67e8f9" stop-opacity=".88"/>
+      <stop offset=".34" stop-color="#8b5cf6" stop-opacity=".56"/>
+      <stop offset=".7" stop-color="#0f172a" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="orbital" x1="380" y1="1450" x2="3230" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee" stop-opacity=".14"/>
+      <stop offset=".32" stop-color="#8b5cf6" stop-opacity=".84"/>
+      <stop offset=".56" stop-color="#f8fafc" stop-opacity=".58"/>
+      <stop offset=".78" stop-color="#38bdf8" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#f59e0b" stop-opacity=".12"/>
+    </linearGradient>
+    <linearGradient id="glassEdge" x1="1260" y1="440" x2="2590" y2="1390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f8fafc" stop-opacity=".9"/>
+      <stop offset=".28" stop-color="#67e8f9" stop-opacity=".76"/>
+      <stop offset=".62" stop-color="#8b5cf6" stop-opacity=".52"/>
+      <stop offset="1" stop-color="#020617" stop-opacity=".16"/>
+    </linearGradient>
+    <pattern id="starPattern" width="210" height="210" patternUnits="userSpaceOnUse">
+      <circle cx="26" cy="32" r="2.5" fill="#fff" opacity=".72"/>
+      <circle cx="141" cy="82" r="1.5" fill="#67e8f9" opacity=".68"/>
+      <circle cx="78" cy="168" r="2" fill="#c4b5fd" opacity=".52"/>
+      <circle cx="190" cy="183" r="1.1" fill="#fff" opacity=".46"/>
+    </pattern>
+    <filter id="depth" x="-80%" y="-80%" width="260%" height="260%">
+      <feDropShadow dx="0" dy="48" stdDeviation="56" flood-color="#000" flood-opacity=".58"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="30" flood-color="#22d3ee" flood-opacity=".48"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="44" flood-color="#8b5cf6" flood-opacity=".44"/>
+    </filter>
+    <filter id="softBlur" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="38"/></filter>
+    <filter id="nodeGlow" x="-80%" y="-80%" width="260%" height="260%"><feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#67e8f9" flood-opacity=".65"/></filter>
+    <style>
+      .display{font-family:"Clash Display","Satoshi","General Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:900;letter-spacing:0}
+      .body{font-family:"Satoshi","General Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+      .mono{font-family:"General Sans","SFMono-Regular",Menlo,Consolas,monospace;font-weight:800;letter-spacing:9px}
+      @keyframes drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-34px)}}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      @keyframes reverse{to{transform:rotate(-360deg)}}
+      @keyframes dash{to{stroke-dashoffset:-1500}}
+      @keyframes pulse{0%,100%{opacity:.34}50%{opacity:.94}}
+      @keyframes parallaxSlow{0%,100%{transform:translate(0,0)}50%{transform:translate(-42px,24px)}}
+      @keyframes parallaxNear{0%,100%{transform:translate(0,0)}50%{transform:translate(58px,-34px)}}
+      #coreObject{transition:opacity .35s ease}
+      #orbitA{animation:spin 58s linear infinite;transform-origin:2160px 940px}
+      #orbitB{animation:reverse 76s linear infinite;transform-origin:2160px 940px}
+      .dash{animation:dash 12s linear infinite}
+      .pulse{animation:pulse 5s ease-in-out infinite}
+      .far{animation:parallaxSlow 18s ease-in-out infinite}.near{animation:parallaxNear 11s ease-in-out infinite}
+      svg:hover #coreObject{animation-duration:5.8s}
+      svg:hover #orbitA{animation-duration:32s}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+  </defs>
+  <rect width="3600" height="1900" fill="url(#space)"/>
+  <ellipse cx="2320" cy="900" rx="1180" ry="520" fill="url(#nebulaA)" opacity=".42" filter="url(#softBlur)"/>
+  <ellipse cx="760" cy="1320" rx="820" ry="360" fill="url(#nebulaB)" opacity=".44" filter="url(#softBlur)"/>
+  <rect width="3600" height="1900" fill="url(#starPattern)" opacity=".82"/>
+  <path d="M0 1460C520 1270 930 1430 1510 1140C2140 830 2460 420 3600 350V1900H0Z" fill="#8b5cf6" opacity=".06"/>
+  <path d="M0 330C560 500 1000 350 1550 550C2200 788 2650 1140 3600 1020V0H0Z" fill="#22d3ee" opacity=".05"/>
+
+  <g class="far" opacity=".62">
+    <path d="M230 1290L830 1110L1340 1210L2020 850L2840 1000L3430 690" fill="none" stroke="#67e8f9" stroke-opacity=".14" stroke-width="3"/>
+    <path d="M2700 220L3050 110M520 1540L900 1390M2860 1420L3350 1220" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".45"/>
+    <path d="M330 660L690 520L980 710L1340 510L1690 630" fill="none" stroke="#a78bfa" stroke-opacity=".18" stroke-width="3"/>
+  </g>
+  <g class="near" filter="url(#nodeGlow)" opacity=".85">
+    <circle cx="640" cy="520" r="9" fill="#67e8f9"/><circle cx="980" cy="710" r="6" fill="#f8fafc"/><circle cx="1690" cy="630" r="7" fill="#a78bfa"/>
+    <path d="M3160 280L3480 155M2840 1660L3320 1450M250 1050L650 870" stroke="#f8fafc" stroke-width="7" stroke-linecap="round" opacity=".34"/>
+  </g>
+
+  <g id="orbitA">
+    <ellipse cx="2160" cy="940" rx="1180" ry="330" fill="none" stroke="url(#orbital)" stroke-width="5" stroke-dasharray="48 44" class="dash"/>
+    <ellipse cx="2160" cy="940" rx="860" ry="250" fill="none" stroke="#22d3ee" stroke-opacity=".32" stroke-width="4" transform="rotate(20 2160 940)"/>
+    <ellipse cx="2160" cy="940" rx="1430" ry="420" fill="none" stroke="#8b5cf6" stroke-opacity=".22" stroke-width="3" transform="rotate(-14 2160 940)"/>
+  </g>
+  <g id="orbitB">
+    <ellipse cx="2160" cy="940" rx="580" ry="170" fill="none" stroke="#f8fafc" stroke-opacity=".18" stroke-width="2" transform="rotate(43 2160 940)"/>
+    <ellipse cx="2160" cy="940" rx="1620" ry="490" fill="none" stroke="#38bdf8" stroke-opacity=".12" stroke-width="2" transform="rotate(8 2160 940)"/>
+  </g>
+
+  <circle cx="2060" cy="940" r="610" fill="url(#coreGlow)" class="pulse"/>
+  <g id="coreObject" filter="url(#depth)" transform="translate(-100 0)">
+    <path d="M2160 396L2580 638V1142L2160 1398L1740 1142V638Z" fill="#050816" stroke="url(#glassEdge)" stroke-width="8"/>
+    <path d="M2160 396V890M2580 638L2160 890L1740 638M2160 1398V890M2580 1142L2160 890L1740 1142" fill="none" stroke="#67e8f9" stroke-width="5" stroke-opacity=".58"/>
+    <path d="M1908 768L2140 592L2392 736L2502 582M2140 592L2212 970L2460 1082M2212 970L1974 1206L2214 1306" fill="none" stroke="#f8fafc" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1900 1092C2060 950 2252 922 2464 984" fill="none" stroke="#a78bfa" stroke-width="10" stroke-linecap="round" opacity=".88"/>
+    <circle cx="2140" cy="592" r="28" fill="#fff"/><circle cx="2502" cy="582" r="18" fill="#67e8f9"/><circle cx="2460" cy="1082" r="24" fill="#a78bfa"/><circle cx="1974" cy="1206" r="20" fill="#67e8f9"/><circle cx="2214" cy="1306" r="17" fill="#fff"/>
+  </g>
+
+  <g>
+    <text x="185" y="500" class="mono" font-size="36" fill="#67e8f9">AI SYSTEMS ENGINEER</text>
+    <text x="176" y="748" class="display" font-size="194" fill="#f8fafc">Sharveesh M</text>
+    <text x="190" y="870" class="body" font-size="52" font-weight="700" fill="#b9c7dd">Multi-Agent Systems / Context Engineering</text>
+    <text x="190" y="940" class="body" font-size="52" font-weight="700" fill="#b9c7dd">Inference Infrastructure / Backend Systems</text>
+  </g>
+
+  <g opacity=".38" stroke="#67e8f9" stroke-width="2">
+    <path d="M160 1180C620 980 920 1250 1370 960C1780 700 2030 590 2580 700C3000 785 3230 640 3540 470" fill="none"/>
+    <path d="M370 1580C900 1330 1330 1540 1790 1240C2240 950 2650 1220 3340 930" fill="none" stroke="#a78bfa"/>
+  </g>
+
+  <g class="body" font-size="28" font-weight="800" fill="#dbeafe" opacity=".86">
+    <text x="2770" y="1440">CONTEXT ENGINEERING</text>
+    <text x="2770" y="1498">INFERENCE INFRASTRUCTURE</text>
+    <text x="2770" y="1556">MULTI-AGENT SYSTEMS</text>
+    <text x="2770" y="1614">DISTRIBUTED BACKENDS</text>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3600" height="1850" viewBox="0 0 3600 1850" role="img" aria-labelledby="title desc">
+  <title id="title">Project Worlds operating system</title>
+  <desc id="desc">Three giant non-overlapping project planets: HELIOS purple AI planet, MIDAS golden fintech planet, and whole_app blue commerce planet.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="82%"><stop stop-color="#172554"/><stop offset=".38" stop-color="#090d22"/><stop offset=".72" stop-color="#050617"/><stop offset="1" stop-color="#02030a"/></radialGradient>
+    <radialGradient id="sector" cx="50%" cy="50%" r="60%"><stop stop-color="#67e8f9" stop-opacity=".34"/><stop offset=".36" stop-color="#8b5cf6" stop-opacity=".2"/><stop offset="1" stop-color="#020617" stop-opacity="0"/></radialGradient>
+    <radialGradient id="helios" cx="38%" cy="30%" r="70%"><stop stop-color="#fff"/><stop offset=".12" stop-color="#c4b5fd"/><stop offset=".42" stop-color="#8b5cf6"/><stop offset=".78" stop-color="#3b0764"/><stop offset="1" stop-color="#10021d"/></radialGradient>
+    <radialGradient id="midas" cx="38%" cy="30%" r="70%"><stop stop-color="#fff7ed"/><stop offset=".14" stop-color="#fde68a"/><stop offset=".48" stop-color="#f59e0b"/><stop offset=".82" stop-color="#78350f"/><stop offset="1" stop-color="#180903"/></radialGradient>
+    <radialGradient id="whole" cx="38%" cy="30%" r="70%"><stop stop-color="#eff6ff"/><stop offset=".14" stop-color="#93c5fd"/><stop offset=".5" stop-color="#2563eb"/><stop offset=".82" stop-color="#0f172a"/><stop offset="1" stop-color="#020617"/></radialGradient>
+    <linearGradient id="trail" x1="330" y1="1220" x2="3300" y2="450" gradientUnits="userSpaceOnUse"><stop stop-color="#22d3ee" stop-opacity=".14"/><stop offset=".36" stop-color="#8b5cf6" stop-opacity=".72"/><stop offset=".66" stop-color="#f59e0b" stop-opacity=".68"/><stop offset="1" stop-color="#38bdf8" stop-opacity=".18"/></linearGradient>
+    <filter id="purpleGlow" x="-80%" y="-80%" width="260%" height="260%"><feDropShadow dx="0" dy="46" stdDeviation="54" flood-color="#000" flood-opacity=".62"/><feDropShadow dx="0" dy="0" stdDeviation="38" flood-color="#8b5cf6" flood-opacity=".45"/></filter>
+    <filter id="goldGlow" x="-80%" y="-80%" width="260%" height="260%"><feDropShadow dx="0" dy="46" stdDeviation="54" flood-color="#000" flood-opacity=".62"/><feDropShadow dx="0" dy="0" stdDeviation="38" flood-color="#f59e0b" flood-opacity=".42"/></filter>
+    <filter id="blueGlow" x="-80%" y="-80%" width="260%" height="260%"><feDropShadow dx="0" dy="46" stdDeviation="54" flood-color="#000" flood-opacity=".62"/><feDropShadow dx="0" dy="0" stdDeviation="38" flood-color="#38bdf8" flood-opacity=".45"/></filter>
+    <style>
+      .display{font-family:"Clash Display","Satoshi","General Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:900;letter-spacing:0;fill:#f8fafc}
+      .body{font-family:"Satoshi","General Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+      .mono{font-family:"General Sans","SFMono-Regular",Menlo,Consolas,monospace;font-weight:800;letter-spacing:8px;fill:#67e8f9}
+      @keyframes dash{to{stroke-dashoffset:-1100}}@keyframes atmosphere{0%,100%{opacity:.28}50%{opacity:.72}}.dash{animation:dash 11s linear infinite}.atmo{animation:atmosphere 5s ease-in-out infinite}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+  </defs>
+  <rect width="3600" height="1850" fill="url(#bg)"/>
+  <ellipse cx="1740" cy="1010" rx="1520" ry="620" fill="url(#sector)" opacity=".46"/>
+  <g opacity=".62"><circle cx="210" cy="220" r="4" fill="#fff"/><circle cx="520" cy="420" r="5" fill="#67e8f9"/><circle cx="3200" cy="250" r="4" fill="#fff"/><circle cx="3000" cy="1280" r="7" fill="#a78bfa"/><path d="M2600 220L2960 95M350 1510L730 1350" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".36"/></g>
+  <text x="150" y="150" class="mono" font-size="24">PROJECT WORLDS</text>
+  <text x="145" y="288" class="display" font-size="116">Three atmospheres.</text>
+  <text x="150" y="356" class="body" font-size="36" font-weight="700" fill="#c0cad8">Each system becomes its own planet with its own gravity, color, atmosphere and orbit.</text>
+  <path d="M470 1180C890 760 1260 1300 1800 910C2340 520 2720 980 3230 620" fill="none" stroke="url(#trail)" stroke-width="5" stroke-dasharray="38 30" class="dash"/>
+  <g transform="translate(760 1010)" filter="url(#purpleGlow)">
+    <circle class="atmo" r="352" fill="none" stroke="#c4b5fd" stroke-opacity=".32" stroke-width="28"/>
+    <ellipse rx="450" ry="110" fill="none" stroke="#c4b5fd" stroke-opacity=".45" stroke-width="5" transform="rotate(-12)"/><ellipse rx="330" ry="78" fill="none" stroke="#67e8f9" stroke-opacity=".24" stroke-width="3" transform="rotate(18)"/>
+    <circle r="290" fill="url(#helios)"/><path d="M-142 -25L0 -138L152 -22L106 144L-106 144Z" fill="none" stroke="#fff" stroke-opacity=".74" stroke-width="10"/><path d="M-106 144L0 -8L106 144M0 -138V-8" stroke="#67e8f9" stroke-width="8" stroke-linecap="round"/>
+    <text x="-260" y="420" class="display" font-size="86">HELIOS</text><text x="-260" y="480" class="body" font-size="34" font-weight="750" fill="#dbeafe">Purple AI planet</text>
+  </g>
+  <g transform="translate(1800 870)" filter="url(#goldGlow)">
+    <circle class="atmo" r="318" fill="none" stroke="#fde68a" stroke-opacity=".3" stroke-width="26"/>
+    <ellipse rx="405" ry="100" fill="none" stroke="#fde68a" stroke-opacity=".46" stroke-width="5" transform="rotate(12)"/><ellipse rx="300" ry="70" fill="none" stroke="#f59e0b" stroke-opacity=".3" stroke-width="3" transform="rotate(-24)"/>
+    <circle r="260" fill="url(#midas)"/><path d="M-126 -90H126L180 0L126 90H-126L-180 0Z" fill="none" stroke="#fff7ed" stroke-width="10" stroke-opacity=".76"/><path d="M-92 0H92M0 -90V90" stroke="#fde68a" stroke-width="9" stroke-linecap="round"/>
+    <text x="-190" y="392" class="display" font-size="86">MIDAS</text><text x="-248" y="452" class="body" font-size="34" font-weight="750" fill="#fff7ed">Golden fintech planet</text>
+  </g>
+  <g transform="translate(2850 1030)" filter="url(#blueGlow)">
+    <circle class="atmo" r="338" fill="none" stroke="#93c5fd" stroke-opacity=".3" stroke-width="26"/>
+    <ellipse rx="430" ry="105" fill="none" stroke="#93c5fd" stroke-opacity=".46" stroke-width="5" transform="rotate(-18)"/><ellipse rx="320" ry="74" fill="none" stroke="#38bdf8" stroke-opacity=".31" stroke-width="3" transform="rotate(22)"/>
+    <circle r="275" fill="url(#whole)"/><path d="M-128 -104H128V104H-128Z" fill="none" stroke="#eff6ff" stroke-width="10" stroke-opacity=".76"/><path d="M-62 -34H64M-62 30H64M-128 -104L128 104M128 -104L-128 104" stroke="#93c5fd" stroke-width="7" stroke-linecap="round"/>
+    <text x="-260" y="410" class="display" font-size="78">whole_app</text><text x="-260" y="470" class="body" font-size="34" font-weight="750" fill="#dbeafe">Blue commerce planet</text>
+  </g>
+</svg>

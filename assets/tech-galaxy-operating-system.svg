@@ -1,58 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="3600" height="1850" viewBox="0 0 3600 1850" role="img" aria-labelledby="title desc">
-  <title id="title">Tech Galaxy operating system</title>
-  <desc id="desc">AI, knowledge, backend, frontend, and infrastructure technologies orbit around HELIOS like planets rather than rows.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="3600" height="1900" viewBox="0 0 3600 1900" role="img" aria-labelledby="title desc">
+  <title id="title">Premium technology constellation around HELIOS</title>
+  <desc id="desc">A sharp constellation of AI, knowledge, backend, frontend, and infrastructure technologies arranged around a central HELIOS symbol.</desc>
   <defs>
-    <radialGradient id="bg" cx="50%" cy="50%" r="82%"><stop stop-color="#172554"/><stop offset=".32" stop-color="#0b1029"/><stop offset=".68" stop-color="#050617"/><stop offset="1" stop-color="#02030a"/></radialGradient>
-    <radialGradient id="halo" cx="50%" cy="50%" r="60%"><stop stop-color="#67e8f9" stop-opacity=".58"/><stop offset=".28" stop-color="#8b5cf6" stop-opacity=".26"/><stop offset="1" stop-color="#020617" stop-opacity="0"/></radialGradient>
-    <radialGradient id="core" cx="50%" cy="45%" r="62%"><stop stop-color="#fff"/><stop offset=".12" stop-color="#67e8f9"/><stop offset=".38" stop-color="#8b5cf6" stop-opacity=".64"/><stop offset=".78" stop-color="#020617" stop-opacity=".08"/><stop offset="1" stop-color="#020617" stop-opacity="0"/></radialGradient>
-    <linearGradient id="trail" x1="300" y1="1450" x2="3280" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#22d3ee" stop-opacity=".12"/><stop offset=".36" stop-color="#8b5cf6" stop-opacity=".78"/><stop offset=".65" stop-color="#f8fafc" stop-opacity=".44"/><stop offset="1" stop-color="#38bdf8" stop-opacity=".18"/></linearGradient>
-    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feDropShadow dx="0" dy="28" stdDeviation="30" flood-color="#000" flood-opacity=".5"/><feDropShadow dx="0" dy="0" stdDeviation="18" flood-color="#22d3ee" flood-opacity=".28"/></filter>
-    <filter id="coreGlow" x="-80%" y="-80%" width="260%" height="260%"><feDropShadow dx="0" dy="44" stdDeviation="52" flood-color="#000" flood-opacity=".58"/><feDropShadow dx="0" dy="0" stdDeviation="36" flood-color="#8b5cf6" flood-opacity=".5"/><feDropShadow dx="0" dy="0" stdDeviation="24" flood-color="#22d3ee" flood-opacity=".42"/></filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="3600" y2="1900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/><stop offset=".55" stop-color="#030712"/><stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <radialGradient id="field" cx="50%" cy="50%" r="62%">
+      <stop stop-color="#1D4ED8" stop-opacity=".22"/><stop offset=".36" stop-color="#7C3AED" stop-opacity=".12"/><stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cyanPurple" x1="860" y1="420" x2="2800" y2="1500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/><stop offset=".5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="-80" y1="-80" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC" stop-opacity=".13"/><stop offset="1" stop-color="#0F172A" stop-opacity=".55"/>
+    </linearGradient>
     <style>
-      .display{font-family:"Clash Display","Satoshi","General Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:900;letter-spacing:0;fill:#f8fafc}
-      .body{font-family:"Satoshi","General Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
-      .mono{font-family:"General Sans","SFMono-Regular",Menlo,Consolas,monospace;font-weight:800;letter-spacing:8px;fill:#67e8f9}
-      .label{font:800 28px "Satoshi","General Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#edf7ff}.layer{font:800 18px "General Sans",monospace;letter-spacing:5px;fill:#94a3b8}
-      @keyframes spin{to{transform:rotate(360deg)}}@keyframes back{to{transform:rotate(-360deg)}}@keyframes dash{to{stroke-dashoffset:-1500}}@keyframes shimmer{0%,100%{opacity:.22}50%{opacity:.8}}
-      #ringA{animation:spin 64s linear infinite;transform-origin:1800px 1000px}#ringB{animation:back 86s linear infinite;transform-origin:1800px 1000px}.dash{animation:dash 12s linear infinite}
-      .planet{transition:opacity .35s ease}.planet:hover{opacity:1}
-      .field{animation:shimmer 6s ease-in-out infinite}
-      svg:hover #ringA{animation-duration:36s}svg:hover #ringB{animation-duration:48s}
+      .display{font-family:"Clash Display","General Sans","Satoshi",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:900;letter-spacing:0;fill:#F8FAFC}
+      .body{font-family:"General Sans","Satoshi",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:760;fill:#CBD5E1}
+      .mono{font-family:"General Sans","Satoshi","SFMono-Regular",Menlo,Consolas,monospace;font-weight:850;letter-spacing:10px;fill:#67E8F9}
+      .label{font-family:"General Sans","Satoshi",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-size:32px;font-weight:850;fill:#F8FAFC}
+      .layer{font-family:"General Sans","Satoshi",monospace;font-size:17px;font-weight:850;letter-spacing:5px;fill:#94A3B8}
+      @keyframes trace{to{stroke-dashoffset:-1000}}@keyframes spin{to{transform:rotate(360deg)}}
+      .trace{animation:trace 20s linear infinite}#orbitSystem{animation:spin 120s linear infinite;transform-origin:1800px 1040px}
       @media (prefers-reduced-motion:reduce){*{animation:none!important}}
     </style>
   </defs>
-  <rect width="3600" height="1850" fill="url(#bg)"/>
-  <ellipse cx="1800" cy="1010" rx="1620" ry="670" fill="url(#halo)" opacity=".46"/>
-  <g class="field" opacity=".36"><path d="M240 1180C760 940 1050 1220 1480 910C1900 610 2240 760 2620 620C3000 480 3260 520 3520 360" fill="none" stroke="#67e8f9" stroke-width="2"/><path d="M180 1370C710 1160 1010 1490 1540 1240C2100 970 2460 1320 3390 940" fill="none" stroke="#a78bfa" stroke-width="2"/></g>
-  <g opacity=".65"><circle cx="210" cy="220" r="4" fill="#fff"/><circle cx="520" cy="520" r="5" fill="#67e8f9"/><circle cx="3200" cy="260" r="4" fill="#fff"/><circle cx="3020" cy="1260" r="6" fill="#a78bfa"/><path d="M2600 220L2960 92M390 1510L790 1360" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".38"/></g>
-  <text x="150" y="150" class="mono" font-size="25">TECH GALAXY</text>
-  <text x="145" y="288" class="display" font-size="118">Everything orbits HELIOS.</text>
-  <text x="150" y="356" class="body" font-size="36" font-weight="700" fill="#b8c4d6">No rows. No cards. A planetary stack of AI, knowledge, product and infrastructure systems.</text>
-  <g id="ringA"><ellipse cx="1800" cy="1000" rx="1260" ry="390" fill="none" stroke="url(#trail)" stroke-width="5" stroke-dasharray="40 32" class="dash"/><ellipse cx="1800" cy="1000" rx="940" ry="285" fill="none" stroke="#8b5cf6" stroke-opacity=".26" stroke-width="4" transform="rotate(18 1800 1000)"/><ellipse cx="1800" cy="1000" rx="1510" ry="470" fill="none" stroke="#67e8f9" stroke-opacity=".16" stroke-width="3" transform="rotate(-13 1800 1000)"/></g>
-  <g id="ringB"><ellipse cx="1800" cy="1000" rx="670" ry="205" fill="none" stroke="#f8fafc" stroke-opacity=".16" stroke-width="2" transform="rotate(43 1800 1000)"/><ellipse cx="1800" cy="1000" rx="1700" ry="520" fill="none" stroke="#a78bfa" stroke-opacity=".11" stroke-width="2" transform="rotate(7 1800 1000)"/></g>
-  <circle cx="1800" cy="1000" r="380" fill="url(#core)"/>
-  <g filter="url(#coreGlow)"><path d="M1800 650L2102 824V1174L1800 1348L1498 1174V824Z" fill="#050816" stroke="#67e8f9" stroke-opacity=".6" stroke-width="7"/><path d="M1638 936L1790 780L1960 854L2058 742M1790 780L1844 1038L2020 1130M1844 1038L1680 1218L1830 1300" fill="none" stroke="#f8fafc" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><text x="1800" y="1468" text-anchor="middle" class="mono" font-size="22">HELIOS GRAVITY CORE</text></g>
-  <g text-anchor="middle" filter="url(#glow)">
-    <g class="planet" transform="translate(520 670)"><circle r="62" fill="#07111f" stroke="#67e8f9" stroke-width="3"/><path d="M-24 -24H24L40 0L24 24H-24L-40 0Z" fill="none" stroke="#67e8f9" stroke-width="6"/><text y="104" class="label">OpenAI</text><text y="136" class="layer">AI</text></g>
-    <g class="planet" transform="translate(820 500)"><circle r="62" fill="#07111f" stroke="#a78bfa" stroke-width="3"/><path d="M0 -38L14 -10L42 0L14 10L0 40L-14 10L-42 0L-14 -10Z" fill="#a78bfa"/><text y="104" class="label">Gemini</text><text y="136" class="layer">AI</text></g>
-    <g class="planet" transform="translate(1180 430)"><circle r="62" fill="#07111f" stroke="#f0abfc" stroke-width="3"/><text y="12" class="label">C</text><path d="M-32 22C-10 42 18 42 38 16" fill="none" stroke="#f0abfc" stroke-width="6" stroke-linecap="round"/><text y="104" class="label">Claude</text><text y="136" class="layer">AI</text></g>
-    <g class="planet" transform="translate(2350 430)"><circle r="62" fill="#07111f" stroke="#67e8f9" stroke-width="3"/><text y="12" class="label">LC</text><text y="104" class="label">LangChain</text><text y="136" class="layer">AI</text></g>
-    <g class="planet" transform="translate(2720 560)"><circle r="62" fill="#07111f" stroke="#a78bfa" stroke-width="3"/><path d="M-34 -8H18M-8 -34L34 -8L-8 20M-28 28H28" fill="none" stroke="#a78bfa" stroke-width="6" stroke-linecap="round"/><text y="104" class="label">LangGraph</text><text y="136" class="layer">AI</text></g>
-    <g class="planet" transform="translate(360 1040)"><circle r="58" fill="#07111f" stroke="#38bdf8" stroke-width="3"/><path d="M-36 0C-14 -30 16 -30 36 0C14 30 -16 30 -36 0Z" fill="none" stroke="#38bdf8" stroke-width="6"/><circle r="8" fill="#fff"/><text y="100" class="label">Embeddings</text><text y="132" class="layer">KNOWLEDGE</text></g>
-    <g class="planet" transform="translate(690 1330)"><circle r="58" fill="#07111f" stroke="#38bdf8" stroke-width="3"/><text y="12" class="label">F</text><path d="M-28 -26H30M-28 0H18M-28 26H8" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/><text y="100" class="label">FAISS</text><text y="132" class="layer">KNOWLEDGE</text></g>
-    <g class="planet" transform="translate(1090 1470)"><circle r="58" fill="#07111f" stroke="#a78bfa" stroke-width="3"/><circle r="30" fill="none" stroke="#a78bfa" stroke-width="6"/><path d="M-18 -18L18 18M18 -18L-18 18" stroke="#a78bfa" stroke-width="5"/><text y="100" class="label">Qdrant</text><text y="132" class="layer">KNOWLEDGE</text></g>
-    <g class="planet" transform="translate(590 930)"><circle r="58" fill="#07111f" stroke="#67e8f9" stroke-width="3"/><path d="M-30 -22L0 -38L30 -22V22L0 38L-30 22Z" fill="none" stroke="#67e8f9" stroke-width="6"/><text y="100" class="label">Pinecone</text><text y="132" class="layer">KNOWLEDGE</text></g>
-    <g class="planet" transform="translate(2940 860)"><circle r="58" fill="#07111f" stroke="#86efac" stroke-width="3"/><path d="M-34 26V-8L0 -30L34 -8V26Z" fill="none" stroke="#86efac" stroke-width="6"/><text y="100" class="label">Spring Boot</text><text y="132" class="layer">BACKEND</text></g>
-    <g class="planet" transform="translate(2700 1230)"><circle r="58" fill="#07111f" stroke="#38bdf8" stroke-width="3"/><path d="M0 -36L36 28H-36Z" fill="none" stroke="#38bdf8" stroke-width="6"/><text y="100" class="label">FastAPI</text><text y="132" class="layer">BACKEND</text></g>
-    <g class="planet" transform="translate(3160 1110)"><circle r="58" fill="#07111f" stroke="#f87171" stroke-width="3"/><text y="12" class="label">J</text><text y="100" class="label">Java</text><text y="132" class="layer">BACKEND</text></g>
-    <g class="planet" transform="translate(2420 1500)"><circle r="58" fill="#07111f" stroke="#facc15" stroke-width="3"/><text y="12" class="label">Py</text><text y="100" class="label">Python</text><text y="132" class="layer">BACKEND</text></g>
-    <g class="planet" transform="translate(3100 620)"><circle r="58" fill="#07111f" stroke="#93c5fd" stroke-width="3"/><ellipse rx="32" ry="12" cy="-22" fill="none" stroke="#93c5fd" stroke-width="6"/><path d="M-32 -22V22C-32 38 32 38 32 22V-22" fill="none" stroke="#93c5fd" stroke-width="6"/><text y="100" class="label">PostgreSQL</text><text y="132" class="layer">BACKEND</text></g>
-    <g class="planet" transform="translate(3200 1390)"><circle r="58" fill="#07111f" stroke="#fb7185" stroke-width="3"/><path d="M-30 -8L0 -24L30 -8L0 8Z M-30 8L0 24L30 8" fill="none" stroke="#fb7185" stroke-width="6"/><text y="100" class="label">Redis</text><text y="132" class="layer">BACKEND</text></g>
-    <g class="planet" transform="translate(1390 1580)"><circle r="54" fill="#07111f" stroke="#38bdf8" stroke-width="3"/><path d="M-28 16L0 -34L30 16L0 34Z" fill="none" stroke="#38bdf8" stroke-width="6"/><text y="96" class="label">Flutter</text><text y="128" class="layer">FRONTEND</text></g>
-    <g class="planet" transform="translate(1800 430)"><circle r="54" fill="#07111f" stroke="#fff" stroke-width="3"/><text y="11" class="label">N</text><text y="96" class="label">Next.js</text><text y="128" class="layer">FRONTEND</text></g>
-    <g class="planet" transform="translate(2120 1600)"><circle r="54" fill="#07111f" stroke="#f59e0b" stroke-width="3"/><path d="M-26 30L-12 -34L10 -10L28 30Z" fill="none" stroke="#f59e0b" stroke-width="6"/><text y="96" class="label">Firebase</text><text y="128" class="layer">FRONTEND</text></g>
-    <g class="planet" transform="translate(250 1370)"><circle r="54" fill="#07111f" stroke="#60a5fa" stroke-width="3"/><path d="M-30 18H30M-22 18V-16M0 18V-32M22 18V-4" stroke="#60a5fa" stroke-width="7" stroke-linecap="round"/><text y="96" class="label">Docker</text><text y="128" class="layer">INFRA</text></g>
-    <g class="planet" transform="translate(3380 940)"><circle r="54" fill="#07111f" stroke="#f8fafc" stroke-width="3"/><text y="11" class="label">Lx</text><text y="96" class="label">Linux</text><text y="128" class="layer">INFRA</text></g>
-    <g class="planet" transform="translate(2920 1580)"><circle r="54" fill="#07111f" stroke="#a78bfa" stroke-width="3"/><path d="M-30 -6H-8L4 18H30M4 18L18 -12" fill="none" stroke="#a78bfa" stroke-width="6" stroke-linecap="round"/><text y="96" class="label">GitHub Actions</text><text y="128" class="layer">INFRA</text></g>
+  <rect width="3600" height="1900" fill="url(#bg)"/>
+  <rect width="3600" height="1900" fill="url(#field)"/>
+  <g opacity=".22" stroke="#334155"><path d="M0 475H3600M0 950H3600M0 1425H3600M720 0V1900M1440 0V1900M2160 0V1900M2880 0V1900"/></g>
+  <text x="140" y="150" class="mono" font-size="24">TECHNOLOGY CONSTELLATION</text>
+  <text x="136" y="292" class="display" font-size="110">Systems orbit the core.</text>
+  <text x="142" y="360" class="body" font-size="34">Production AI, retrieval, backend, frontend, and infrastructure tools arranged as one engineering field.</text>
+  <g id="orbitSystem" fill="none">
+    <ellipse cx="1800" cy="1040" rx="1260" ry="390" stroke="#67E8F9" stroke-opacity=".22" stroke-width="3"/>
+    <ellipse cx="1800" cy="1040" rx="960" ry="300" stroke="#8B5CF6" stroke-opacity=".34" stroke-width="5" stroke-dasharray="54 46" class="trace" transform="rotate(-12 1800 1040)"/>
+    <ellipse cx="1800" cy="1040" rx="1540" ry="500" stroke="#64748B" stroke-opacity=".28" stroke-width="2" transform="rotate(10 1800 1040)"/>
+    <ellipse cx="1800" cy="1040" rx="700" ry="220" stroke="#38BDF8" stroke-opacity=".24" stroke-width="2" transform="rotate(32 1800 1040)"/>
+  </g>
+  <g stroke="#38BDF8" stroke-opacity=".28" stroke-width="2" fill="none">
+    <path d="M520 1010C900 620 1280 1420 1800 1040C2300 680 2620 1280 3160 880"/>
+    <path d="M620 620C1000 860 1340 660 1800 1040C2220 1390 2660 1080 3160 1320"/>
+  </g>
+  <g transform="translate(1800 1040)">
+    <circle r="270" fill="#020617" stroke="url(#cyanPurple)" stroke-width="6"/>
+    <circle r="218" fill="none" stroke="#334155" stroke-width="2"/>
+    <path d="M0 -170L147 -85V85L0 170L-147 85V-85Z" fill="url(#glass)" stroke="#67E8F9" stroke-opacity=".6" stroke-width="4"/>
+    <path d="M-70 32L-4 -86L88 -30L118 -112M-4 -86L24 44L108 82M24 44L-50 126" fill="none" stroke="#F8FAFC" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <text y="330" text-anchor="middle" class="mono" font-size="22">HELIOS CORE</text>
+  </g>
+  <g text-anchor="middle">
+    <g transform="translate(500 700)"><circle r="74" fill="#07111F" stroke="#67E8F9" stroke-width="4"/><path d="M-34 -26H34L52 0L34 26H-34L-52 0Z" fill="none" stroke="#67E8F9" stroke-width="7"/><text y="122" class="label">OpenAI</text><text y="158" class="layer">AI</text></g>
+    <g transform="translate(820 510)"><circle r="74" fill="#07111F" stroke="#8B5CF6" stroke-width="4"/><path d="M0 -48L18 -14L54 0L18 14L0 50L-18 14L-54 0L-18 -14Z" fill="#8B5CF6"/><text y="122" class="label">Gemini</text><text y="158" class="layer">AI</text></g>
+    <g transform="translate(1180 430)"><circle r="74" fill="#07111F" stroke="#C084FC" stroke-width="4"/><text y="13" class="label">C</text><path d="M-38 26C-12 50 18 50 44 18" fill="none" stroke="#C084FC" stroke-width="7" stroke-linecap="round"/><text y="122" class="label">Claude</text><text y="158" class="layer">AI</text></g>
+    <g transform="translate(2280 440)"><circle r="74" fill="#07111F" stroke="#67E8F9" stroke-width="4"/><text y="13" class="label">LC</text><text y="122" class="label">LangChain</text><text y="158" class="layer">AI</text></g>
+    <g transform="translate(2640 560)"><circle r="74" fill="#07111F" stroke="#8B5CF6" stroke-width="4"/><path d="M-40 -10H22M-10 -42L44 -10L-10 24M-34 36H34" fill="none" stroke="#8B5CF6" stroke-width="7" stroke-linecap="round"/><text y="122" class="label">LangGraph</text><text y="158" class="layer">AI</text></g>
+    <g transform="translate(3020 770)"><circle r="70" fill="#07111F" stroke="#F59E0B" stroke-width="4"/><text y="12" class="label">HF</text><text y="118" class="label">HuggingFace</text><text y="154" class="layer">AI</text></g>
+    <g transform="translate(420 1080)"><circle r="66" fill="#07111F" stroke="#38BDF8" stroke-width="4"/><path d="M-42 0C-16 -34 18 -34 42 0C16 34 -18 34 -42 0Z" fill="none" stroke="#38BDF8" stroke-width="7"/><circle r="9" fill="#F8FAFC"/><text y="114" class="label">Embeddings</text><text y="150" class="layer">KNOWLEDGE</text></g>
+    <g transform="translate(700 1360)"><circle r="66" fill="#07111F" stroke="#38BDF8" stroke-width="4"/><text y="12" class="label">F</text><path d="M-34 -30H36M-34 0H22M-34 30H10" stroke="#38BDF8" stroke-width="7" stroke-linecap="round"/><text y="114" class="label">FAISS</text><text y="150" class="layer">KNOWLEDGE</text></g>
+    <g transform="translate(1120 1530)"><circle r="66" fill="#07111F" stroke="#8B5CF6" stroke-width="4"/><circle r="34" fill="none" stroke="#8B5CF6" stroke-width="7"/><path d="M-22 -22L22 22M22 -22L-22 22" stroke="#8B5CF6" stroke-width="6"/><text y="114" class="label">Qdrant</text><text y="150" class="layer">KNOWLEDGE</text></g>
+    <g transform="translate(560 920)"><circle r="66" fill="#07111F" stroke="#67E8F9" stroke-width="4"/><path d="M-36 -26L0 -44L36 -26V26L0 44L-36 26Z" fill="none" stroke="#67E8F9" stroke-width="7"/><text y="114" class="label">Pinecone</text><text y="150" class="layer">KNOWLEDGE</text></g>
+    <g transform="translate(3040 1040)"><circle r="66" fill="#07111F" stroke="#86EFAC" stroke-width="4"/><path d="M-38 32V-10L0 -36L38 -10V32Z" fill="none" stroke="#86EFAC" stroke-width="7"/><text y="114" class="label">Spring Boot</text><text y="150" class="layer">BACKEND</text></g>
+    <g transform="translate(2780 1340)"><circle r="66" fill="#07111F" stroke="#38BDF8" stroke-width="4"/><path d="M0 -42L42 34H-42Z" fill="none" stroke="#38BDF8" stroke-width="7"/><text y="114" class="label">FastAPI</text><text y="150" class="layer">BACKEND</text></g>
+    <g transform="translate(3200 1250)"><circle r="66" fill="#07111F" stroke="#F87171" stroke-width="4"/><text y="13" class="label">J</text><text y="114" class="label">Java</text><text y="150" class="layer">BACKEND</text></g>
+    <g transform="translate(2380 1600)"><circle r="66" fill="#07111F" stroke="#FACC15" stroke-width="4"/><text y="13" class="label">Py</text><text y="114" class="label">Python</text><text y="150" class="layer">BACKEND</text></g>
+    <g transform="translate(3180 570)"><circle r="66" fill="#07111F" stroke="#93C5FD" stroke-width="4"/><ellipse rx="36" ry="13" cy="-26" fill="none" stroke="#93C5FD" stroke-width="7"/><path d="M-36 -26V26C-36 44 36 44 36 26V-26" fill="none" stroke="#93C5FD" stroke-width="7"/><text y="114" class="label">PostgreSQL</text><text y="150" class="layer">BACKEND</text></g>
+    <g transform="translate(3240 1510)"><circle r="66" fill="#07111F" stroke="#FB7185" stroke-width="4"/><path d="M-36 -10L0 -28L36 -10L0 10Z M-36 10L0 28L36 10" fill="none" stroke="#FB7185" stroke-width="7"/><text y="114" class="label">Redis</text><text y="150" class="layer">BACKEND</text></g>
+    <g transform="translate(1450 1620)"><circle r="62" fill="#07111F" stroke="#38BDF8" stroke-width="4"/><path d="M-32 18L0 -40L34 18L0 40Z" fill="none" stroke="#38BDF8" stroke-width="7"/><text y="110" class="label">Flutter</text><text y="146" class="layer">FRONTEND</text></g>
+    <g transform="translate(1760 430)"><circle r="62" fill="#07111F" stroke="#F8FAFC" stroke-width="4"/><text y="13" class="label">N</text><text y="110" class="label">Next.js</text><text y="146" class="layer">FRONTEND</text></g>
+    <g transform="translate(2060 1640)"><circle r="62" fill="#07111F" stroke="#F59E0B" stroke-width="4"/><path d="M-30 36L-14 -40L12 -12L34 36Z" fill="none" stroke="#F59E0B" stroke-width="7"/><text y="110" class="label">Firebase</text><text y="146" class="layer">FRONTEND</text></g>
+    <g transform="translate(250 1450)"><circle r="62" fill="#07111F" stroke="#60A5FA" stroke-width="4"/><path d="M-36 22H36M-26 22V-18M0 22V-38M26 22V-6" stroke="#60A5FA" stroke-width="8" stroke-linecap="round"/><text y="110" class="label">Docker</text><text y="146" class="layer">INFRA</text></g>
+    <g transform="translate(3420 980)"><circle r="62" fill="#07111F" stroke="#F8FAFC" stroke-width="4"/><text y="13" class="label">Lx</text><text y="110" class="label">Linux</text><text y="146" class="layer">INFRA</text></g>
+    <g transform="translate(2860 1660)"><circle r="62" fill="#07111F" stroke="#8B5CF6" stroke-width="4"/><path d="M-34 -8H-8L4 22H34M4 22L22 -16" fill="none" stroke="#8B5CF6" stroke-width="7" stroke-linecap="round"/><text y="110" class="label">GitHub Actions</text><text y="146" class="layer">INFRA</text></g>
   </g>
 </svg>

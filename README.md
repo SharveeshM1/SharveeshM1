@@ -4,19 +4,19 @@
 
 <br/><br/>
 
-<img src="assets/tech-galaxy-operating-system.svg" width="100%" alt="Tech Galaxy where AI, knowledge, backend, frontend and infrastructure technologies orbit HELIOS as planets"/>
+<a href="https://www.linkedin.com/in/sharveesh-m-52516a283/"><img src="assets/button-linkedin.svg" width="18%" alt="LinkedIn"/></a>
+<a href="mailto:sharveesh1@gmail.com"><img src="assets/button-email.svg" width="18%" alt="Email"/></a>
+<a href="https://leetcode.com/u/Sharveesh_m/"><img src="assets/button-leetcode.svg" width="18%" alt="LeetCode"/></a>
+<a href="https://github.com/SharveeshM1"><img src="assets/button-github.svg" width="18%" alt="GitHub"/></a>
+<a href="https://github.com/SharveeshM1/HELIOS"><img src="assets/button-helios.svg" width="18%" alt="HELIOS"/></a>
 
 <br/><br/>
 
-<img src="assets/system-architecture-vertical-flow.svg" width="100%" alt="Apple silicon inspired vertical system architecture flow from frontend to infrastructure"/>
+<img src="assets/tech-galaxy-operating-system.svg" width="100%" alt="Premium technology constellation with AI, knowledge, backend, frontend and infrastructure tools around HELIOS"/>
 
 <br/><br/>
 
-<img src="assets/project-worlds-operating-system.svg" width="100%" alt="Three giant project planets: HELIOS purple AI planet, MIDAS golden fintech planet, and whole_app blue commerce planet"/>
-
-<br/><br/>
-
-<img src="assets/neural-galaxy-interstellar.svg" width="100%" alt="Interstellar neural galaxy with constellations, particles, nebulae, shooting stars, orbit trails and parallax depth"/>
+<img src="assets/project-worlds-operating-system.svg" width="100%" alt="Premium glass project windows for HELIOS, MIDAS, and whole_app"/>
 
 <br/><br/>
 

@@ -1,35 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="3400" height="1200" viewBox="0 0 3400 1200" role="img" aria-labelledby="title desc">
-  <title id="title">Contribution Universe Analytics</title>
-  <desc id="desc">A cinematic contribution analytics section with improved radar and donut charts that belong to the deep-space universe.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="3400" height="1120" viewBox="0 0 3400 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Sharp contribution analytics</title>
+  <desc id="desc">A dark premium analytics panel with sharp radar and donut charts designed for readability.</desc>
   <defs>
-    <radialGradient id="bg" cx="52%" cy="48%" r="78%"><stop stop-color="#172554"/><stop offset=".46" stop-color="#080b1f"/><stop offset=".78" stop-color="#040617"/><stop offset="1" stop-color="#02030a"/></radialGradient>
-    <radialGradient id="analyticGlow" cx="50%" cy="50%" r="62%"><stop stop-color="#67e8f9" stop-opacity=".32"/><stop offset=".36" stop-color="#8b5cf6" stop-opacity=".2"/><stop offset="1" stop-color="#020617" stop-opacity="0"/></radialGradient>
-    <linearGradient id="trail" x1="320" y1="870" x2="3060" y2="260" gradientUnits="userSpaceOnUse"><stop stop-color="#22d3ee" stop-opacity=".22"/><stop offset=".46" stop-color="#8b5cf6" stop-opacity=".72"/><stop offset="1" stop-color="#f8fafc" stop-opacity=".18"/></linearGradient>
-    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feDropShadow dx="0" dy="30" stdDeviation="34" flood-color="#000" flood-opacity=".52"/><feDropShadow dx="0" dy="0" stdDeviation="20" flood-color="#22d3ee" flood-opacity=".3"/></filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="3400" y2="1120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/><stop offset=".58" stop-color="#030712"/><stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="220" y1="230" x2="3180" y2="980" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC" stop-opacity=".1"/><stop offset=".55" stop-color="#0F172A" stop-opacity=".5"/><stop offset="1" stop-color="#020617" stop-opacity=".82"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="220" y1="230" x2="3180" y2="980" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9" stop-opacity=".68"/><stop offset=".48" stop-color="#8B5CF6" stop-opacity=".5"/><stop offset="1" stop-color="#2563EB" stop-opacity=".5"/>
+    </linearGradient>
     <style>
-      .display{font-family:"Clash Display","Satoshi","General Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:900;letter-spacing:0;fill:#f8fafc}
-      .body{font-family:"Satoshi","General Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
-      .mono{font-family:"General Sans","SFMono-Regular",Menlo,Consolas,monospace;font-weight:800;letter-spacing:8px;fill:#67e8f9}
-      @keyframes dash{to{stroke-dashoffset:-1000}}@keyframes pulse{0%,100%{opacity:.28}50%{opacity:.82}}.dash{animation:dash 11s linear infinite}.pulse{animation:pulse 5s ease-in-out infinite}@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+      .display{font-family:"Clash Display","General Sans","Satoshi",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:900;letter-spacing:0;fill:#F8FAFC}
+      .body{font-family:"General Sans","Satoshi",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:760;fill:#CBD5E1}
+      .mono{font-family:"General Sans","Satoshi","SFMono-Regular",Menlo,Consolas,monospace;font-weight:850;letter-spacing:9px;fill:#67E8F9}
+      .label{font-family:"General Sans","Satoshi",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-size:28px;font-weight:850;fill:#E2E8F0}
+      .small{font-family:"General Sans","Satoshi",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-size:24px;font-weight:760;fill:#94A3B8}
+      @keyframes trace{to{stroke-dashoffset:-900}}.trace{animation:trace 18s linear infinite}@media (prefers-reduced-motion:reduce){*{animation:none!important}}
     </style>
   </defs>
-  <rect width="3400" height="1200" fill="url(#bg)"/>
-  <ellipse cx="1660" cy="760" rx="1360" ry="420" fill="url(#analyticGlow)" opacity=".58"/>
-  <g opacity=".54"><circle cx="250" cy="210" r="4" fill="#fff"/><circle cx="540" cy="860" r="5" fill="#67e8f9"/><circle cx="3150" cy="230" r="4" fill="#fff"/><circle cx="2840" cy="900" r="6" fill="#a78bfa"/><path d="M2560 170L2900 64M390 1050L790 870" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".34"/></g>
-  <text x="130" y="128" class="mono" font-size="23">CONTRIBUTION UNIVERSE</text>
-  <text x="126" y="250" class="display" font-size="94">Signal layer for the 3D island.</text>
-  <text x="132" y="312" class="body" font-size="31" font-weight="700" fill="#b8c4d6">The island lives above; this layer visualizes activity shape and language distribution in the same cosmic system.</text>
-  <path d="M260 820C760 500 1160 960 1640 650C2150 315 2500 820 3140 520" fill="none" stroke="url(#trail)" stroke-width="5" stroke-dasharray="36 28" class="dash"/>
-  <g opacity=".24" stroke="#67e8f9" stroke-width="2"><path d="M360 430C800 330 1160 500 1510 420C1960 315 2290 410 2840 280"/><path d="M420 980C820 720 1150 1040 1560 830C1990 610 2380 930 3040 720"/></g>
-  <g transform="translate(930 750)" filter="url(#glow)">
-    <polygon points="0,-250 238,-77 147,202 -147,202 -238,-77" fill="none" stroke="#67e8f9" stroke-opacity=".22" stroke-width="4"/><polygon points="0,-188 178,-58 110,151 -110,151 -178,-58" fill="none" stroke="#67e8f9" stroke-opacity=".25" stroke-width="4"/><polygon points="0,-125 119,-39 73,101 -73,101 -119,-39" fill="none" stroke="#67e8f9" stroke-opacity=".28" stroke-width="4"/><polygon points="0,-63 60,-19 37,51 -37,51 -60,-19" fill="none" stroke="#67e8f9" stroke-opacity=".3" stroke-width="4"/>
-    <line x1="0" y1="0" x2="0" y2="-250" stroke="#94a3b8" stroke-opacity=".34"/><line x1="0" y1="0" x2="238" y2="-77" stroke="#94a3b8" stroke-opacity=".34"/><line x1="0" y1="0" x2="147" y2="202" stroke="#94a3b8" stroke-opacity=".34"/><line x1="0" y1="0" x2="-147" y2="202" stroke="#94a3b8" stroke-opacity=".34"/><line x1="0" y1="0" x2="-238" y2="-77" stroke="#94a3b8" stroke-opacity=".34"/>
-    <polygon points="0,-162 76,-25 48,66 -46,64 -132,-42" fill="#8b5cf6" fill-opacity=".36" stroke="#f8fafc" stroke-width="6"/><polygon class="pulse" points="0,-220 134,-43 88,121 -92,126 -190,-62" fill="none" stroke="#67e8f9" stroke-width="3" stroke-dasharray="16 18"/><circle cx="0" cy="-162" r="9" fill="#fff"/><circle cx="76" cy="-25" r="9" fill="#67e8f9"/><circle cx="48" cy="66" r="9" fill="#a78bfa"/><circle cx="-46" cy="64" r="9" fill="#67e8f9"/><circle cx="-132" cy="-42" r="9" fill="#fff"/>
-    <text x="0" y="-300" text-anchor="middle" class="body" font-size="30" font-weight="850" fill="#edf7ff">Commits</text><text x="304" y="-80" text-anchor="middle" class="body" font-size="30" font-weight="850" fill="#edf7ff">Issues</text><text x="190" y="260" text-anchor="middle" class="body" font-size="30" font-weight="850" fill="#edf7ff">Pulls</text><text x="-190" y="260" text-anchor="middle" class="body" font-size="30" font-weight="850" fill="#edf7ff">Reviews</text><text x="-304" y="-80" text-anchor="middle" class="body" font-size="30" font-weight="850" fill="#edf7ff">Repos</text>
+  <rect width="3400" height="1120" fill="url(#bg)"/>
+  <g opacity=".2" stroke="#334155"><path d="M0 280H3400M0 560H3400M0 840H3400M680 0V1120M1360 0V1120M2040 0V1120M2720 0V1120"/></g>
+  <text x="130" y="125" class="mono" font-size="22">CONTRIBUTION ANALYTICS</text>
+  <text x="126" y="245" class="display" font-size="88">Readable signal, not decoration.</text>
+  <text x="132" y="306" class="body" font-size="30">Sharp activity and language charts built as a premium engineering dashboard layer.</text>
+  <rect x="220" y="390" width="2960" height="600" rx="44" fill="url(#panel)" stroke="url(#edge)" stroke-width="2"/>
+  <path d="M320 710C760 530 1090 760 1500 620C1900 485 2300 695 3060 520" fill="none" stroke="#67E8F9" stroke-opacity=".26" stroke-width="3" stroke-dasharray="30 28" class="trace"/>
+  <g transform="translate(920 705)">
+    <polygon points="0,-230 219,-71 135,186 -135,186 -219,-71" fill="none" stroke="#334155" stroke-width="4"/>
+    <polygon points="0,-172 164,-53 101,139 -101,139 -164,-53" fill="none" stroke="#334155" stroke-width="3"/>
+    <polygon points="0,-115 109,-35 67,93 -67,93 -109,-35" fill="none" stroke="#334155" stroke-width="3"/>
+    <line x1="0" y1="0" x2="0" y2="-230" stroke="#475569" stroke-width="2"/><line x1="0" y1="0" x2="219" y2="-71" stroke="#475569" stroke-width="2"/><line x1="0" y1="0" x2="135" y2="186" stroke="#475569" stroke-width="2"/><line x1="0" y1="0" x2="-135" y2="186" stroke="#475569" stroke-width="2"/><line x1="0" y1="0" x2="-219" y2="-71" stroke="#475569" stroke-width="2"/>
+    <polygon points="0,-158 86,-28 54,75 -58,80 -126,-41" fill="#8B5CF6" fill-opacity=".34" stroke="#67E8F9" stroke-width="5"/>
+    <circle cx="0" cy="-158" r="9" fill="#F8FAFC"/><circle cx="86" cy="-28" r="9" fill="#67E8F9"/><circle cx="54" cy="75" r="9" fill="#8B5CF6"/><circle cx="-58" cy="80" r="9" fill="#67E8F9"/><circle cx="-126" cy="-41" r="9" fill="#F8FAFC"/>
+    <text x="0" y="-278" text-anchor="middle" class="label">Commits</text><text x="282" y="-68" text-anchor="middle" class="label">Issues</text><text x="178" y="242" text-anchor="middle" class="label">Pulls</text><text x="-178" y="242" text-anchor="middle" class="label">Reviews</text><text x="-282" y="-68" text-anchor="middle" class="label">Repos</text>
   </g>
-  <g transform="translate(2380 730)" filter="url(#glow)">
-    <circle r="298" fill="none" stroke="#67e8f9" stroke-opacity=".14" stroke-width="2" stroke-dasharray="10 18"/><circle r="250" fill="none" stroke="#111827" stroke-width="86"/><path d="M0 -250A250 250 0 0 1 226 108" fill="none" stroke="#67e8f9" stroke-width="86" stroke-linecap="round"/><path d="M226 108A250 250 0 0 1 -64 242" fill="none" stroke="#8b5cf6" stroke-width="86" stroke-linecap="round"/><path d="M-64 242A250 250 0 0 1 -210 -135" fill="none" stroke="#f59e0b" stroke-width="86" stroke-linecap="round"/><path d="M-210 -135A250 250 0 0 1 0 -250" fill="none" stroke="#38bdf8" stroke-width="86" stroke-linecap="round"/>
-    <circle r="126" fill="#07111f" stroke="#67e8f9" stroke-opacity=".32" stroke-width="3"/><text y="-8" text-anchor="middle" class="body" font-size="30" font-weight="850" fill="#edf7ff">Language</text><text y="34" text-anchor="middle" class="body" font-size="24" font-weight="700" fill="#b8c4d6">distribution</text>
-    <g transform="translate(390 -120)" text-anchor="start" class="body" font-size="26" font-weight="750" fill="#c0cad8"><circle cx="0" cy="0" r="12" fill="#67e8f9"/><text x="30" y="9">Java / Spring</text><circle cx="0" cy="64" r="12" fill="#8b5cf6"/><text x="30" y="73">Python / AI</text><circle cx="0" cy="128" r="12" fill="#f59e0b"/><text x="30" y="137">Dart / Flutter</text><circle cx="0" cy="192" r="12" fill="#38bdf8"/><text x="30" y="201">Web / Infra</text></g>
+  <g transform="translate(2290 698)">
+    <circle r="226" fill="none" stroke="#111827" stroke-width="70"/>
+    <path d="M0 -226A226 226 0 0 1 216 68" fill="none" stroke="#67E8F9" stroke-width="70" stroke-linecap="round"/>
+    <path d="M216 68A226 226 0 0 1 28 224" fill="none" stroke="#8B5CF6" stroke-width="70" stroke-linecap="round"/>
+    <path d="M28 224A226 226 0 0 1 -203 -99" fill="none" stroke="#F59E0B" stroke-width="70" stroke-linecap="round"/>
+    <path d="M-203 -99A226 226 0 0 1 0 -226" fill="none" stroke="#38BDF8" stroke-width="70" stroke-linecap="round"/>
+    <circle r="118" fill="#020617" stroke="#334155" stroke-width="3"/>
+    <text y="-8" text-anchor="middle" class="label">Language</text><text y="32" text-anchor="middle" class="small">distribution</text>
+    <g transform="translate(370 -120)" class="label" text-anchor="start">
+      <circle cx="0" cy="0" r="12" fill="#67E8F9"/><text x="34" y="10">Java / Spring</text>
+      <circle cx="0" cy="66" r="12" fill="#8B5CF6"/><text x="34" y="76">Python / AI</text>
+      <circle cx="0" cy="132" r="12" fill="#F59E0B"/><text x="34" y="142">Dart / Flutter</text>
+      <circle cx="0" cy="198" r="12" fill="#38BDF8"/><text x="34" y="208">Web / Infra</text>
+    </g>
   </g>
 </svg>

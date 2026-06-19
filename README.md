@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Sharveesh M - AI Systems Engineer"/>
+<img src="assets/banner.svg" width="100%" alt="Sharveesh M - maximal 3D AI systems hero with orbital geometry, particles, stars and depth"/>
 
 <br/>
 
@@ -12,15 +12,23 @@
 
 <br/><br/>
 
-<img src="output/profile-3d-contrib.svg" width="100%" alt="GitHub Signal with 3D contribution island, radar chart, language distribution, contribution count, blue cubes, and neon waves"/>
+<img src="assets/featured-systems.svg" width="100%" alt="Project Constellation with separate purple HELIOS world, gold MIDAS world, and blue whole_app world"/>
 
 <br/><br/>
 
-<img src="assets/featured-systems.svg" width="100%" alt="Cinematic project worlds for HELIOS, MIDAS and whole_app"/>
+<img src="assets/icon-constellation.svg" width="100%" alt="Expanded technology constellation with AI, knowledge, backend, frontend and infrastructure icons orbiting HELIOS"/>
 
 <br/><br/>
 
-<img src="assets/icon-constellation.svg" width="100%" alt="Technology icon constellation for AI systems, backend and product engineering"/>
+<img src="assets/neural-galaxy.svg" width="100%" alt="Neural Galaxy with floating stars, shooting stars, particles, parallax layers, orbit trails and depth"/>
+
+<br/><br/>
+
+<img src="output/profile-3d-contrib.svg" width="100%" alt="3D GitHub contribution island"/>
+
+<br/>
+
+<img src="assets/contribution-analytics.svg" width="100%" alt="Contribution analytics section with improved radar and donut charts"/>
 
 <br/><br/>
 

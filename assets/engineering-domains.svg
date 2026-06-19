@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="420" viewBox="0 0 2400 420" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering Domains</title>
+  <desc id="desc">Floating engineering domain pills.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="0%" r="100%">
+      <stop stop-color="#101a35"/>
+      <stop offset=".6" stop-color="#070b1d"/>
+      <stop offset="1" stop-color="#050816"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
+      <feDropShadow dx="0" dy="14" stdDeviation="22" flood-color="#000000" flood-opacity=".36"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="9" flood-color="#22d3ee" flood-opacity=".16"/>
+    </filter>
+    <style>
+      .mono{font:700 20px "IBM Plex Mono","Geist Mono",ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:5px;fill:#22d3ee}
+      .h{font:760 54px Geist,Satoshi,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#f8fafc}
+      .pill{font:690 24px Geist,Satoshi,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#dbeafe}
+    </style>
+  </defs>
+  <rect width="2400" height="420" rx="34" fill="url(#bg)"/>
+  <rect x="1" y="1" width="2398" height="418" rx="34" fill="none" stroke="#1f2a44" stroke-opacity=".72"/>
+  <text x="130" y="92" class="mono">ENGINEERING DOMAINS</text>
+  <text x="130" y="166" class="h">What the system keeps orbiting.</text>
+  <g transform="translate(130 230)" filter="url(#glow)">
+    <g><rect width="180" height="58" rx="29" fill="#0a1024" stroke="#22d3ee" stroke-opacity=".4"/><text x="90" y="37" text-anchor="middle" class="pill">AI Systems</text></g>
+    <g transform="translate(210)"><rect width="248" height="58" rx="29" fill="#0a1024" stroke="#8b5cf6" stroke-opacity=".4"/><text x="124" y="37" text-anchor="middle" class="pill">LLM Applications</text></g>
+    <g transform="translate(488)"><rect width="314" height="58" rx="29" fill="#0a1024" stroke="#22d3ee" stroke-opacity=".4"/><text x="157" y="37" text-anchor="middle" class="pill">Backend Infrastructure</text></g>
+    <g transform="translate(832)"><rect width="270" height="58" rx="29" fill="#0a1024" stroke="#8b5cf6" stroke-opacity=".4"/><text x="135" y="37" text-anchor="middle" class="pill">Distributed Systems</text></g>
+    <g transform="translate(1132)"><rect width="318" height="58" rx="29" fill="#0a1024" stroke="#22d3ee" stroke-opacity=".4"/><text x="159" y="37" text-anchor="middle" class="pill">Inference Infrastructure</text></g>
+    <g transform="translate(1480)"><rect width="292" height="58" rx="29" fill="#0a1024" stroke="#8b5cf6" stroke-opacity=".4"/><text x="146" y="37" text-anchor="middle" class="pill">Context Engineering</text></g>
+  </g>
+  <g transform="translate(392 318)" filter="url(#glow)">
+    <g><rect width="288" height="58" rx="29" fill="#0a1024" stroke="#22d3ee" stroke-opacity=".4"/><text x="144" y="37" text-anchor="middle" class="pill">Multi-Agent Systems</text></g>
+    <g transform="translate(318)"><rect width="304" height="58" rx="29" fill="#0a1024" stroke="#8b5cf6" stroke-opacity=".4"/><text x="152" y="37" text-anchor="middle" class="pill">Event Driven Systems</text></g>
+    <g transform="translate(652)"><rect width="260" height="58" rx="29" fill="#0a1024" stroke="#22d3ee" stroke-opacity=".4"/><text x="130" y="37" text-anchor="middle" class="pill">Scalable Platforms</text></g>
+  </g>
+</svg>

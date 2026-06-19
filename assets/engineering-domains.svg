@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="330" viewBox="0 0 2400 330" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering Domains</title>
+  <desc id="desc">Glowing pills for engineering domains.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#070B14"/>
+    </radialGradient>
+    <linearGradient id="edge" x1="160" y1="80" x2="2240" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity=".58"/>
+      <stop offset=".55" stop-color="#8B5CF6" stop-opacity=".68"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity=".34"/>
+    </linearGradient>
+    <filter id="glow" x="-25%" y="-60%" width="150%" height="220%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#22D3EE" flood-opacity=".2"/>
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity=".42"/>
+    </filter>
+    <style>
+      .pill{fill:#0B1020;fill-opacity:.86;stroke:url(#edge);stroke-width:2;filter:url(#glow)}
+      .txt{font:700 25px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#DDE7F3}
+    </style>
+  </defs>
+  <rect width="2400" height="330" rx="34" fill="url(#bg)"/>
+  <rect x="70" y="50" width="2260" height="230" rx="32" fill="#0B1020" fill-opacity=".58" stroke="url(#edge)" stroke-width="3"/>
+  <g text-anchor="middle">
+    <rect class="pill" x="170" y="90" width="250" height="58" rx="29"/><text class="txt" x="295" y="127">AI Systems</text>
+    <rect class="pill" x="455" y="90" width="310" height="58" rx="29"/><text class="txt" x="610" y="127">LLM Applications</text>
+    <rect class="pill" x="800" y="90" width="370" height="58" rx="29"/><text class="txt" x="985" y="127">Backend Infrastructure</text>
+    <rect class="pill" x="1205" y="90" width="320" height="58" rx="29"/><text class="txt" x="1365" y="127">Distributed Systems</text>
+    <rect class="pill" x="1560" y="90" width="380" height="58" rx="29"/><text class="txt" x="1750" y="127">Inference Infrastructure</text>
+    <rect class="pill" x="1975" y="90" width="300" height="58" rx="29"/><text class="txt" x="2125" y="127">Context Engineering</text>
+    <rect class="pill" x="425" y="182" width="330" height="58" rx="29"/><text class="txt" x="590" y="219">Multi-Agent Systems</text>
+    <rect class="pill" x="800" y="182" width="360" height="58" rx="29"/><text class="txt" x="980" y="219">Event Driven Systems</text>
+    <rect class="pill" x="1205" y="182" width="310" height="58" rx="29"/><text class="txt" x="1360" y="219">Scalable Platforms</text>
+  </g>
+</svg>

@@ -1,41 +1,131 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="900" viewBox="0 0 2400 900" role="img" aria-labelledby="title desc">
-  <title id="title">GitHub Signal Dashboard</title>
-  <desc id="desc">A single premium dashboard for stats, contribution signal, and activity graph.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="520" viewBox="0 0 2400 520" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Signal</title>
+  <desc id="desc">Premium GitHub analytics dashboard with 3D contribution field, radar metrics, language donut, contribution count, and blue 3D cubes.</desc>
   <defs>
-    <radialGradient id="bg" cx="50%" cy="45%" r="76%"><stop offset="0%" stop-color="#151026"/><stop offset="60%" stop-color="#0D1117"/><stop offset="100%" stop-color="#05070B"/></radialGradient>
-    <linearGradient id="edge" x1="120" y1="120" x2="2280" y2="770" gradientUnits="userSpaceOnUse"><stop stop-color="#8B5CF6" stop-opacity=".16"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".72"/><stop offset="1" stop-color="#8B5CF6" stop-opacity=".2"/></linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F8FAFC" stop-opacity=".11"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".035"/><stop offset="1" stop-color="#8B5CF6" stop-opacity=".12"/></linearGradient>
-    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <filter id="depth" x="-25%" y="-40%" width="150%" height="180%"><feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000" flood-opacity=".58"/><feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#22D3EE" flood-opacity=".2"/></filter>
+    <radialGradient id="bg" cx="50%" cy="44%" r="78%">
+      <stop offset="0%" stop-color="#11162A"/>
+      <stop offset="58%" stop-color="#0B1020"/>
+      <stop offset="100%" stop-color="#070B14"/>
+    </radialGradient>
+    <linearGradient id="cardStroke" x1="100" y1="58" x2="2300" y2="455" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity=".66"/>
+      <stop offset=".52" stop-color="#8B5CF6" stop-opacity=".64"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity=".30"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#101827" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#0A1020" stop-opacity=".88"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#22D3EE"/>
+      <stop offset=".52" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <filter id="glow" x="-25%" y="-40%" width="150%" height="180%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000000" flood-opacity=".52"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="9" flood-color="#22D3EE" flood-opacity=".16"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-50%" width="160%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="7" flood-color="#22D3EE" flood-opacity=".34"/>
+    </filter>
+    <style>
+      .title{font:800 44px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#F8FAFC}
+      .sub{font:700 19px "SFMono-Regular","Cascadia Code","Courier New",monospace;fill:#22D3EE}
+      .label{font:750 18px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#D8DEE9}
+      .small{font:650 15px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#92A6BE}
+      .num{font:850 31px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#F8FAFC}
+    </style>
   </defs>
-  <rect width="2400" height="900" fill="url(#bg)"/>
-  <rect x="90" y="88" width="2220" height="724" rx="34" fill="#111827" fill-opacity=".42" stroke="url(#edge)" stroke-width="3" filter="url(#depth)"/>
-  <text x="1200" y="178" text-anchor="middle" font-family="Arial Black,Impact,Arial,sans-serif" font-size="76" fill="#F8FAFC">GITHUB SIGNAL</text>
-  <text x="1200" y="234" text-anchor="middle" font-family="Courier New,monospace" font-size="24" font-weight="700" fill="#22D3EE" letter-spacing="6">STATS / CONTRIBUTION FIELD / ACTIVITY GRAPH</text>
-  <g filter="url(#depth)">
-    <rect x="150" y="310" width="560" height="410" rx="26" fill="url(#panel)" stroke="#22D3EE" stroke-opacity=".28" stroke-width="2"/>
-    <rect x="780" y="310" width="760" height="410" rx="26" fill="url(#panel)" stroke="#8B5CF6" stroke-opacity=".3" stroke-width="2"/>
-    <rect x="1610" y="310" width="640" height="410" rx="26" fill="url(#panel)" stroke="#22D3EE" stroke-opacity=".28" stroke-width="2"/>
+
+  <rect width="2400" height="520" rx="34" fill="url(#bg)"/>
+  <rect x="2" y="2" width="2396" height="516" rx="34" fill="none" stroke="#263244" stroke-width="3"/>
+  <rect x="70" y="50" width="2260" height="408" rx="32" fill="#0B1020" fill-opacity=".78" stroke="url(#cardStroke)" stroke-width="3" filter="url(#glow)"/>
+
+  <text x="1200" y="100" text-anchor="middle" class="title">GitHub Signal</text>
+  <text x="1200" y="132" text-anchor="middle" class="sub">Contribution Field • Activity Metrics • 3D Analytics</text>
+
+  <g filter="url(#glow)">
+    <rect x="130" y="166" width="430" height="220" rx="22" fill="url(#panel)" stroke="#22D3EE" stroke-opacity=".34" stroke-width="2"/>
+    <rect x="615" y="166" width="1040" height="220" rx="22" fill="url(#panel)" stroke="#8B5CF6" stroke-opacity=".34" stroke-width="2"/>
+    <rect x="1710" y="166" width="560" height="220" rx="22" fill="url(#panel)" stroke="#22D3EE" stroke-opacity=".34" stroke-width="2"/>
   </g>
-  <g font-family="Arial Black,Impact,Arial,sans-serif" fill="#F8FAFC">
-    <text x="210" y="378" font-size="38">Stats</text>
-    <text x="840" y="378" font-size="38">Activity Graph</text>
-    <text x="1670" y="378" font-size="38">Contribution Field</text>
+
+  <g transform="translate(155 190)">
+    <text x="0" y="0" class="label">Activity Metrics</text>
+    <g transform="translate(202 104) scale(.8)" fill="none" stroke-linejoin="round">
+      <polygon points="0,-98 93,-30 58,79 -58,79 -93,-30" stroke="#334155" stroke-width="2"/>
+      <polygon points="0,-68 65,-21 40,55 -40,55 -65,-21" stroke="#334155" stroke-width="1.5"/>
+      <polygon points="0,-35 33,-11 20,28 -20,28 -33,-11" stroke="#334155" stroke-width="1.5"/>
+      <polygon points="0,-82 74,-24 48,66 -49,67 -78,-25" fill="#22D3EE" fill-opacity=".16" stroke="#22D3EE" stroke-width="4" filter="url(#soft)"/>
+      <circle cx="0" cy="-82" r="6" fill="#22D3EE"/>
+      <circle cx="74" cy="-24" r="6" fill="#8B5CF6"/>
+      <circle cx="48" cy="66" r="6" fill="#22D3EE"/>
+      <circle cx="-49" cy="67" r="6" fill="#8B5CF6"/>
+      <circle cx="-78" cy="-25" r="6" fill="#22D3EE"/>
+    </g>
+    <text x="202" y="28" text-anchor="middle" class="small">Commit</text>
+    <text x="316" y="92" text-anchor="middle" class="small">Issue</text>
+    <text x="270" y="192" text-anchor="middle" class="small">PullReq</text>
+    <text x="132" y="192" text-anchor="middle" class="small">Review</text>
+    <text x="88" y="92" text-anchor="middle" class="small">Repo</text>
   </g>
-  <g font-family="Courier New,monospace" font-size="25" font-weight="700" fill="#F8FAFC" fill-opacity=".78">
-    <text x="210" y="458">repositories: focused</text>
-    <text x="210" y="520">runtime: active</text>
-    <text x="210" y="582">systems: AI / backend</text>
-    <text x="210" y="644">signal: shipping</text>
+
+  <g transform="translate(690 186)">
+    <text x="445" y="0" text-anchor="middle" class="label">3D Contribution Field</text>
+    <g transform="translate(76 38) scale(.9)">
+      <path d="M78 194L392 60L832 194L520 292Z" fill="#081424" stroke="#22D3EE" stroke-opacity=".56" stroke-width="3"/>
+      <path d="M392 60L392 0L832 132L832 194Z" fill="#10223B" stroke="#2DD4FF" stroke-opacity=".42" stroke-width="2"/>
+      <path d="M78 194L78 132L392 0L392 60Z" fill="#0D1B30" stroke="#8B5CF6" stroke-opacity=".36" stroke-width="2"/>
+      <path d="M78 132L392 0L832 132L520 228Z" fill="#0B1728" stroke="#22D3EE" stroke-opacity=".18" stroke-width="2"/>
+      <g fill="#22D3EE" opacity=".9" filter="url(#soft)">
+        <rect x="154" y="126" width="24" height="24" rx="5"/>
+        <rect x="240" y="92" width="24" height="24" rx="5"/>
+        <rect x="334" y="57" width="24" height="24" rx="5"/>
+        <rect x="438" y="72" width="24" height="24" rx="5"/>
+        <rect x="536" y="102" width="24" height="24" rx="5"/>
+        <rect x="628" y="128" width="24" height="24" rx="5"/>
+        <rect x="716" y="154" width="24" height="24" rx="5"/>
+      </g>
+      <g fill="#8B5CF6" opacity=".85">
+        <rect x="286" y="154" width="24" height="24" rx="5"/>
+        <rect x="396" y="188" width="24" height="24" rx="5"/>
+        <rect x="502" y="218" width="24" height="24" rx="5"/>
+      </g>
+      <path d="M120 174L432 72M208 204L520 102M300 234L612 132M392 264L704 162" stroke="#22D3EE" stroke-opacity=".12" stroke-width="2"/>
+      <path d="M210 132L646 262M304 94L740 224M402 62L838 192" stroke="#8B5CF6" stroke-opacity=".10" stroke-width="2"/>
+    </g>
+    <text x="445" y="268" text-anchor="middle" class="small">Contribution count</text>
+    <text x="445" y="308" text-anchor="middle" class="num">126</text>
   </g>
-  <g filter="url(#glow)" fill="none" stroke-linecap="round">
-    <path d="M860 610L980 548L1100 580L1220 468L1340 508L1460 430" stroke="#22D3EE" stroke-width="7"/>
-    <path d="M860 654L980 622L1100 638L1220 586L1340 602L1460 552" stroke="#8B5CF6" stroke-opacity=".56" stroke-width="5"/>
+
+  <g transform="translate(1740 190)">
+    <text x="0" y="0" class="label">Language Distribution</text>
+    <g transform="translate(168 100)" fill="none" stroke-width="24">
+      <circle r="68" stroke="#1E293B"/>
+      <path d="M0 -68A68 68 0 0 1 65 21" stroke="#22D3EE"/>
+      <path d="M65 21A68 68 0 0 1 -20 65" stroke="#8B5CF6"/>
+      <path d="M-20 65A68 68 0 0 1 -68 0" stroke="#38BDF8"/>
+      <path d="M-68 0A68 68 0 0 1 0 -68" stroke="#A78BFA"/>
+      <circle r="38" fill="#0B1020"/>
+    </g>
+    <g transform="translate(300 54)">
+      <text x="0" y="0" class="small">Python</text>
+      <text x="0" y="34" class="small">Java</text>
+      <text x="0" y="68" class="small">Dart</text>
+      <text x="0" y="102" class="small">TypeScript</text>
+    </g>
+    <g transform="translate(98 178) scale(.82)" filter="url(#soft)">
+      <path d="M0 34L34 16L68 34L34 52Z" fill="#22D3EE"/>
+      <path d="M0 34V72L34 92V52Z" fill="#0891B2"/>
+      <path d="M68 34V72L34 92V52Z" fill="#38BDF8"/>
+      <path d="M92 20L126 2L160 20L126 38Z" fill="#8B5CF6"/>
+      <path d="M92 20V58L126 78V38Z" fill="#6D28D9"/>
+      <path d="M160 20V58L126 78V38Z" fill="#A78BFA"/>
+      <path d="M184 48L218 30L252 48L218 66Z" fill="#22D3EE"/>
+      <path d="M184 48V86L218 106V66Z" fill="#0891B2"/>
+      <path d="M252 48V86L218 106V66Z" fill="#38BDF8"/>
+    </g>
   </g>
-  <g fill="#22D3EE" filter="url(#glow)"><circle cx="980" cy="548" r="12"/><circle cx="1220" cy="468" r="12"/><circle cx="1460" cy="430" r="12"/></g>
-  <g transform="translate(1680 452)" filter="url(#glow)" fill="none" stroke-linecap="round">
-    <path d="M0 128L120 70L246 106L392 24" stroke="#22D3EE" stroke-width="6"/>
-    <path d="M0 190L120 162L246 174L392 138" stroke="#8B5CF6" stroke-width="5" stroke-opacity=".62"/>
-    <circle cx="120" cy="70" r="12" fill="#22D3EE"/><circle cx="246" cy="106" r="12" fill="#F8FAFC"/><circle cx="392" cy="24" r="12" fill="#8B5CF6"/>
-  </g>
+
+  <path d="M120 470C360 498 560 444 800 470C1040 496 1260 496 1500 470C1740 444 1980 498 2280 470" fill="none" stroke="url(#wave)" stroke-width="7" stroke-linecap="round" opacity=".78"/>
 </svg>

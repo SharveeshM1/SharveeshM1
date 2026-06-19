@@ -1,91 +1,101 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="720" viewBox="0 0 2400 720" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1180" viewBox="0 0 2400 1180" role="img" aria-labelledby="title desc">
   <title id="title">Featured Systems</title>
-  <desc id="desc">Premium glowing cards for HELIOS, MIDAS, and whole_app.</desc>
+  <desc id="desc">A cinematic field of three product worlds: HELIOS, MIDAS, and whole_app.</desc>
   <defs>
-    <radialGradient id="bg" cx="50%" cy="0%" r="100%">
-      <stop stop-color="#101a35"/>
-      <stop offset=".58" stop-color="#070b1d"/>
+    <radialGradient id="bg" cx="50%" cy="46%" r="82%">
+      <stop offset="0" stop-color="#101a35"/>
+      <stop offset=".5" stop-color="#070b1d"/>
       <stop offset="1" stop-color="#050816"/>
     </radialGradient>
-    <linearGradient id="edge" x1="120" y1="180" x2="2280" y2="610" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22d3ee" stop-opacity=".42"/>
-      <stop offset=".5" stop-color="#8b5cf6" stop-opacity=".46"/>
-      <stop offset="1" stop-color="#38bdf8" stop-opacity=".22"/>
+    <radialGradient id="cyan" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#67e8f9" stop-opacity=".86"/>
+      <stop offset=".42" stop-color="#22d3ee" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violet" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#c4b5fd" stop-opacity=".78"/>
+      <stop offset=".45" stop-color="#8b5cf6" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="holo" x1="260" y1="960" x2="2130" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee" stop-opacity=".08"/>
+      <stop offset=".45" stop-color="#22d3ee" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity=".18"/>
     </linearGradient>
-    <linearGradient id="orb" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#22d3ee" stop-opacity=".8"/>
-      <stop offset="1" stop-color="#8b5cf6" stop-opacity=".58"/>
-    </linearGradient>
-    <filter id="soft" x="-20%" y="-45%" width="140%" height="190%">
-      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000000" flood-opacity=".38"/>
-      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#22d3ee" flood-opacity=".12"/>
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 .13 0 0 0 0 .83 0 0 0 0 .93 0 0 0 .55 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="depth" x="-35%" y="-35%" width="170%" height="170%">
+      <feDropShadow dx="0" dy="44" stdDeviation="36" flood-color="#000" flood-opacity=".48"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="20" flood-color="#22d3ee" flood-opacity=".18"/>
     </filter>
     <style>
-      .kicker{font:700 20px "IBM Plex Mono","Geist Mono",ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:6px;fill:#22d3ee}
-      .h1{font:760 58px Geist,Satoshi,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#f8fafc}
-      .sub{font:560 26px Geist,Satoshi,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#aebbcc}
-      .name{font:780 46px Geist,Satoshi,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#f8fafc}
-      .role{font:680 25px Geist,Satoshi,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#22d3ee}
-      .desc{font:560 23px Geist,Satoshi,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#aebbcc}
-      .chip{font:660 19px Geist,Satoshi,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#dbeafe}
-      .url{font:650 19px "IBM Plex Mono","Geist Mono",ui-monospace,SFMono-Regular,Menlo,monospace;fill:#7f8ea3}
+      .mono{font:700 20px "IBM Plex Mono","Geist Mono",ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:6px;fill:#22d3ee}
+      .title{font:800 86px Geist,Satoshi,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#f8fafc}
+      .copy{font:560 31px Geist,Satoshi,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#aebbcc}
+      .name{font:800 42px Geist,Satoshi,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#f8fafc}
+      .role{font:650 24px Geist,Satoshi,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#b7c7db}
+      .chip{font:700 19px "IBM Plex Mono","Geist Mono",ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:2px;fill:#dbeafe}
+      @keyframes drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-18px)}}
+      @keyframes dash{to{stroke-dashoffset:-600}}
+      .float{animation:drift 8s ease-in-out infinite}
+      .orbit{animation:dash 13s linear infinite}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}}
     </style>
   </defs>
-  <rect width="2400" height="720" rx="34" fill="url(#bg)"/>
-  <rect x="1" y="1" width="2398" height="718" rx="34" fill="none" stroke="#1f2a44" stroke-opacity=".72"/>
-  <text x="130" y="92" class="kicker">FEATURED SYSTEMS</text>
-  <text x="130" y="168" class="h1">Three systems, no filler.</text>
-  <text x="130" y="218" class="sub">Focused builds across agent infrastructure, fintech backends and cross-platform commerce.</text>
+  <rect width="2400" height="1180" rx="34" fill="url(#bg)"/>
+  <rect x="1" y="1" width="2398" height="1178" rx="34" fill="none" stroke="#1f2a44" stroke-opacity=".72"/>
+  <g opacity=".7">
+    <circle cx="312" cy="246" r="3" fill="#22d3ee"/><circle cx="536" cy="176" r="2.5" fill="#8b5cf6"/>
+    <circle cx="1960" cy="218" r="3" fill="#f8fafc"/><circle cx="2180" cy="394" r="2.5" fill="#22d3ee"/>
+    <circle cx="420" cy="1012" r="2.5" fill="#f8fafc"/><circle cx="2008" cy="932" r="3" fill="#8b5cf6"/>
+    <path d="M312 246L536 176M1960 218L2180 394M420 1012L650 930" stroke="#22d3ee" stroke-opacity=".18"/>
+  </g>
+  <path d="M170 930C520 760 770 902 1084 710C1420 506 1716 368 2230 462" fill="none" stroke="url(#holo)" stroke-width="2" stroke-dasharray="16 24" class="orbit"/>
+  <path d="M206 742C592 486 928 610 1190 442C1468 264 1810 250 2210 310" fill="none" stroke="#8b5cf6" stroke-opacity=".22" stroke-width="1.5" stroke-dasharray="10 28" class="orbit"/>
+  <text x="130" y="112" class="mono">FEATURED SYSTEMS</text>
+  <text x="130" y="220" class="title">Three product worlds.</text>
+  <text x="130" y="280" class="copy">Less dashboard. More artifact. Each system gets a world, an orbit, and a reason to exist.</text>
 
-  <g transform="translate(130 292)" filter="url(#soft)">
-    <rect width="680" height="310" rx="30" fill="#0a1024" fill-opacity=".86" stroke="url(#edge)" stroke-width="1.5"/>
-    <g transform="translate(506 42)">
-      <path d="M58 0L116 34V102L58 136L0 102V34Z" fill="#10172a" stroke="url(#orb)" stroke-width="2"/>
-      <path d="M58 28L92 48V88L58 108L24 88V48Z" fill="none" stroke="#22d3ee" stroke-opacity=".5" stroke-width="2"/>
-    </g>
-    <text x="42" y="70" class="name">HELIOS</text>
-    <text x="42" y="114" class="role">Multi-Agent AI Platform</text>
-    <text x="42" y="164" class="desc">Context engineering, multi-provider inference</text>
-    <text x="42" y="202" class="desc">and LangGraph orchestration.</text>
-    <g transform="translate(42 234)">
-      <rect width="190" height="42" rx="21" fill="#081223" stroke="#22d3ee" stroke-opacity=".32"/><text x="95" y="27" text-anchor="middle" class="chip">Context</text>
-      <rect x="212" width="194" height="42" rx="21" fill="#081223" stroke="#8b5cf6" stroke-opacity=".34"/><text x="309" y="27" text-anchor="middle" class="chip">Inference</text>
-      <rect x="428" width="170" height="42" rx="21" fill="#081223" stroke="#22d3ee" stroke-opacity=".32"/><text x="513" y="27" text-anchor="middle" class="chip">LangGraph</text>
+  <g class="float" transform="translate(234 410)" filter="url(#depth)">
+    <circle cx="315" cy="250" r="250" fill="url(#cyan)"/>
+    <ellipse cx="315" cy="250" rx="315" ry="96" fill="none" stroke="#22d3ee" stroke-opacity=".5" stroke-width="2" stroke-dasharray="18 20"/>
+    <path d="M315 44L496 148V356L315 460L134 356V148Z" fill="#0a1024" fill-opacity=".78" stroke="#22d3ee" stroke-opacity=".48" stroke-width="2"/>
+    <path d="M315 120L430 186V318L315 384L200 318V186Z" fill="#10172a" fill-opacity=".72" stroke="#8b5cf6" stroke-opacity=".36" stroke-width="2"/>
+    <path d="M254 246L306 194L382 214L430 166M306 194L334 282L416 314M334 282L260 344L334 382" fill="none" stroke="#67e8f9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="0" y="560" class="name">HELIOS</text>
+    <text x="0" y="604" class="role">Multi-agent AI platform</text>
+    <g transform="translate(0 636)">
+      <text class="chip">CONTEXT ENGINEERING  /  MULTI-PROVIDER INFERENCE  /  LANGGRAPH</text>
     </g>
   </g>
 
-  <g transform="translate(860 292)" filter="url(#soft)">
-    <rect width="680" height="310" rx="30" fill="#0a1024" fill-opacity=".86" stroke="url(#edge)" stroke-width="1.5"/>
-    <g transform="translate(506 42)">
-      <path d="M58 0L116 34V102L58 136L0 102V34Z" fill="#10172a" stroke="url(#orb)" stroke-width="2"/>
-      <path d="M20 92H96M34 68H82M48 44H68" stroke="#a78bfa" stroke-width="7" stroke-linecap="round"/>
-    </g>
-    <text x="42" y="70" class="name">MIDAS</text>
-    <text x="42" y="114" class="role">AI Fintech Platform</text>
-    <text x="42" y="164" class="desc">Spring Boot services with PostgreSQL data</text>
-    <text x="42" y="202" class="desc">and Flutter product flows.</text>
-    <g transform="translate(42 234)">
-      <rect width="188" height="42" rx="21" fill="#081223" stroke="#22d3ee" stroke-opacity=".32"/><text x="94" y="27" text-anchor="middle" class="chip">Spring Boot</text>
-      <rect x="210" width="182" height="42" rx="21" fill="#081223" stroke="#8b5cf6" stroke-opacity=".34"/><text x="301" y="27" text-anchor="middle" class="chip">PostgreSQL</text>
-      <rect x="414" width="150" height="42" rx="21" fill="#081223" stroke="#22d3ee" stroke-opacity=".32"/><text x="489" y="27" text-anchor="middle" class="chip">Flutter</text>
+  <g class="float" transform="translate(926 356)" filter="url(#depth)" style="animation-delay:-2s">
+    <circle cx="286" cy="286" r="252" fill="url(#violet)"/>
+    <ellipse cx="286" cy="286" rx="300" ry="104" fill="none" stroke="#8b5cf6" stroke-opacity=".48" stroke-width="2" stroke-dasharray="14 22" transform="rotate(-14 286 286)"/>
+    <path d="M286 68L472 178V392L286 502L100 392V178Z" fill="#0a1024" fill-opacity=".78" stroke="#8b5cf6" stroke-opacity=".52" stroke-width="2"/>
+    <path d="M188 358H384M216 294H356M246 230H326M276 166H296" stroke="#c4b5fd" stroke-width="16" stroke-linecap="round"/>
+    <path d="M156 418C244 454 338 454 428 418" fill="none" stroke="#22d3ee" stroke-opacity=".5" stroke-width="4" stroke-linecap="round"/>
+    <text x="-14" y="606" class="name">MIDAS</text>
+    <text x="-14" y="650" class="role">AI fintech platform</text>
+    <g transform="translate(-14 682)">
+      <text class="chip">SPRING BOOT  /  POSTGRESQL  /  FLUTTER</text>
     </g>
   </g>
 
-  <g transform="translate(1590 292)" filter="url(#soft)">
-    <rect width="680" height="310" rx="30" fill="#0a1024" fill-opacity=".86" stroke="url(#edge)" stroke-width="1.5"/>
-    <g transform="translate(506 42)">
-      <path d="M58 0L116 34V102L58 136L0 102V34Z" fill="#10172a" stroke="url(#orb)" stroke-width="2"/>
-      <path d="M34 46H82V94H34Z" fill="none" stroke="#22d3ee" stroke-width="5"/>
-      <path d="M46 34H94V82" fill="none" stroke="#8b5cf6" stroke-width="5"/>
-    </g>
-    <text x="42" y="70" class="name">whole_app</text>
-    <text x="42" y="114" class="role">Cross-platform Commerce Platform</text>
-    <text x="42" y="164" class="desc">Flutter, Firebase and realtime product</text>
-    <text x="42" y="202" class="desc">operations for a commerce surface.</text>
-    <g transform="translate(42 234)">
-      <rect width="150" height="42" rx="21" fill="#081223" stroke="#22d3ee" stroke-opacity=".32"/><text x="75" y="27" text-anchor="middle" class="chip">Flutter</text>
-      <rect x="172" width="162" height="42" rx="21" fill="#081223" stroke="#8b5cf6" stroke-opacity=".34"/><text x="253" y="27" text-anchor="middle" class="chip">Firebase</text>
-      <rect x="356" width="176" height="42" rx="21" fill="#081223" stroke="#22d3ee" stroke-opacity=".32"/><text x="444" y="27" text-anchor="middle" class="chip">Realtime</text>
+  <g class="float" transform="translate(1570 444)" filter="url(#depth)" style="animation-delay:-4s">
+    <circle cx="286" cy="228" r="232" fill="url(#cyan)"/>
+    <ellipse cx="286" cy="228" rx="286" ry="94" fill="none" stroke="#22d3ee" stroke-opacity=".44" stroke-width="2" stroke-dasharray="12 18" transform="rotate(18 286 228)"/>
+    <path d="M286 42L454 140V334L286 432L118 334V140Z" fill="#0a1024" fill-opacity=".78" stroke="#22d3ee" stroke-opacity=".46" stroke-width="2"/>
+    <path d="M206 178H324V296H206Z" fill="none" stroke="#67e8f9" stroke-width="10"/>
+    <path d="M252 132H370V250" fill="none" stroke="#a78bfa" stroke-width="10" stroke-linecap="round"/>
+    <path d="M188 340H384" stroke="#22d3ee" stroke-opacity=".5" stroke-width="5" stroke-linecap="round"/>
+    <text x="-6" y="538" class="name">whole_app</text>
+    <text x="-6" y="582" class="role">Cross-platform commerce platform</text>
+    <g transform="translate(-6 614)">
+      <text class="chip">FLUTTER  /  FIREBASE  /  REALTIME PRODUCTS</text>
     </g>
   </g>
 </svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="620" viewBox="0 0 2400 620" role="img" aria-labelledby="title desc">
+  <title id="title">Profile Overview</title>
+  <desc id="desc">Current focus and engineering domains for Sharveesh M.</desc>
+  <defs>
+    <radialGradient id="bg" cx="52%" cy="18%" r="88%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="54%" stop-color="#0B0F17"/>
+      <stop offset="100%" stop-color="#05070B"/>
+    </radialGradient>
+    <linearGradient id="line" x1="130" y1="0" x2="2270" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset=".18" stop-color="#22D3EE" stop-opacity=".5"/>
+      <stop offset=".5" stop-color="#8B5CF6" stop-opacity=".72"/>
+      <stop offset=".82" stop-color="#22D3EE" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="panelEdge" x1="100" y1="92" x2="2300" y2="498" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity=".5"/>
+      <stop offset=".52" stop-color="#8B5CF6" stop-opacity=".62"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity=".28"/>
+    </linearGradient>
+    <filter id="depth" x="-20%" y="-45%" width="140%" height="190%">
+      <feDropShadow dx="0" dy="24" stdDeviation="32" flood-color="#000000" flood-opacity=".42"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#22D3EE" flood-opacity=".12"/>
+    </filter>
+    <style>
+      .kicker{font:700 22px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;letter-spacing:5px;fill:#22D3EE}
+      .title{font:800 58px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#F8FAFC}
+      .body{font:600 31px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#B9C4D0}
+      .chip{font:750 23px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#E5EDF7}
+    </style>
+  </defs>
+  <rect width="2400" height="620" rx="38" fill="url(#bg)"/>
+  <path d="M130 126H2270" stroke="url(#line)" stroke-width="2"/>
+  <path d="M130 364H2270" stroke="url(#line)" stroke-width="2"/>
+  <text x="130" y="92" class="kicker">CURRENT FOCUS</text>
+  <text x="130" y="190" class="title">HELIOS</text>
+  <text x="130" y="250" class="body">Multi-agent infrastructure for LLM applications, tool calling,</text>
+  <text x="130" y="300" class="body">context engineering and multi-provider orchestration.</text>
+  <g transform="translate(1620 130)" filter="url(#depth)">
+    <rect x="0" y="0" width="620" height="170" rx="28" fill="#0B1020" fill-opacity=".76" stroke="url(#panelEdge)" stroke-width="2.5"/>
+    <text x="44" y="62" class="kicker" style="font-size:18px;letter-spacing:3px">SYSTEM SIGNAL</text>
+    <text x="44" y="114" class="body" style="font-size:25px">AI systems x backend infrastructure</text>
+  </g>
+  <text x="130" y="430" class="kicker">ENGINEERING DOMAINS</text>
+  <g text-anchor="middle" filter="url(#depth)">
+    <g transform="translate(130 470)">
+      <rect x="0" y="0" width="260" height="58" rx="29" fill="#0B1020" stroke="#22D3EE" stroke-opacity=".48" stroke-width="2"/><text x="130" y="37" class="chip">AI Systems</text>
+    </g>
+    <g transform="translate(420 470)">
+      <rect x="0" y="0" width="315" height="58" rx="29" fill="#0B1020" stroke="#8B5CF6" stroke-opacity=".54" stroke-width="2"/><text x="158" y="37" class="chip">LLM Applications</text>
+    </g>
+    <g transform="translate(765 470)">
+      <rect x="0" y="0" width="390" height="58" rx="29" fill="#0B1020" stroke="#22D3EE" stroke-opacity=".48" stroke-width="2"/><text x="195" y="37" class="chip">Backend Infrastructure</text>
+    </g>
+    <g transform="translate(1185 470)">
+      <rect x="0" y="0" width="350" height="58" rx="29" fill="#0B1020" stroke="#8B5CF6" stroke-opacity=".54" stroke-width="2"/><text x="175" y="37" class="chip">Distributed Systems</text>
+    </g>
+    <g transform="translate(1565 470)">
+      <rect x="0" y="0" width="390" height="58" rx="29" fill="#0B1020" stroke="#22D3EE" stroke-opacity=".48" stroke-width="2"/><text x="195" y="37" class="chip">Context Engineering</text>
+    </g>
+    <g transform="translate(1985 470)">
+      <rect x="0" y="0" width="285" height="58" rx="29" fill="#0B1020" stroke="#8B5CF6" stroke-opacity=".54" stroke-width="2"/><text x="143" y="37" class="chip">Scalable Platforms</text>
+    </g>
+  </g>
+</svg>

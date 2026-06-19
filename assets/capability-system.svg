@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1180" viewBox="0 0 2400 1180" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering Stack</title>
+  <desc id="desc">Clean skill system covering languages, AI, backend, frontend, DevOps and cloud.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="8%" r="95%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="55%" stop-color="#0A0E15"/>
+      <stop offset="100%" stop-color="#05070B"/>
+    </radialGradient>
+    <linearGradient id="edge" x1="90" y1="70" x2="2310" y2="1050" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity=".48"/>
+      <stop offset=".5" stop-color="#8B5CF6" stop-opacity=".56"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity=".24"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="160" y1="0" x2="2240" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#64748B" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="depth" x="-20%" y="-35%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000000" flood-opacity=".45"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#22D3EE" flood-opacity=".1"/>
+    </filter>
+    <style>
+      .title{font:800 62px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#F8FAFC}
+      .sub{font:700 21px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;letter-spacing:5px;fill:#22D3EE}
+      .head{font:780 32px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#F8FAFC}
+      .item{font:650 24px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#C7D2DE}
+      .chip{font:750 21px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#E8EEF8}
+    </style>
+  </defs>
+  <rect width="2400" height="1180" rx="38" fill="url(#bg)"/>
+  <text x="130" y="108" class="sub">ENGINEERING STACK</text>
+  <text x="130" y="184" class="title">Production-minded AI systems.</text>
+  <text x="130" y="234" class="item">A focused map of languages, infrastructure, AI tooling and application layers.</text>
+  <path d="M130 286H2270" stroke="url(#rail)" stroke-width="2"/>
+  <g filter="url(#depth)">
+    <rect x="130" y="350" width="680" height="245" rx="30" fill="#0B1020" fill-opacity=".82" stroke="url(#edge)" stroke-width="2.5"/>
+    <rect x="860" y="350" width="680" height="245" rx="30" fill="#0B1020" fill-opacity=".82" stroke="url(#edge)" stroke-width="2.5"/>
+    <rect x="1590" y="350" width="680" height="245" rx="30" fill="#0B1020" fill-opacity=".82" stroke="url(#edge)" stroke-width="2.5"/>
+    <rect x="130" y="650" width="680" height="245" rx="30" fill="#0B1020" fill-opacity=".82" stroke="url(#edge)" stroke-width="2.5"/>
+    <rect x="860" y="650" width="680" height="245" rx="30" fill="#0B1020" fill-opacity=".82" stroke="url(#edge)" stroke-width="2.5"/>
+    <rect x="1590" y="650" width="680" height="245" rx="30" fill="#0B1020" fill-opacity=".82" stroke="url(#edge)" stroke-width="2.5"/>
+  </g>
+  <text x="180" y="420" class="head">Languages</text>
+  <text x="180" y="476" class="item">Python / Java / Dart / C++ / C</text>
+  <text x="180" y="526" class="item">JavaScript / TypeScript</text>
+  <text x="910" y="420" class="head">AI Stack</text>
+  <text x="910" y="476" class="item">OpenAI / Gemini / Claude / LangChain</text>
+  <text x="910" y="526" class="item">LangGraph / HuggingFace / Ollama</text>
+  <text x="1640" y="420" class="head">Knowledge + ML</text>
+  <text x="1640" y="476" class="item">Embeddings / RAG / FAISS / Pinecone</text>
+  <text x="1640" y="526" class="item">Qdrant / PyTorch / TensorFlow</text>
+  <text x="180" y="720" class="head">Backend</text>
+  <text x="180" y="776" class="item">Spring Boot / FastAPI / Node.js / Express</text>
+  <text x="180" y="826" class="item">PostgreSQL / MongoDB / Redis</text>
+  <text x="910" y="720" class="head">Systems</text>
+  <text x="910" y="776" class="item">Kafka / RabbitMQ / REST APIs</text>
+  <text x="910" y="826" class="item">Microservices / Distributed Systems</text>
+  <text x="1640" y="720" class="head">Frontend + Cloud</text>
+  <text x="1640" y="776" class="item">Flutter / Next.js / React / TailwindCSS</text>
+  <text x="1640" y="826" class="item">Firebase / Docker / AWS / GCP / Vercel</text>
+  <path d="M130 972H2270" stroke="url(#rail)" stroke-width="2"/>
+  <g text-anchor="middle">
+    <rect x="220" y="1020" width="260" height="58" rx="29" fill="#101827" stroke="#22D3EE" stroke-opacity=".42" stroke-width="2"/><text x="350" y="1057" class="chip">Tool Calling</text>
+    <rect x="520" y="1020" width="330" height="58" rx="29" fill="#101827" stroke="#8B5CF6" stroke-opacity=".48" stroke-width="2"/><text x="685" y="1057" class="chip">Prompt Engineering</text>
+    <rect x="890" y="1020" width="350" height="58" rx="29" fill="#101827" stroke="#22D3EE" stroke-opacity=".42" stroke-width="2"/><text x="1065" y="1057" class="chip">Structured Outputs</text>
+    <rect x="1280" y="1020" width="360" height="58" rx="29" fill="#101827" stroke="#8B5CF6" stroke-opacity=".48" stroke-width="2"/><text x="1460" y="1057" class="chip">Multi-Agent Systems</text>
+    <rect x="1680" y="1020" width="370" height="58" rx="29" fill="#101827" stroke="#22D3EE" stroke-opacity=".42" stroke-width="2"/><text x="1865" y="1057" class="chip">Context Engineering</text>
+  </g>
+</svg>

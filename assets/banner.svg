@@ -58,8 +58,8 @@
       <rect x="0" y="0" width="3840" height="1600" rx="0"/>
     </clipPath>
     <style>
-      .mono{font-family:"Courier New",monospace}
-      .display{font-family:"Arial Black","Impact",Arial,sans-serif}
+      .mono{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+      .display{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
       .thin{vector-effect:non-scaling-stroke}
       @keyframes drift{0%,100%{transform:translate3d(0,0,0)}50%{transform:translate3d(0,-22px,0)}}
       @keyframes pulse{0%,100%{opacity:.44}50%{opacity:.86}}
@@ -116,8 +116,8 @@
     </g>
     <g opacity=".96">
       <text x="180" y="560" class="mono" fill="#22D3EE" font-size="34" letter-spacing="5">AI SYSTEMS ENGINEER</text>
-      <text x="176" y="710" class="display" fill="#F8FAFC" font-size="124" font-weight="700">Sharveesh M</text>
-      <text x="184" y="796" class="display" fill="#F8FAFC" fill-opacity=".72" font-size="42" font-weight="400">LLM applications, multi-agent infrastructure and backend systems.</text>
+      <text x="176" y="710" class="display" fill="#F8FAFC" font-size="124" font-weight="800">Sharveesh M</text>
+      <text x="184" y="796" class="display" fill="#F8FAFC" fill-opacity=".72" font-size="42" font-weight="650">LLM applications, multi-agent infrastructure and backend systems.</text>
       <g class="mono" font-size="25" fill="#F8FAFC" fill-opacity=".72">
         <text x="184" y="930">AI Engineer Intern @ ITOMATA</text>
         <text x="184" y="982">Previous: Flutter Developer Intern @ RABLO</text>

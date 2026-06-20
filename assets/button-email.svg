@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="132" viewBox="0 0 720 132" role="img" aria-labelledby="title">
   <title id="title">Email command bar segment</title>
   <defs>
-    <linearGradient id="edge" x1="0" y1="12" x2="720" y2="120" gradientUnits="userSpaceOnUse"><stop stop-color="#67E8F9"/><stop offset=".58" stop-color="#38BDF8"/><stop offset="1" stop-color="#2563EB"/></linearGradient>
-    <linearGradient id="surface" x1="0" y1="12" x2="0" y2="120" gradientUnits="userSpaceOnUse"><stop stop-color="#F8FAFC" stop-opacity=".12"/><stop offset=".52" stop-color="#0F172A" stop-opacity=".79"/><stop offset="1" stop-color="#020617"/></linearGradient>
-    <radialGradient id="glow" cx="48%" cy="0%" r="84%"><stop stop-color="#38BDF8" stop-opacity=".3"/><stop offset=".45" stop-color="#38BDF8" stop-opacity=".08"/><stop offset="1" stop-color="#020617" stop-opacity="0"/></radialGradient>
-    <style>.label{font:900 54px "General Sans","Satoshi",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#F8FAFC}.cmd{font:850 20px "General Sans","Satoshi",monospace;letter-spacing:6px;fill:#67E8F9}</style>
+    <linearGradient id="edge" x1="0" y1="12" x2="720" y2="120" gradientUnits="userSpaceOnUse"><stop stop-color="#00d9ff"/><stop offset=".58" stop-color="#00d9ff"/><stop offset="1" stop-color="#00d9ff"/></linearGradient>
+    <linearGradient id="surface" x1="0" y1="12" x2="0" y2="120" gradientUnits="userSpaceOnUse"><stop stop-color="#f8fafc" stop-opacity=".12"/><stop offset=".52" stop-color="#0a0e27" stop-opacity=".79"/><stop offset="1" stop-color="#0a0e27"/></linearGradient>
+    <radialGradient id="glow" cx="48%" cy="0%" r="84%"><stop stop-color="#00d9ff" stop-opacity=".3"/><stop offset=".45" stop-color="#00d9ff" stop-opacity=".08"/><stop offset="1" stop-color="#0a0e27" stop-opacity="0"/></radialGradient>
+    <style>.label{font:900 54px "General Sans","Satoshi",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#f8fafc}.cmd{font:850 20px "General Sans","Satoshi",monospace;letter-spacing:6px;fill:#00d9ff}</style>
   </defs>
   <rect x="0" y="12" width="720" height="108" fill="url(#surface)" stroke="url(#edge)" stroke-width="2"/>
   <rect x="0" y="14" width="720" height="52" fill="url(#glow)"/>
-  <path d="M718 22V110" stroke="#67E8F9" stroke-opacity=".25" stroke-width="2"/>
-  <circle cx="96" cy="66" r="36" fill="#020617" stroke="url(#edge)" stroke-width="3"/>
-  <path d="M72 54H120V84H72Z M74 56L96 73L118 56" fill="none" stroke="#67E8F9" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M718 22V110" stroke="#00d9ff" stroke-opacity=".25" stroke-width="2"/>
+  <circle cx="96" cy="66" r="36" fill="#0a0e27" stroke="url(#edge)" stroke-width="3"/>
+  <path d="M72 54H120V84H72Z M74 56L96 73L118 56" fill="none" stroke="#00d9ff" stroke-width="5" stroke-linejoin="round"/>
   <text x="158" y="48" class="cmd">&gt; SEND</text>
   <text x="158" y="91" class="label">Email</text>
 </svg>

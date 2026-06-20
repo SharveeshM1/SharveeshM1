@@ -2,18 +2,18 @@
   <title id="title">AI systems architecture control plane</title>
   <desc id="desc">A product-style architecture map showing interfaces, agent runtime, retrieval, services, storage, deployment, and observability.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="3600" y2="1980" gradientUnits="userSpaceOnUse"><stop stop-color="#050814"/><stop offset=".55" stop-color="#030712"/><stop offset="1" stop-color="#0C111D"/></linearGradient>
-    <radialGradient id="field" cx="48%" cy="44%" r="70%"><stop stop-color="#67E8F9" stop-opacity=".14"/><stop offset=".34" stop-color="#34D399" stop-opacity=".08"/><stop offset=".68" stop-color="#A78BFA" stop-opacity=".07"/><stop offset="1" stop-color="#030712" stop-opacity="0"/></radialGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#F8FAFC" stop-opacity=".12"/><stop offset=".55" stop-color="#111827" stop-opacity=".72"/><stop offset="1" stop-color="#020617" stop-opacity=".9"/></linearGradient>
-    <linearGradient id="edge" x1="280" y1="240" x2="3320" y2="1740" gradientUnits="userSpaceOnUse"><stop stop-color="#67E8F9"/><stop offset=".38" stop-color="#34D399"/><stop offset=".7" stop-color="#A78BFA"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="3600" y2="1980" gradientUnits="userSpaceOnUse"><stop stop-color="#0a0e27"/><stop offset=".55" stop-color="#0a0e27"/><stop offset="1" stop-color="#0a0e27"/></linearGradient>
+    <radialGradient id="field" cx="48%" cy="44%" r="70%"><stop stop-color="#00d9ff" stop-opacity=".14"/><stop offset=".34" stop-color="#00ff88" stop-opacity=".08"/><stop offset=".68" stop-color="#a78bfa" stop-opacity=".07"/><stop offset="1" stop-color="#0a0e27" stop-opacity="0"/></radialGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f8fafc" stop-opacity=".12"/><stop offset=".55" stop-color="#0f1932" stop-opacity=".72"/><stop offset="1" stop-color="#0a0e27" stop-opacity=".9"/></linearGradient>
+    <linearGradient id="edge" x1="280" y1="240" x2="3320" y2="1740" gradientUnits="userSpaceOnUse"><stop stop-color="#00d9ff"/><stop offset=".38" stop-color="#00ff88"/><stop offset=".7" stop-color="#a78bfa"/><stop offset="1" stop-color="#ff6b35"/></linearGradient>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="24" stdDeviation="30" flood-color="#000" flood-opacity=".38"/></filter>
     <style>
-      .display{font-family:"Clash Display","SF Pro Display","General Sans","Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:900;letter-spacing:0;fill:#F8FAFC}
-      .body{font-family:"SF Pro Text","General Sans","Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:720;letter-spacing:0;fill:#CBD5E1}
-      .mono{font-family:"SFMono-Regular","General Sans",Menlo,Consolas,monospace;font-weight:820;letter-spacing:7px;fill:#67E8F9}
-      .cap{font-family:"SFMono-Regular","General Sans",Menlo,Consolas,monospace;font-weight:760;letter-spacing:4px;fill:#94A3B8}
-      .nodeTitle{font-family:"SF Pro Display","General Sans","Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:900;fill:#F8FAFC}
-      .nodeBody{font-family:"SF Pro Text","General Sans","Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:700;fill:#CBD5E1}
+      .display{font-family:"Inter","Segoe UI",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:900;letter-spacing:0;fill:#f8fafc}
+      .body{font-family:"Inter","Segoe UI",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:720;letter-spacing:0;fill:#d1d5db}
+      .mono{font-family:"Fira Code","SFMono-Regular",Menlo,Consolas,monospace;font-weight:820;letter-spacing:7px;fill:#00d9ff}
+      .cap{font-family:"Fira Code","SFMono-Regular",Menlo,Consolas,monospace;font-weight:760;letter-spacing:4px;fill:#94a3b8}
+      .nodeTitle{font-family:"SF Pro Display","General Sans","Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:900;fill:#f8fafc}
+      .nodeBody{font-family:"Inter","Segoe UI",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:700;fill:#d1d5db}
       @keyframes route{to{stroke-dashoffset:-1100}}@keyframes breathe{0%,100%{opacity:.45}50%{opacity:1}}
       .route{animation:route 17s linear infinite}.breathe{animation:breathe 3.8s ease-in-out infinite}
       @media (prefers-reduced-motion:reduce){*{animation:none!important}}
@@ -21,26 +21,26 @@
   </defs>
   <rect width="3600" height="1980" fill="url(#bg)"/>
   <rect width="3600" height="1980" fill="url(#field)"/>
-  <g opacity=".17" stroke="#334155"><path d="M0 330H3600M0 660H3600M0 990H3600M0 1320H3600M0 1650H3600"/><path d="M450 0V1980M900 0V1980M1350 0V1980M1800 0V1980M2250 0V1980M2700 0V1980M3150 0V1980"/></g>
+  <g opacity=".17" stroke="#1f335f"><path d="M0 330H3600M0 660H3600M0 990H3600M0 1320H3600M0 1650H3600"/><path d="M450 0V1980M900 0V1980M1350 0V1980M1800 0V1980M2250 0V1980M2700 0V1980M3150 0V1980"/></g>
   <text x="150" y="150" class="mono" font-size="25">SYSTEM MAP / CONTROL PLANE</text>
   <text x="146" y="304" class="display" font-size="116">Architecture, not a skills list.</text>
   <text x="152" y="378" class="body" font-size="36">Interfaces, agent runtime, retrieval, services, storage, deployment, and observability as one system.</text>
 
   <g stroke-linecap="round" fill="none" stroke-width="6">
-    <path d="M780 740C1110 620 1350 690 1608 866" stroke="#67E8F9" stroke-opacity=".55" stroke-dasharray="32 28" class="route"/>
-    <path d="M1608 866C1900 650 2230 610 2736 738" stroke="#34D399" stroke-opacity=".54" stroke-dasharray="32 28" class="route"/>
-    <path d="M1610 1030C1260 1210 1040 1290 776 1446" stroke="#A78BFA" stroke-opacity=".5" stroke-dasharray="32 28" class="route"/>
-    <path d="M1908 1048C2220 1286 2470 1370 2826 1456" stroke="#F59E0B" stroke-opacity=".48" stroke-dasharray="32 28" class="route"/>
+    <path d="M780 740C1110 620 1350 690 1608 866" stroke="#00d9ff" stroke-opacity=".55" stroke-dasharray="32 28" class="route"/>
+    <path d="M1608 866C1900 650 2230 610 2736 738" stroke="#00ff88" stroke-opacity=".54" stroke-dasharray="32 28" class="route"/>
+    <path d="M1610 1030C1260 1210 1040 1290 776 1446" stroke="#a78bfa" stroke-opacity=".5" stroke-dasharray="32 28" class="route"/>
+    <path d="M1908 1048C2220 1286 2470 1370 2826 1456" stroke="#ff6b35" stroke-opacity=".48" stroke-dasharray="32 28" class="route"/>
   </g>
 
   <g filter="url(#shadow)">
     <g transform="translate(240 562)">
-      <rect width="780" height="350" rx="30" fill="url(#panel)" stroke="#334155" stroke-width="1.5"/>
+      <rect width="780" height="350" rx="30" fill="url(#panel)" stroke="#1f335f" stroke-width="1.5"/>
       <text x="44" y="64" class="cap" font-size="18">SURFACE LAYER</text>
       <text x="44" y="138" class="nodeTitle" font-size="64">Interfaces</text>
       <text x="44" y="196" class="nodeBody" font-size="30">Flutter, Next.js, dashboards, workflow tools, and product experiences.</text>
-      <g transform="translate(44 260)"><rect width="184" height="46" rx="12" fill="#020617" stroke="#67E8F9" stroke-opacity=".45"/><text x="24" y="31" class="cap" font-size="15">FRONTEND</text></g>
-      <g transform="translate(250 260)"><rect width="160" height="46" rx="12" fill="#020617" stroke="#34D399" stroke-opacity=".45"/><text x="24" y="31" class="cap" font-size="15">UX LOGIC</text></g>
+      <g transform="translate(44 260)"><rect width="184" height="46" rx="12" fill="#0a0e27" stroke="#00d9ff" stroke-opacity=".45"/><text x="24" y="31" class="cap" font-size="15">FRONTEND</text></g>
+      <g transform="translate(250 260)"><rect width="160" height="46" rx="12" fill="#0a0e27" stroke="#00ff88" stroke-opacity=".45"/><text x="24" y="31" class="cap" font-size="15">UX LOGIC</text></g>
     </g>
     <g transform="translate(1410 710)">
       <rect width="790" height="540" rx="36" fill="url(#panel)" stroke="url(#edge)" stroke-width="2.4"/>
@@ -48,34 +48,34 @@
       <text x="54" y="164" class="nodeTitle" font-size="74">Agent OS</text>
       <text x="54" y="230" class="nodeBody" font-size="31">Planning, tool use, retrieval, memory, state, guardrails, and evaluation loops.</text>
       <g transform="translate(80 318)" fill="none">
-        <circle cx="230" cy="82" r="82" stroke="#67E8F9" stroke-width="5"/>
-        <circle cx="370" cy="82" r="82" stroke="#34D399" stroke-width="5"/>
-        <circle cx="300" cy="206" r="82" stroke="#A78BFA" stroke-width="5"/>
+        <circle cx="230" cy="82" r="82" stroke="#00d9ff" stroke-width="5"/>
+        <circle cx="370" cy="82" r="82" stroke="#00ff88" stroke-width="5"/>
+        <circle cx="300" cy="206" r="82" stroke="#a78bfa" stroke-width="5"/>
         <text x="230" y="92" text-anchor="middle" class="cap" font-size="16">TOOLS</text>
         <text x="370" y="92" text-anchor="middle" class="cap" font-size="16">RAG</text>
         <text x="300" y="216" text-anchor="middle" class="cap" font-size="16">STATE</text>
       </g>
     </g>
     <g transform="translate(2570 562)">
-      <rect width="790" height="350" rx="30" fill="url(#panel)" stroke="#334155" stroke-width="1.5"/>
+      <rect width="790" height="350" rx="30" fill="url(#panel)" stroke="#1f335f" stroke-width="1.5"/>
       <text x="44" y="64" class="cap" font-size="18">KNOWLEDGE LAYER</text>
       <text x="44" y="138" class="nodeTitle" font-size="64">Retrieval</text>
       <text x="44" y="196" class="nodeBody" font-size="30">Embeddings, vector search, chunking, reranking, and domain-aware context windows.</text>
-      <path d="M48 278H704" stroke="#1F2937" stroke-width="16" stroke-linecap="round"/><path d="M48 278H566" stroke="#34D399" stroke-width="16" stroke-linecap="round"/>
+      <path d="M48 278H704" stroke="#14213f" stroke-width="16" stroke-linecap="round"/><path d="M48 278H566" stroke="#00ff88" stroke-width="16" stroke-linecap="round"/>
     </g>
     <g transform="translate(240 1300)">
-      <rect width="790" height="350" rx="30" fill="url(#panel)" stroke="#334155" stroke-width="1.5"/>
+      <rect width="790" height="350" rx="30" fill="url(#panel)" stroke="#1f335f" stroke-width="1.5"/>
       <text x="44" y="64" class="cap" font-size="18">SERVICE FABRIC</text>
       <text x="44" y="138" class="nodeTitle" font-size="64">Backend</text>
       <text x="44" y="196" class="nodeBody" font-size="30">Spring Boot, FastAPI, Java, Python, PostgreSQL, Redis, authentication, and API contracts.</text>
-      <g transform="translate(48 266)" stroke-width="3"><path d="M0 0H640" stroke="#334155"/><path d="M0 0H210" stroke="#67E8F9"/><path d="M246 0H430" stroke="#34D399"/><path d="M466 0H640" stroke="#F59E0B"/></g>
+      <g transform="translate(48 266)" stroke-width="3"><path d="M0 0H640" stroke="#1f335f"/><path d="M0 0H210" stroke="#00d9ff"/><path d="M246 0H430" stroke="#00ff88"/><path d="M466 0H640" stroke="#ff6b35"/></g>
     </g>
     <g transform="translate(2570 1300)">
-      <rect width="790" height="350" rx="30" fill="url(#panel)" stroke="#334155" stroke-width="1.5"/>
+      <rect width="790" height="350" rx="30" fill="url(#panel)" stroke="#1f335f" stroke-width="1.5"/>
       <text x="44" y="64" class="cap" font-size="18">OPERATIONS</text>
       <text x="44" y="138" class="nodeTitle" font-size="64">Deploy + Observe</text>
       <text x="44" y="196" class="nodeBody" font-size="30">Docker, Linux, GitHub Actions, release hygiene, metrics, traces, and failure-aware iteration.</text>
-      <g transform="translate(52 270)" class="breathe"><circle cx="0" cy="0" r="11" fill="#34D399"/><circle cx="170" cy="0" r="11" fill="#67E8F9"/><circle cx="340" cy="0" r="11" fill="#F59E0B"/><circle cx="510" cy="0" r="11" fill="#A78BFA"/></g>
+      <g transform="translate(52 270)" class="breathe"><circle cx="0" cy="0" r="11" fill="#00ff88"/><circle cx="170" cy="0" r="11" fill="#00d9ff"/><circle cx="340" cy="0" r="11" fill="#ff6b35"/><circle cx="510" cy="0" r="11" fill="#a78bfa"/></g>
     </g>
   </g>
 

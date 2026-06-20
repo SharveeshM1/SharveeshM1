@@ -3,29 +3,29 @@
   <desc id="desc">A cinematic product-grade engineering control plane for AI systems, backend infrastructure, retrieval, orchestration, and deployment.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="3600" y2="1760" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#030712"/><stop offset=".5" stop-color="#050814"/><stop offset="1" stop-color="#0B1020"/>
+      <stop stop-color="#0a0e27"/><stop offset=".5" stop-color="#0a0e27"/><stop offset="1" stop-color="#0a0e27"/>
     </linearGradient>
     <radialGradient id="keyLight" cx="68%" cy="32%" r="58%">
-      <stop stop-color="#38BDF8" stop-opacity=".22"/><stop offset=".28" stop-color="#10B981" stop-opacity=".10"/><stop offset=".64" stop-color="#7C3AED" stop-opacity=".09"/><stop offset="1" stop-color="#030712" stop-opacity="0"/>
+      <stop stop-color="#00d9ff" stop-opacity=".22"/><stop offset=".28" stop-color="#00ff88" stop-opacity=".10"/><stop offset=".64" stop-color="#a78bfa" stop-opacity=".09"/><stop offset="1" stop-color="#0a0e27" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
-      <stop stop-color="#F8FAFC" stop-opacity=".13"/><stop offset=".5" stop-color="#111827" stop-opacity=".72"/><stop offset="1" stop-color="#020617" stop-opacity=".9"/>
+      <stop stop-color="#f8fafc" stop-opacity=".13"/><stop offset=".5" stop-color="#0f1932" stop-opacity=".72"/><stop offset="1" stop-color="#0a0e27" stop-opacity=".9"/>
     </linearGradient>
     <linearGradient id="edge" x1="360" y1="220" x2="3240" y2="1450" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#E5E7EB" stop-opacity=".65"/><stop offset=".24" stop-color="#67E8F9"/><stop offset=".56" stop-color="#34D399"/><stop offset=".82" stop-color="#A78BFA"/><stop offset="1" stop-color="#F59E0B" stop-opacity=".72"/>
+      <stop stop-color="#f8fafc" stop-opacity=".65"/><stop offset=".24" stop-color="#00d9ff"/><stop offset=".56" stop-color="#00ff88"/><stop offset=".82" stop-color="#a78bfa"/><stop offset="1" stop-color="#ff6b35" stop-opacity=".72"/>
     </linearGradient>
     <linearGradient id="scan" x1="0" y1="0" x2="3600" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#67E8F9" stop-opacity="0"/><stop offset=".5" stop-color="#67E8F9" stop-opacity=".32"/><stop offset="1" stop-color="#67E8F9" stop-opacity="0"/>
+      <stop stop-color="#00d9ff" stop-opacity="0"/><stop offset=".5" stop-color="#00d9ff" stop-opacity=".32"/><stop offset="1" stop-color="#00d9ff" stop-opacity="0"/>
     </linearGradient>
     <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="34" stdDeviation="34" flood-color="#000000" flood-opacity=".42"/>
     </filter>
     <style>
-      .display{font-family:"Clash Display","SF Pro Display","General Sans","Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:900;letter-spacing:0;fill:#F8FAFC}
-      .body{font-family:"SF Pro Text","General Sans","Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:720;letter-spacing:0;fill:#CBD5E1}
-      .mono{font-family:"SFMono-Regular","Satoshi","General Sans",Menlo,Consolas,monospace;font-weight:800;letter-spacing:8px;fill:#67E8F9}
-      .metric{font-family:"SF Pro Display","General Sans","Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:900;fill:#F8FAFC}
-      .small{font-family:"SFMono-Regular","General Sans",Menlo,Consolas,monospace;font-weight:760;letter-spacing:4px;fill:#94A3B8}
+      .display{font-family:"Inter","Segoe UI",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:900;letter-spacing:0;fill:#f8fafc}
+      .body{font-family:"Inter","Segoe UI",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:720;letter-spacing:0;fill:#d1d5db}
+      .mono{font-family:"Fira Code","SFMono-Regular",Menlo,Consolas,monospace;font-weight:800;letter-spacing:8px;fill:#00d9ff}
+      .metric{font-family:"SF Pro Display","General Sans","Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:900;fill:#f8fafc}
+      .small{font-family:"Fira Code","SFMono-Regular",Menlo,Consolas,monospace;font-weight:760;letter-spacing:4px;fill:#94a3b8}
       @keyframes drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-18px)}}
       @keyframes pulse{0%,100%{opacity:.42}50%{opacity:1}}
       @keyframes scanMove{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
@@ -36,12 +36,12 @@
   </defs>
   <rect width="3600" height="1760" fill="url(#bg)"/>
   <rect width="3600" height="1760" fill="url(#keyLight)"/>
-  <g opacity=".18" stroke="#334155" stroke-width="1">
+  <g opacity=".18" stroke="#1f335f" stroke-width="1">
     <path d="M0 220H3600M0 440H3600M0 660H3600M0 880H3600M0 1100H3600M0 1320H3600M0 1540H3600"/>
     <path d="M300 0V1760M600 0V1760M900 0V1760M1200 0V1760M1500 0V1760M1800 0V1760M2100 0V1760M2400 0V1760M2700 0V1760M3000 0V1760M3300 0V1760"/>
   </g>
   <g opacity=".72">
-    <circle cx="220" cy="260" r="3" fill="#E5E7EB"/><circle cx="650" cy="128" r="2" fill="#67E8F9"/><circle cx="3190" cy="260" r="3" fill="#34D399"/><circle cx="3080" cy="1370" r="4" fill="#A78BFA"/><circle cx="1420" cy="1510" r="3" fill="#F59E0B"/>
+    <circle cx="220" cy="260" r="3" fill="#f8fafc"/><circle cx="650" cy="128" r="2" fill="#00d9ff"/><circle cx="3190" cy="260" r="3" fill="#00ff88"/><circle cx="3080" cy="1370" r="4" fill="#a78bfa"/><circle cx="1420" cy="1510" r="3" fill="#ff6b35"/>
   </g>
 
   <g transform="translate(158 126)">
@@ -53,8 +53,8 @@
 
   <g transform="translate(168 672)" filter="url(#softShadow)">
     <rect x="0" y="0" width="1120" height="590" rx="32" fill="url(#panel)" stroke="url(#edge)" stroke-width="2"/>
-    <rect x="32" y="32" width="1056" height="86" rx="20" fill="#020617" stroke="#334155" stroke-width="1.5"/>
-    <circle cx="76" cy="75" r="10" fill="#34D399"/><circle cx="110" cy="75" r="10" fill="#F59E0B"/><circle cx="144" cy="75" r="10" fill="#A78BFA"/>
+    <rect x="32" y="32" width="1056" height="86" rx="20" fill="#0a0e27" stroke="#1f335f" stroke-width="1.5"/>
+    <circle cx="76" cy="75" r="10" fill="#00ff88"/><circle cx="110" cy="75" r="10" fill="#ff6b35"/><circle cx="144" cy="75" r="10" fill="#a78bfa"/>
     <text x="190" y="84" class="small" font-size="20">LIVE SYSTEM BRIEF</text>
     <g transform="translate(48 166)">
       <text x="0" y="0" class="small" font-size="22">PRIMARY MISSION</text>
@@ -70,41 +70,41 @@
   </g>
 
   <g transform="translate(2000 560) scale(.62)" opacity=".9">
-    <ellipse cx="750" cy="560" rx="760" ry="310" fill="#020617" opacity=".32"/>
+    <ellipse cx="750" cy="560" rx="760" ry="310" fill="#0a0e27" opacity=".32"/>
     <g fill="none" stroke-width="4">
-      <ellipse cx="750" cy="560" rx="730" ry="252" stroke="#67E8F9" stroke-opacity=".24"/>
-      <ellipse cx="750" cy="560" rx="530" ry="185" stroke="#34D399" stroke-opacity=".34" stroke-dasharray="50 42" class="dash" transform="rotate(-14 750 560)"/>
-      <ellipse cx="750" cy="560" rx="900" ry="330" stroke="#94A3B8" stroke-opacity=".17" transform="rotate(12 750 560)"/>
+      <ellipse cx="750" cy="560" rx="730" ry="252" stroke="#00d9ff" stroke-opacity=".24"/>
+      <ellipse cx="750" cy="560" rx="530" ry="185" stroke="#00ff88" stroke-opacity=".34" stroke-dasharray="50 42" class="dash" transform="rotate(-14 750 560)"/>
+      <ellipse cx="750" cy="560" rx="900" ry="330" stroke="#94a3b8" stroke-opacity=".17" transform="rotate(12 750 560)"/>
     </g>
     <g transform="translate(750 560)">
-      <path d="M0 -300L260 -150V150L0 300L-260 150V-150Z" fill="#020617" stroke="url(#edge)" stroke-width="7"/>
-      <path d="M0 -300L260 -150V150L0 300L-260 150V-150Z" fill="#F8FAFC" opacity=".055"/>
-      <path d="M0 -300V0M260 -150L0 0L-260 -150M260 150L0 0L-260 150M0 300V0" stroke="#67E8F9" stroke-opacity=".34" stroke-width="4"/>
-      <path d="M-122 -76L-24 -172L92 -110L158 -188M-24 -172L18 -6L142 54M18 -6L-96 126L22 200" fill="none" stroke="#F8FAFC" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M-128 74C-20 -28 118 -44 226 20" fill="none" stroke="#34D399" stroke-width="10" stroke-linecap="round"/>
-      <circle cx="-24" cy="-172" r="24" fill="#F8FAFC"/><circle cx="158" cy="-188" r="18" fill="#67E8F9"/><circle cx="142" cy="54" r="22" fill="#34D399"/><circle cx="-96" cy="126" r="20" fill="#F59E0B"/><circle cx="22" cy="200" r="17" fill="#A78BFA"/>
+      <path d="M0 -300L260 -150V150L0 300L-260 150V-150Z" fill="#0a0e27" stroke="url(#edge)" stroke-width="7"/>
+      <path d="M0 -300L260 -150V150L0 300L-260 150V-150Z" fill="#f8fafc" opacity=".055"/>
+      <path d="M0 -300V0M260 -150L0 0L-260 -150M260 150L0 0L-260 150M0 300V0" stroke="#00d9ff" stroke-opacity=".34" stroke-width="4"/>
+      <path d="M-122 -76L-24 -172L92 -110L158 -188M-24 -172L18 -6L142 54M18 -6L-96 126L22 200" fill="none" stroke="#f8fafc" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M-128 74C-20 -28 118 -44 226 20" fill="none" stroke="#00ff88" stroke-width="10" stroke-linecap="round"/>
+      <circle cx="-24" cy="-172" r="24" fill="#f8fafc"/><circle cx="158" cy="-188" r="18" fill="#00d9ff"/><circle cx="142" cy="54" r="22" fill="#00ff88"/><circle cx="-96" cy="126" r="20" fill="#ff6b35"/><circle cx="22" cy="200" r="17" fill="#a78bfa"/>
     </g>
   </g>
 
   <g transform="translate(2720 252)">
-    <rect x="0" y="0" width="708" height="390" rx="30" fill="url(#panel)" stroke="#334155" stroke-width="1.5"/>
+    <rect x="0" y="0" width="708" height="390" rx="30" fill="url(#panel)" stroke="#1f335f" stroke-width="1.5"/>
     <text x="42" y="62" class="small" font-size="19">RECRUITER EXPLORATION MODE</text>
     <text x="42" y="140" class="display" font-size="72">Signal first.</text>
     <text x="42" y="202" class="body" font-size="31">Navigate systems, projects, metrics, and architectural decisions as one product surface.</text>
-    <path d="M42 292H638" stroke="#1F2937" stroke-width="18" stroke-linecap="round"/>
-    <path d="M42 292H520" stroke="#34D399" stroke-width="18" stroke-linecap="round"/>
-    <text x="42" y="348" class="small" font-size="18">READABILITY</text><text x="488" y="348" class="small" font-size="18" fill="#34D399">HIGH CONFIDENCE</text>
+    <path d="M42 292H638" stroke="#14213f" stroke-width="18" stroke-linecap="round"/>
+    <path d="M42 292H520" stroke="#00ff88" stroke-width="18" stroke-linecap="round"/>
+    <text x="42" y="348" class="small" font-size="18">READABILITY</text><text x="488" y="348" class="small" font-size="18" fill="#00ff88">HIGH CONFIDENCE</text>
   </g>
 
   <g transform="translate(2580 780)" filter="url(#softShadow)">
-    <rect x="0" y="0" width="840" height="570" rx="30" fill="url(#panel)" stroke="#334155" stroke-width="1.5"/>
+    <rect x="0" y="0" width="840" height="570" rx="30" fill="url(#panel)" stroke="#1f335f" stroke-width="1.5"/>
     <text x="44" y="62" class="small" font-size="19">TELEMETRY STACK</text>
     <g transform="translate(56 116)" stroke-width="2">
-      <path d="M0 320C120 190 230 330 350 204C482 66 590 174 718 56" fill="none" stroke="#67E8F9" stroke-width="8" stroke-linecap="round"/>
-      <path d="M0 386C112 318 226 400 352 288C496 158 604 320 718 210" fill="none" stroke="#34D399" stroke-width="7" stroke-linecap="round"/>
-      <path d="M0 252C130 278 240 92 360 140C492 190 612 90 718 118" fill="none" stroke="#F59E0B" stroke-width="5" stroke-opacity=".82" stroke-linecap="round"/>
-      <g stroke="#334155" opacity=".8"><path d="M0 72H718M0 176H718M0 280H718M0 384H718"/><path d="M0 36V420M180 36V420M360 36V420M540 36V420M718 36V420"/></g>
-      <g class="pulse"><circle cx="350" cy="204" r="12" fill="#67E8F9"/><circle cx="590" cy="174" r="10" fill="#34D399"/><circle cx="612" cy="90" r="9" fill="#F59E0B"/></g>
+      <path d="M0 320C120 190 230 330 350 204C482 66 590 174 718 56" fill="none" stroke="#00d9ff" stroke-width="8" stroke-linecap="round"/>
+      <path d="M0 386C112 318 226 400 352 288C496 158 604 320 718 210" fill="none" stroke="#00ff88" stroke-width="7" stroke-linecap="round"/>
+      <path d="M0 252C130 278 240 92 360 140C492 190 612 90 718 118" fill="none" stroke="#ff6b35" stroke-width="5" stroke-opacity=".82" stroke-linecap="round"/>
+      <g stroke="#1f335f" opacity=".8"><path d="M0 72H718M0 176H718M0 280H718M0 384H718"/><path d="M0 36V420M180 36V420M360 36V420M540 36V420M718 36V420"/></g>
+      <g class="pulse"><circle cx="350" cy="204" r="12" fill="#00d9ff"/><circle cx="590" cy="174" r="10" fill="#00ff88"/><circle cx="612" cy="90" r="9" fill="#ff6b35"/></g>
     </g>
     <text x="52" y="526" class="small" font-size="18">LATENCY</text><text x="252" y="526" class="small" font-size="18">RETRIEVAL</text><text x="492" y="526" class="small" font-size="18">DEPLOYMENT</text>
   </g>

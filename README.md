@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero-operating-system-2035.svg" width="100%" alt="Sharveesh M interactive deep-space operating system hero with 3D core, orbit lines, particle fields, stars and animated trails"/>
+<img src="assets/hero-operating-system-2035.svg" width="100%" alt="Sharveesh M engineering control plane hero with mission brief, telemetry, and product-grade AI systems positioning"/>
 
 <br/><br/>
 
@@ -8,7 +8,15 @@
 
 <br/><br/>
 
+<img src="assets/mission-live-metrics-console.svg" width="100%" alt="Live metrics console with system layers, API availability, retrieval mode, and agent network indicators"/>
+
+<br/><br/>
+
 <img src="assets/mission-architecture-control-plane.svg" width="100%" alt="AI systems architecture control plane showing interfaces, agent runtime, retrieval, backend services, deployment and observability"/>
+
+<br/><br/>
+
+<img src="assets/mission-tech-stack-matrix.svg" width="100%" alt="Technology stack matrix grouped by AI, backend, frontend, and DevOps operating roles"/>
 
 <br/><br/>
 
@@ -17,6 +25,10 @@
 <br/><br/>
 
 <img src="assets/mission-contribution-intelligence.svg" width="100%" alt="Contribution intelligence dashboard visualizing cadence, engineering distribution, review loops and shipping rhythm"/>
+
+<br/><br/>
+
+<img src="assets/mission-experience-timeline.svg" width="100%" alt="Operating timeline showing system mapping, runtime build, validation, and launch behavior"/>
 
 <br/><br/>
 

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3600" height="1040" viewBox="0 0 3600 1040" role="img" aria-labelledby="title desc">
+  <title id="title">Interactive live metrics console</title>
+  <desc id="desc">A recruiter-facing metrics console with system layers, uptime pulse, retrieval expansion, and agent network signals.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="3600" y2="1040" gradientUnits="userSpaceOnUse"><stop stop-color="#0a0e27"/><stop offset="1" stop-color="#080b20"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00d9ff" stop-opacity=".05"/><stop offset="1" stop-color="#ff6b35" stop-opacity=".02"/></linearGradient>
+    <linearGradient id="hover" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00d9ff" stop-opacity=".12"/><stop offset="1" stop-color="#ff6b35" stop-opacity=".06"/></linearGradient>
+    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00d9ff"/><stop offset=".5" stop-color="#00ff88"/><stop offset="1" stop-color="#ff6b35"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .h{font-family:"Inter","Segoe UI",Arial,sans-serif;font-weight:700;letter-spacing:.5px;fill:url(#textGrad)}
+      .b{font-family:"Inter","Segoe UI",Arial,sans-serif;font-weight:400;fill:#d1d5db}
+      .m{font-family:"Fira Code","SFMono-Regular",Menlo,monospace;font-weight:400;letter-spacing:1px;fill:#94a3b8}
+      .num{font-family:"Inter","Segoe UI",Arial,sans-serif;font-weight:700;fill:#f8fafc}
+      .tile{fill:url(#card);stroke:rgba(0,217,255,.2);stroke-width:2;filter:drop-shadow(0 0 20px rgba(0,217,255,.10)) drop-shadow(0 0 40px rgba(0,217,255,.05))}
+      .hot{fill:url(#hover)}
+      @keyframes pulse{0%,100%{opacity:.45;filter:drop-shadow(0 0 4px rgba(0,217,255,.35))}50%{opacity:1;filter:drop-shadow(0 0 20px rgba(0,255,255,.6))}}
+      @keyframes count{0%{opacity:.45;transform:translateY(10px)}100%{opacity:1;transform:translateY(0)}}
+      @keyframes dash{to{stroke-dashoffset:-900}}
+      .pulse{animation:pulse 3s ease-in-out infinite}.count{animation:count 1s ease-out both}.dash{animation:dash 12s linear infinite}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+  </defs>
+  <rect width="3600" height="1040" fill="url(#bg)"/>
+  <g opacity=".14" stroke="rgba(0,217,255,.2)"><path d="M0 260H3600M0 520H3600M0 780H3600"/><path d="M450 0V1040M900 0V1040M1350 0V1040M1800 0V1040M2250 0V1040M2700 0V1040M3150 0V1040"/></g>
+  <text x="150" y="142" class="m" font-size="24">LIVE METRICS / RECRUITER PLAYGROUND</text>
+  <text x="148" y="260" class="h" font-size="82">Signals that respond like software.</text>
+  <text x="152" y="326" class="b" font-size="32">System indicators designed as cockpit tiles, not decorative badges.</text>
+  <g transform="translate(150 446)">
+    <g>
+      <rect class="tile" width="760" height="390" rx="16"/>
+      <rect class="hot" x="28" y="28" width="704" height="86" rx="12"/>
+      <text x="48" y="84" class="m" font-size="20">SYSTEM LAYERS</text>
+      <text x="48" y="218" class="num count" font-size="116">05</text>
+      <path d="M330 214h310" stroke="#00d9ff" stroke-width="10" stroke-linecap="round"/><path d="M330 254h230" stroke="#00ff88" stroke-width="10" stroke-linecap="round"/><path d="M330 294h280" stroke="#ff6b35" stroke-width="10" stroke-linecap="round"/>
+      <text x="48" y="334" class="b" font-size="25">Surface, runtime, retrieval, backend, operations.</text>
+    </g>
+    <g transform="translate(844 0)">
+      <rect class="tile" width="760" height="390" rx="16"/>
+      <text x="48" y="84" class="m" font-size="20">API AVAILABILITY</text>
+      <circle cx="626" cy="74" r="16" fill="#00ff88" class="pulse"/>
+      <text x="48" y="218" class="num count" font-size="116">24/7</text>
+      <path d="M52 292C138 230 216 310 310 242C414 166 496 262 606 178C662 136 704 146 716 132" fill="none" stroke="#00d9ff" stroke-width="7" stroke-linecap="round" stroke-dasharray="30 24" class="dash"/>
+      <text x="48" y="334" class="b" font-size="25">Availability mindset with visible heartbeat.</text>
+    </g>
+    <g transform="translate(1688 0)">
+      <rect class="tile" width="760" height="390" rx="16"/>
+      <text x="48" y="84" class="m" font-size="20">RETRIEVAL MODE</text>
+      <text x="48" y="218" class="num count" font-size="116">RAG</text>
+      <g transform="translate(400 124)" fill="none" stroke-width="6"><circle cx="0" cy="0" r="56" stroke="#00d9ff"/><circle cx="126" cy="58" r="56" stroke="#00ff88"/><circle cx="24" cy="150" r="56" stroke="#ff6b35"/><path d="M52 24L82 42M82 82L56 124" stroke="rgba(0,217,255,.45)"/></g>
+      <text x="48" y="334" class="b" font-size="25">Context windows, embeddings, search, rerank.</text>
+    </g>
+    <g transform="translate(2532 0)">
+      <rect class="tile" width="760" height="390" rx="16"/>
+      <text x="48" y="84" class="m" font-size="20">AGENT NETWORK</text>
+      <text x="48" y="218" class="num count" font-size="116">Agents</text>
+      <g transform="translate(538 190)" class="pulse"><circle r="18" fill="#00d9ff"/><circle cx="-90" cy="-72" r="14" fill="#00ff88"/><circle cx="84" cy="-52" r="14" fill="#ff6b35"/><circle cx="-20" cy="92" r="14" fill="#a78bfa"/></g>
+      <path d="M448 118L538 190L622 138M518 282L538 190" fill="none" stroke="rgba(0,217,255,.45)" stroke-width="4"/>
+      <text x="48" y="334" class="b" font-size="25">Planner, tool caller, retriever, evaluator.</text>
+    </g>
+  </g>
+</svg>

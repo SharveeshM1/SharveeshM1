@@ -2,15 +2,15 @@
   <title id="title">Technology stack matrix</title>
   <desc id="desc">A categorized technology grid for AI, backend, frontend, and DevOps with premium control-center styling.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="3600" y2="1320" gradientUnits="userSpaceOnUse"><stop stop-color="#0a0e27"/><stop offset="1" stop-color="#080b20"/></linearGradient>
-    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00d9ff" stop-opacity=".05"/><stop offset="1" stop-color="#ff6b35" stop-opacity=".02"/></linearGradient>
-    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00d9ff"/><stop offset=".5" stop-color="#00ff88"/><stop offset="1" stop-color="#ff6b35"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="3600" y2="1320" gradientUnits="userSpaceOnUse"><stop stop-color="#0a0507"/><stop offset="1" stop-color="#120c18"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b794f6" stop-opacity=".05"/><stop offset="1" stop-color="#ec4899" stop-opacity=".02"/></linearGradient>
+    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#b794f6"/><stop offset=".5" stop-color="#10b981"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
     <style>
       .h{font-family:"Inter","Segoe UI",Arial,sans-serif;font-weight:700;letter-spacing:.5px;fill:url(#textGrad)}
-      .b{font-family:"Inter","Segoe UI",Arial,sans-serif;font-weight:400;fill:#d1d5db}
-      .m{font-family:"Fira Code","SFMono-Regular",Menlo,monospace;font-weight:400;letter-spacing:1px;fill:#94a3b8}
-      .tile{fill:url(#card);stroke:rgba(0,217,255,.2);stroke-width:2;filter:drop-shadow(0 0 20px rgba(0,217,255,.10)) drop-shadow(0 0 40px rgba(0,217,255,.05))}
-      .name{font-family:"Inter","Segoe UI",Arial,sans-serif;font-weight:700;letter-spacing:.5px;fill:#f8fafc}
+      .b{font-family:"Inter","Segoe UI",Arial,sans-serif;font-weight:400;fill:#e5e7eb}
+      .m{font-family:"Fira Code","SFMono-Regular",Menlo,monospace;font-weight:400;letter-spacing:1px;fill:#c4b5d8}
+      .tile{fill:url(#card);stroke:rgba(183,148,246,.15);stroke-width:2;filter:drop-shadow(0 0 20px rgba(183,148,246,.08)) drop-shadow(0 0 40px rgba(236,72,153,.04))}
+      .name{font-family:"Inter","Segoe UI",Arial,sans-serif;font-weight:700;letter-spacing:.5px;fill:#f8f5ff}
       @keyframes lift{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}.lift{animation:lift 5s ease-in-out infinite}
       @media (prefers-reduced-motion:reduce){*{animation:none!important}}
     </style>
@@ -20,21 +20,21 @@
   <text x="148" y="260" class="h" font-size="82">Tools grouped by operating role.</text>
   <text x="152" y="326" class="b" font-size="32">Every item is positioned by what it does in the system.</text>
   <g transform="translate(150 456)">
-    <g><text class="m" font-size="22" fill="#00d9ff">AI / ML</text>
-      <g transform="translate(0 56)"><rect class="tile" width="760" height="130" rx="16"/><circle cx="72" cy="65" r="28" fill="#00d9ff"/><text x="126" y="58" class="name" font-size="34">OpenAI / Gemini / Claude</text><text x="126" y="94" class="b" font-size="22">LLM orchestration and model routing</text></g>
-      <g transform="translate(0 214)"><rect class="tile" width="760" height="130" rx="16"/><circle cx="72" cy="65" r="28" fill="#00d9ff"/><text x="126" y="58" class="name" font-size="34">LangChain / LangGraph</text><text x="126" y="94" class="b" font-size="22">Agent graphs, tools, stateful workflows</text></g>
+    <g><text class="m" font-size="22" fill="#b794f6">AI / ML</text>
+      <g transform="translate(0 56)"><rect class="tile" width="760" height="130" rx="16"/><circle cx="72" cy="65" r="28" fill="#b794f6"/><text x="126" y="58" class="name" font-size="34">OpenAI / Gemini / Claude</text><text x="126" y="94" class="b" font-size="22">LLM orchestration and model routing</text></g>
+      <g transform="translate(0 214)"><rect class="tile" width="760" height="130" rx="16"/><circle cx="72" cy="65" r="28" fill="#b794f6"/><text x="126" y="58" class="name" font-size="34">LangChain / LangGraph</text><text x="126" y="94" class="b" font-size="22">Agent graphs, tools, stateful workflows</text></g>
     </g>
-    <g transform="translate(844 0)"><text class="m" font-size="22" fill="#00ff88">BACKEND</text>
-      <g transform="translate(0 56)"><rect class="tile" width="760" height="130" rx="16"/><circle cx="72" cy="65" r="28" fill="#00ff88"/><text x="126" y="58" class="name" font-size="34">Spring Boot / FastAPI</text><text x="126" y="94" class="b" font-size="22">API contracts and service fabric</text></g>
-      <g transform="translate(0 214)"><rect class="tile" width="760" height="130" rx="16"/><circle cx="72" cy="65" r="28" fill="#00ff88"/><text x="126" y="58" class="name" font-size="34">PostgreSQL / Redis</text><text x="126" y="94" class="b" font-size="22">Persistence, caching, fast state</text></g>
+    <g transform="translate(844 0)"><text class="m" font-size="22" fill="#10b981">BACKEND</text>
+      <g transform="translate(0 56)"><rect class="tile" width="760" height="130" rx="16"/><circle cx="72" cy="65" r="28" fill="#10b981"/><text x="126" y="58" class="name" font-size="34">Spring Boot / FastAPI</text><text x="126" y="94" class="b" font-size="22">API contracts and service fabric</text></g>
+      <g transform="translate(0 214)"><rect class="tile" width="760" height="130" rx="16"/><circle cx="72" cy="65" r="28" fill="#10b981"/><text x="126" y="58" class="name" font-size="34">PostgreSQL / Redis</text><text x="126" y="94" class="b" font-size="22">Persistence, caching, fast state</text></g>
     </g>
-    <g transform="translate(1688 0)"><text class="m" font-size="22" fill="#ff6b35">FRONTEND</text>
-      <g transform="translate(0 56)"><rect class="tile" width="760" height="130" rx="16"/><circle cx="72" cy="65" r="28" fill="#ff6b35"/><text x="126" y="58" class="name" font-size="34">Flutter / Next.js</text><text x="126" y="94" class="b" font-size="22">Product surfaces and workflow UI</text></g>
-      <g transform="translate(0 214)"><rect class="tile" width="760" height="130" rx="16"/><circle cx="72" cy="65" r="28" fill="#ff6b35"/><text x="126" y="58" class="name" font-size="34">Firebase</text><text x="126" y="94" class="b" font-size="22">Realtime application infrastructure</text></g>
+    <g transform="translate(1688 0)"><text class="m" font-size="22" fill="#ec4899">FRONTEND</text>
+      <g transform="translate(0 56)"><rect class="tile" width="760" height="130" rx="16"/><circle cx="72" cy="65" r="28" fill="#ec4899"/><text x="126" y="58" class="name" font-size="34">Flutter / Next.js</text><text x="126" y="94" class="b" font-size="22">Product surfaces and workflow UI</text></g>
+      <g transform="translate(0 214)"><rect class="tile" width="760" height="130" rx="16"/><circle cx="72" cy="65" r="28" fill="#ec4899"/><text x="126" y="58" class="name" font-size="34">Firebase</text><text x="126" y="94" class="b" font-size="22">Realtime application infrastructure</text></g>
     </g>
-    <g transform="translate(2532 0)"><text class="m" font-size="22" fill="#a78bfa">DEVOPS</text>
-      <g transform="translate(0 56)"><rect class="tile" width="760" height="130" rx="16"/><circle cx="72" cy="65" r="28" fill="#a78bfa"/><text x="126" y="58" class="name" font-size="34">Docker / Linux</text><text x="126" y="94" class="b" font-size="22">Runtime packaging and operations</text></g>
-      <g transform="translate(0 214)"><rect class="tile" width="760" height="130" rx="16"/><circle cx="72" cy="65" r="28" fill="#a78bfa"/><text x="126" y="58" class="name" font-size="34">GitHub Actions</text><text x="126" y="94" class="b" font-size="22">CI, release loops, automation</text></g>
+    <g transform="translate(2532 0)"><text class="m" font-size="22" fill="#b794f6">DEVOPS</text>
+      <g transform="translate(0 56)"><rect class="tile" width="760" height="130" rx="16"/><circle cx="72" cy="65" r="28" fill="#b794f6"/><text x="126" y="58" class="name" font-size="34">Docker / Linux</text><text x="126" y="94" class="b" font-size="22">Runtime packaging and operations</text></g>
+      <g transform="translate(0 214)"><rect class="tile" width="760" height="130" rx="16"/><circle cx="72" cy="65" r="28" fill="#b794f6"/><text x="126" y="58" class="name" font-size="34">GitHub Actions</text><text x="126" y="94" class="b" font-size="22">CI, release loops, automation</text></g>
     </g>
   </g>
   <g transform="translate(150 936)">

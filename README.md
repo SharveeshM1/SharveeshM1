@@ -16,6 +16,10 @@
 
 <br/><br/>
 
+<img src="assets/mission-experience-control-room.svg" width="100%" alt="Experience control room with Itomata AI Engineer Intern and Rablo Flutter Developer Intern live operation cards"/>
+
+<br/><br/>
+
 <img src="assets/mission-tech-stack-matrix.svg" width="100%" alt="Technology stack matrix grouped by AI, backend, frontend, and DevOps operating roles"/>
 
 <br/><br/>
@@ -29,6 +33,10 @@
 <br/><br/>
 
 <img src="assets/mission-experience-timeline.svg" width="100%" alt="Operating timeline showing system mapping, runtime build, validation, and launch behavior"/>
+
+<br/><br/>
+
+<img src="assets/mission-education-certifications.svg" width="100%" alt="Education and certifications control panel for VIT-AP University, AI foundations, software engineering, and machine learning credentials"/>
 
 <br/><br/>
 

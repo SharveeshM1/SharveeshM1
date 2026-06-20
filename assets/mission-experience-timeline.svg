@@ -2,15 +2,15 @@
   <title id="title">Experience and operating timeline</title>
   <desc id="desc">A vertical timeline showing engineering operating modes, system building, validation, and launch readiness.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="3600" y2="1260" gradientUnits="userSpaceOnUse"><stop stop-color="#0a0e27"/><stop offset="1" stop-color="#080b20"/></linearGradient>
-    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00d9ff" stop-opacity=".05"/><stop offset="1" stop-color="#ff6b35" stop-opacity=".02"/></linearGradient>
-    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00d9ff"/><stop offset=".5" stop-color="#00ff88"/><stop offset="1" stop-color="#ff6b35"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="3600" y2="1260" gradientUnits="userSpaceOnUse"><stop stop-color="#0a0507"/><stop offset="1" stop-color="#120c18"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b794f6" stop-opacity=".05"/><stop offset="1" stop-color="#ec4899" stop-opacity=".02"/></linearGradient>
+    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#b794f6"/><stop offset=".5" stop-color="#10b981"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
     <style>
       .h{font-family:"Inter","Segoe UI",Arial,sans-serif;font-weight:700;letter-spacing:.5px;fill:url(#textGrad)}
-      .b{font-family:"Inter","Segoe UI",Arial,sans-serif;font-weight:400;fill:#d1d5db}
-      .m{font-family:"Fira Code","SFMono-Regular",Menlo,monospace;font-weight:400;letter-spacing:1px;fill:#94a3b8}
-      .title{font-family:"Inter","Segoe UI",Arial,sans-serif;font-weight:700;letter-spacing:.5px;fill:#f8fafc}
-      .card{fill:url(#card);stroke:rgba(0,217,255,.2);stroke-width:2;filter:drop-shadow(0 0 20px rgba(0,217,255,.10)) drop-shadow(0 0 40px rgba(0,217,255,.05))}
+      .b{font-family:"Inter","Segoe UI",Arial,sans-serif;font-weight:400;fill:#e5e7eb}
+      .m{font-family:"Fira Code","SFMono-Regular",Menlo,monospace;font-weight:400;letter-spacing:1px;fill:#c4b5d8}
+      .title{font-family:"Inter","Segoe UI",Arial,sans-serif;font-weight:700;letter-spacing:.5px;fill:#f8f5ff}
+      .card{fill:url(#card);stroke:rgba(183,148,246,.15);stroke-width:2;filter:drop-shadow(0 0 20px rgba(183,148,246,.08)) drop-shadow(0 0 40px rgba(236,72,153,.04))}
       @keyframes draw{to{stroke-dashoffset:0}}.draw{stroke-dasharray:1200;stroke-dashoffset:1200;animation:draw 3s ease-out forwards}
       @media (prefers-reduced-motion:reduce){*{animation:none!important}}
     </style>
@@ -19,7 +19,7 @@
   <text x="150" y="142" class="m" font-size="24">OPERATING TIMELINE</text>
   <text x="148" y="260" class="h" font-size="82">How the work compounds.</text>
   <text x="152" y="326" class="b" font-size="32">Map the system, build the runtime, verify the loop, ship the surface.</text>
-  <path d="M1800 430V1080" stroke="#00d9ff" stroke-width="6" stroke-linecap="round" class="draw"/>
+  <path d="M1800 430V1080" stroke="#b794f6" stroke-width="6" stroke-linecap="round" class="draw"/>
   <g transform="translate(450 430)">
     <rect class="card" width="1040" height="170" rx="16"/><text x="44" y="62" class="m" font-size="20">01 / SYSTEM MAPPING</text><text x="44" y="112" class="title" font-size="40">Turn ambiguity into architecture</text><text x="44" y="148" class="b" font-size="24">Requirements become surfaces, services, context boundaries, and observability points.</text>
   </g>
@@ -32,5 +32,5 @@
   <g transform="translate(2110 910)">
     <rect class="card" width="1040" height="170" rx="16"/><text x="44" y="62" class="m" font-size="20">04 / LAUNCH</text><text x="44" y="112" class="title" font-size="40">Package the system as a product</text><text x="44" y="148" class="b" font-size="24">The final interface helps people inspect, trust, and use the engineering.</text>
   </g>
-  <g fill="#00ff88"><circle cx="1800" cy="515" r="18"/><circle cx="1800" cy="675" r="18"/><circle cx="1800" cy="835" r="18"/><circle cx="1800" cy="995" r="18"/></g>
+  <g fill="#10b981"><circle cx="1800" cy="515" r="18"/><circle cx="1800" cy="675" r="18"/><circle cx="1800" cy="835" r="18"/><circle cx="1800" cy="995" r="18"/></g>
 </svg>

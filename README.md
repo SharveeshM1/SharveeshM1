@@ -4,11 +4,7 @@
 
 <br/><br/>
 
-<a href="https://www.linkedin.com/in/sharveesh-m-52516a283/"><img src="assets/button-linkedin.svg" width="18%" alt="LinkedIn"/></a>
-<a href="mailto:sharveesh1@gmail.com"><img src="assets/button-email.svg" width="18%" alt="Email"/></a>
-<a href="https://leetcode.com/u/Sharveesh_m/"><img src="assets/button-leetcode.svg" width="18%" alt="LeetCode"/></a>
-<a href="https://github.com/SharveeshM1"><img src="assets/button-github.svg" width="18%" alt="GitHub"/></a>
-<a href="https://github.com/SharveeshM1/HELIOS"><img src="assets/button-helios.svg" width="18%" alt="HELIOS"/></a>
+<a href="https://www.linkedin.com/in/sharveesh-m-52516a283/"><img src="assets/button-linkedin.svg" width="20%" alt="LinkedIn"/></a><a href="mailto:sharveesh1@gmail.com"><img src="assets/button-email.svg" width="20%" alt="Email"/></a><a href="https://leetcode.com/u/Sharveesh_m/"><img src="assets/button-leetcode.svg" width="20%" alt="LeetCode"/></a><a href="https://github.com/SharveeshM1"><img src="assets/button-github.svg" width="20%" alt="GitHub"/></a><a href="https://github.com/SharveeshM1/HELIOS"><img src="assets/button-helios.svg" width="20%" alt="HELIOS"/></a>
 
 <br/><br/>
 

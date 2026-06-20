@@ -8,18 +8,18 @@
 
 <br/><br/>
 
-<img src="assets/tech-galaxy-operating-system.svg" width="100%" alt="Premium technology constellation with AI, knowledge, backend, frontend and infrastructure tools around HELIOS"/>
+<img src="assets/mission-architecture-control-plane.svg" width="100%" alt="AI systems architecture control plane showing interfaces, agent runtime, retrieval, backend services, deployment and observability"/>
 
 <br/><br/>
 
-<img src="assets/project-worlds-operating-system.svg" width="100%" alt="Premium glass project windows for HELIOS, MIDAS, and whole_app"/>
+<img src="assets/mission-project-operating-panels.svg" width="100%" alt="Project operating panels for HELIOS, MIDAS and whole_app with product-grade telemetry and system maps"/>
 
 <br/><br/>
 
-<img src="output/profile-3d-contrib.svg" width="100%" alt="3D contribution island belonging to the same deep-space universe"/>
+<img src="assets/mission-contribution-intelligence.svg" width="100%" alt="Contribution intelligence dashboard visualizing cadence, engineering distribution, review loops and shipping rhythm"/>
 
-<br/>
+<br/><br/>
 
-<img src="assets/contribution-universe-analytics.svg" width="100%" alt="Contribution analytics universe with improved radar chart and donut chart"/>
+<img src="assets/mission-footer-telemetry.svg" width="100%" alt="Closing telemetry rail for production-grade engineering availability and focus areas"/>
 
 </div>

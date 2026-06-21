@@ -1,63 +1,38 @@
 <div align="center">
 
-<h1>Sharveesh M</h1>
+# Sharveesh M
 
-<h3>AI Engineer Intern | Flutter Developer Intern | Full-Stack Systems Builder</h3>
+### AI Engineer · Full-Stack Systems Builder
 
-<p>
-I build intelligent products where LLM orchestration, backend architecture, and polished user experiences work as one system.
-Currently shipping AI systems at <b>Itomata</b> and production mobile experiences at <b>Rablo</b>.
-</p>
+I build intelligent systems where LLM orchestration, backend architecture, and polished UX converge.
 
 <p>
-  <a href="mailto:sharveesh1@gmail.com">
-    <img src="https://img.shields.io/badge/Email-sharveesh1%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://www.linkedin.com/in/sharveesh-m-52516a283/">
-    <img src="https://img.shields.io/badge/LinkedIn-Sharveesh%20M-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://leetcode.com/u/Sharveesh_m/">
-    <img src="https://img.shields.io/badge/LeetCode-Sharveesh_m-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
-  </a>
-  <a href="https://github.com/SharveeshM1">
-    <img src="https://img.shields.io/badge/GitHub-SharveeshM1-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
+  <a href="https://sharveeshm1.github.io/SharveeshM1/"><img src="https://img.shields.io/badge/Open%20Interactive%20Profile-Launch-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Open interactive profile"/></a>
+  <a href="mailto:sharveesh1@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/sharveesh-m-52516a283/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://leetcode.com/u/Sharveesh_m/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
 </p>
 
 <img src="output/profile-3d-contrib.svg" width="100%" alt="3D contribution profile"/>
 
 </div>
 
-## What I Build
+## Operating Domains
 
-| Track | What I ship |
+| Track | What I Ship |
 | --- | --- |
-| AI systems | LLM applications, agentic workflows, RAG pipelines, prompt engineering, task planning, evaluation loops |
-| Backend infrastructure | FastAPI services, Spring Boot APIs, PostgreSQL persistence, Kafka event flows, secure REST systems |
-| Product surfaces | Flutter apps, Next.js interfaces, real-time WebSocket UX, reusable UI architecture |
-| DevOps & delivery | Dockerized services, GitHub Actions, Linux environments, release-ready production builds |
+| AI Systems | LLM applications, agentic workflows, RAG pipelines, prompt engineering, task planning, evaluation loops |
+| Backend | FastAPI services, Spring Boot APIs, PostgreSQL persistence, Kafka event flows, secure REST systems |
+| Product Surfaces | Flutter apps, Next.js interfaces, real-time WebSocket UX, reusable UI architecture |
+| DevOps & Delivery | Dockerized services, GitHub Actions CI/CD, Linux environments, release-ready production builds |
 
 ## Tech Stack
 
 <div align="center">
 
-### Languages
-<img src="https://skillicons.dev/icons?i=python,java,dart,js,ts,cpp,html,css&theme=dark" alt="Languages"/>
-
-### AI, Backend, Frontend
-<img src="https://skillicons.dev/icons?i=fastapi,spring,nextjs,flutter,firebase,postgres,kafka&theme=dark" alt="AI backend frontend stack"/>
-
-### Tools & Infrastructure
-<img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,linux,postman,vscode&theme=dark" alt="Tools and infrastructure"/>
+<img src="https://skillicons.dev/icons?i=python,java,dart,ts,js,html,css,fastapi,spring,nextjs,flutter,firebase,postgres,kafka,docker,git,github,githubactions,linux,vscode&theme=dark" alt="Technology stack icons"/>
 
 </div>
-
-## Experience
-
-| Company | Role | Timeline | Impact |
-| --- | --- | --- | --- |
-| Itomata | AI Engineer Intern | June 2026 - Present | Building LLM-powered systems, autonomous workflows, and production AI features |
-| Rablo | Flutter Developer Intern | May 2026 - Present | Developing scalable mobile product experiences with clean architecture and performance focus |
 
 ## Flagship Systems
 
@@ -91,22 +66,14 @@ Cross-platform marketplace with modular seller architecture, product discovery, 
 
 <img src="output/snake.svg" width="100%" alt="Contribution graph animation"/>
 
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=SharveeshM1&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" height="165" alt="GitHub stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com?user=SharveeshM1&theme=tokyonight&hide_border=true" height="165" alt="GitHub streak"/>
-
 </div>
 
-## Current Focus
-
-- Engineering AI systems that can plan, retrieve, act, and evaluate work across real product constraints
-- Designing mobile and web interfaces that make complex workflows feel simple
-- Deepening production knowledge across LLM applications, backend reliability, and cloud deployment
-- Open to AI/ML, backend, and full-stack product engineering roles
+## Contact
 
 <div align="center">
 
-### Building systems that think, ship, and scale.
+**Chennai, India · sharveesh1@gmail.com · +91 90250 96860**
+
+[Interactive Profile](https://sharveeshm1.github.io/SharveeshM1/) · [Resume](Sharveesh_M_Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/sharveesh-m-52516a283/) · [LeetCode](https://leetcode.com/u/Sharveesh_m/)
 
 </div>

@@ -1,25 +1,31 @@
+<h1 align="center"><code>Hi, I'm Sharveesh M</code></h1>
+
+<h3 align="center">AI Systems Engineer · Backend Infrastructure · Product Architect</h3>
+
 <p align="center">
-  <img src="./hero-panel.svg" width="100%" alt="Sharveesh M hero panel for AI engineering, systems building, and full-stack development">
+Building intelligent systems where planning, retrieval, execution, and product experience converge.
 </p>
 
 <p align="center">
-  <a href="mailto:sharveesh1@gmail.com">Email</a>
-  ·
-  <a href="https://www.linkedin.com/in/sharveesh-m-52516a283/">LinkedIn</a>
-  ·
-  <a href="https://leetcode.com/u/Sharveesh_m/">LeetCode</a>
-  ·
-  <a href="https://sharveeshm1.github.io/SharveeshM1/">Portfolio</a>
+  <img src="./terminal-loop.svg" width="360" alt="Animated coding and systems illustration">
 </p>
 
-## What I Build
+<p align="center">
+  <a href="mailto:sharveesh1@gmail.com"><img src="https://img.shields.io/badge/GMAIL-sharveesh1%40gmail.com-b85c38?style=for-the-badge&logo=gmail&logoColor=white&labelColor=2a211c" alt="Email Sharveesh M"></a>
+  <a href="https://www.linkedin.com/in/sharveesh-m-52516a283/"><img src="https://img.shields.io/badge/LINKEDIN-Sharveesh%20M-b85c38?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=2a211c" alt="Sharveesh M on LinkedIn"></a>
+  <a href="https://github.com/SharveeshM1"><img src="https://img.shields.io/badge/GITHUB-SharveeshM1-b85c38?style=for-the-badge&logo=github&logoColor=white&labelColor=2a211c" alt="SharveeshM1 on GitHub"></a>
+  <a href="https://leetcode.com/u/Sharveesh_m/"><img src="https://img.shields.io/badge/LEETCODE-Sharveesh%20M-b85c38?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=2a211c" alt="Sharveesh M on LeetCode"></a>
+</p>
 
-| Track | Systems |
-| --- | --- |
-| **AI systems** | LLM applications, agentic workflows, RAG pipelines, prompt engineering, task planning, evaluation loops |
-| **Backend infrastructure** | FastAPI services, Spring Boot APIs, PostgreSQL persistence, Kafka event flows, secure REST systems |
-| **Product surfaces** | Flutter apps, Next.js interfaces, real-time WebSocket UX, reusable UI architecture |
-| **DevOps & delivery** | Dockerized services, GitHub Actions, Linux environments, release-ready production builds |
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=SharveeshM1&style=for-the-badge&label=PROFILE%20VIEWS&color=b85c38&labelColor=2a211c" alt="SharveeshM1 profile view counter">
+</p>
+
+## Focus
+
+| AI Systems | Backend Infrastructure | Product Engineering |
+| --- | --- | --- |
+| Multi-agent workflows, RAG, LangGraph, retrieval, evaluation loops | FastAPI, Spring Boot, Kafka, PostgreSQL, WebSockets, secure REST systems | Flutter, Next.js, reusable UI architecture, real-time product surfaces |
 
 ## Tech Stack
 
@@ -41,19 +47,33 @@
 
 ## HELIOS
 
+**Multi-Agent AI Operating System**
+
+Autonomous task execution platform with distributed agent orchestration, multi-provider LLM inference, persistent vector memory, real-time WebSocket communication, planning, retrieval, routing, and evaluation loops.
+
 <p align="center">
-  <img src="./helios-panel.svg" width="100%" alt="HELIOS multi-agent AI operating system architecture diagram">
+  <img src="./system-map.svg" width="100%" alt="Abstract AI system architecture map for planning, retrieval, memory, execution, and evaluation">
 </p>
+
+| Module | Responsibility |
+| --- | --- |
+| Planning | Decomposes goals into executable task graphs |
+| Memory | Preserves state, context, and long-running task knowledge |
+| Retrieval | Grounds work through document indexing and semantic search |
+| Execution | Routes tools, APIs, and workflow actions |
+| Evaluation | Validates outputs and retries failed steps |
+
+`LangGraph` · `Gemini` · `Ollama` · `FAISS` · `FastAPI` · `WebSockets`
 
 ## GitHub Activity
 
 <p align="center">
-  <img src="./stats-panel.svg" width="100%" alt="Sharveesh M GitHub activity metrics">
-</p>
-
-<p align="center">
   <img src="./output/profile-3d-contrib.svg" width="100%" alt="3D contribution graph for SharveeshM1">
 </p>
+
+| Contributions | Commits | Repositories | Current Streak |
+| --- | --- | --- | --- |
+| **145+** | **250+** | **25+** | **6 days** |
 
 ## Experience
 
@@ -70,7 +90,7 @@
 | **MIDAS PAY** | Event-driven fintech ledger with transaction intelligence and anomaly detection | Spring Boot, PostgreSQL, Kafka, Flutter, Isolation Forest ML | Decouples transaction workloads while preserving reliable balance state |
 | **Whole2** | Cross-platform commerce platform with seller tooling and reusable mobile UI architecture | Flutter, Firebase, Dart, Riverpod | Keeps marketplace features modular and usable under unreliable network conditions |
 
-## Current Focus
+## Current Direction
 
 - Engineering AI systems that plan, retrieve, act, and evaluate under real product constraints.
 - Designing mobile and web interfaces that turn complex workflows into clean user journeys.

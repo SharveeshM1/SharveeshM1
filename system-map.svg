@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract AI system architecture map</title>
+  <desc id="desc">An abstract Claude-inspired architecture map with connected nodes representing planning, retrieval, memory, execution, and evaluation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12100d"/>
+      <stop offset="0.55" stop-color="#19130f"/>
+      <stop offset="1" stop-color="#090807"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d97757"/>
+      <stop offset="1" stop-color="#f1c7a8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="28" fill="url(#bg)" stroke="rgba(241,199,168,.22)"/>
+  <g opacity=".26">
+    <path d="M82 240 C234 90 388 120 548 154 C734 194 874 158 1118 62" stroke="#f1c7a8" fill="none"/>
+    <path d="M92 92 C320 54 454 142 624 188 C790 234 974 210 1122 154" stroke="#d97757" fill="none"/>
+    <path d="M70 276 C246 220 403 233 586 241 C776 249 944 239 1136 198" stroke="#9f6a55" fill="none"/>
+  </g>
+  <g fill="none" stroke="rgba(241,199,168,.15)">
+    <circle cx="600" cy="160" r="118"/>
+    <circle cx="600" cy="160" r="72"/>
+    <ellipse cx="600" cy="160" rx="430" ry="104"/>
+  </g>
+  <g stroke="url(#accent)" stroke-width="2" fill="none" opacity=".85">
+    <path d="M600 160 L320 92"/>
+    <path d="M600 160 L342 236"/>
+    <path d="M600 160 L858 78"/>
+    <path d="M600 160 L910 232"/>
+    <path d="M600 160 L600 58"/>
+    <path d="M600 160 L600 270"/>
+  </g>
+  <g>
+    <circle cx="600" cy="160" r="34" fill="#d97757"/>
+    <circle cx="320" cy="92" r="18" fill="#f1c7a8"/>
+    <circle cx="342" cy="236" r="18" fill="#b86d52"/>
+    <circle cx="858" cy="78" r="20" fill="#f1c7a8"/>
+    <circle cx="910" cy="232" r="18" fill="#d97757"/>
+    <circle cx="600" cy="58" r="14" fill="#f1c7a8"/>
+    <circle cx="600" cy="270" r="14" fill="#b86d52"/>
+  </g>
+  <g>
+    <circle cx="600" cy="160" r="5" fill="#fff7ed">
+      <animate attributeName="r" values="5;9;5" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".7;1;.7" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="320" cy="92" r="4" fill="#fff7ed">
+      <animate attributeName="opacity" values=".25;1;.25" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="858" cy="78" r="4" fill="#fff7ed">
+      <animate attributeName="opacity" values="1;.25;1" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

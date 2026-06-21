@@ -1,3 +1,6 @@
+# Setup note: in Settings > Actions > General, set Workflow permissions to "Read and write permissions".
+# This uses the built-in GITHUB_TOKEN, so no personal access token is required for a public profile repo.
+# If your default branch is not main, rename the branch entries below.
 name: Snake Contribution Graph
 
 on:
@@ -20,13 +23,17 @@ jobs:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: Platane/snk/svg-only@v3
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution snake SVG
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            output/snake.svg?palette=github-dark&color_snake=%2322D3EE&color_dots=%230D1117,%23111827,%238B5CF6,%2322D3EE,%23F8FAFC
-      - name: Commit output
+            output/snake.svg?palette=github-dark&color_snake=%2322D3EE&color_dots=%230B1026,%23111827,%2322D3EE,%238B5CF6,%23F59E0B
+
+      - name: Commit refreshed contribution snake
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

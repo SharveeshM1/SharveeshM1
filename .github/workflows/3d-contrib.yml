@@ -1,3 +1,6 @@
+# Setup note: in Settings > Actions > General, set Workflow permissions to "Read and write permissions".
+# This uses the built-in GITHUB_TOKEN, so no personal access token is required for a public profile repo.
+# If your default branch is not main, rename the branch entries below.
 name: 3D Contribution Profile
 
 on:
@@ -20,16 +23,21 @@ jobs:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: yoshi389111/github-profile-3d-contrib@latest
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate rotating 3D contribution profile
+        uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-      - name: Copy selected 3D profile
+
+      - name: Select matching dark palette output
         run: |
           mkdir -p output
           cp profile-3d-contrib/profile-night-view.svg output/profile-3d-contrib.svg
-      - name: Commit output
+
+      - name: Commit refreshed 3D contribution profile
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

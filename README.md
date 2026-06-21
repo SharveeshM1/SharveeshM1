@@ -1,47 +1,71 @@
 <div align="center">
 
-# Sharveesh M
+<h1>Sharveesh M</h1>
 
-### Building intelligent systems at scale
+<h3>AI Engineer Intern | Flutter Developer Intern | Full-Stack Systems Builder</h3>
 
-AI orchestration, backend infrastructure, and full-stack product engineering. Making complex workflows legible.
+<p>
+I build intelligent products where LLM orchestration, backend architecture, and polished user experiences work as one system.
+Currently shipping AI systems at <b>Itomata</b> and production mobile experiences at <b>Rablo</b>.
+</p>
 
-<a href="https://github.com/SharveeshM1"><img src="assets/button-github.svg" width="20%" alt="GitHub"/></a><a href="mailto:sharveesh1@gmail.com"><img src="assets/button-email.svg" width="20%" alt="Email"/></a><a href="https://www.linkedin.com/in/sharveesh-m-52516a283/"><img src="assets/button-linkedin.svg" width="20%" alt="LinkedIn"/></a><a href="https://leetcode.com/u/Sharveesh_m/"><img src="assets/button-leetcode.svg" width="20%" alt="LeetCode"/></a>
+<p>
+  <a href="mailto:sharveesh1@gmail.com">
+    <img src="https://img.shields.io/badge/Email-sharveesh1%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://www.linkedin.com/in/sharveesh-m-52516a283/">
+    <img src="https://img.shields.io/badge/LinkedIn-Sharveesh%20M-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://leetcode.com/u/Sharveesh_m/">
+    <img src="https://img.shields.io/badge/LeetCode-Sharveesh_m-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
+  </a>
+  <a href="https://github.com/SharveeshM1">
+    <img src="https://img.shields.io/badge/GitHub-SharveeshM1-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+</p>
 
-<br/><br/>
+<img src="output/profile-3d-contrib.svg" width="100%" alt="3D contribution profile"/>
 
-Based in Chennai | Available for AI/ML roles | Currently at Itomata + Rablo
+</div>
 
-<br/><br/>
+## What I Build
 
-<img src="profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D GitHub contribution profile visual"/>
+| Track | What I ship |
+| --- | --- |
+| AI systems | LLM applications, agentic workflows, RAG pipelines, prompt engineering, task planning, evaluation loops |
+| Backend infrastructure | FastAPI services, Spring Boot APIs, PostgreSQL persistence, Kafka event flows, secure REST systems |
+| Product surfaces | Flutter apps, Next.js interfaces, real-time WebSocket UX, reusable UI architecture |
+| DevOps & delivery | Dockerized services, GitHub Actions, Linux environments, release-ready production builds |
+
+## Tech Stack
+
+<div align="center">
+
+### Languages
+<img src="https://skillicons.dev/icons?i=python,java,dart,js,ts,cpp,html,css&theme=dark" alt="Languages"/>
+
+### AI, Backend, Frontend
+<img src="https://skillicons.dev/icons?i=fastapi,spring,nextjs,flutter,firebase,postgres,kafka&theme=dark" alt="AI backend frontend stack"/>
+
+### Tools & Infrastructure
+<img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,linux,postman,vscode&theme=dark" alt="Tools and infrastructure"/>
 
 </div>
 
 ## Experience
 
-### Shipping AI systems in production
-
-Engineering across infrastructure, orchestration, and product surfaces.
-
-| Company | Role | Timeline | Focus |
+| Company | Role | Timeline | Impact |
 | --- | --- | --- | --- |
-| Itomata | AI Engineer Intern | June 2026 - Present | LLM orchestration, prompt engineering, agentic workflows, production deployment |
-| Rablo | Flutter Developer Intern | May 2026 - Present | Flutter, UI architecture, mobile performance, product engineering |
+| Itomata | AI Engineer Intern | June 2026 - Present | Building LLM-powered systems, autonomous workflows, and production AI features |
+| Rablo | Flutter Developer Intern | May 2026 - Present | Developing scalable mobile product experiences with clean architecture and performance focus |
 
-## Projects
+## Flagship Systems
 
 ### HELIOS
 
 **Multi-Agent AI Operating System**
 
-Autonomous task execution platform with distributed agent orchestration. Multi-provider LLM inference, persistent memory via vector embeddings, and real-time WebSocket communication. Planning, retrieval, routing, and evaluation loops integrated as a coherent system.
-
-- Multi-agent planning and orchestration across providers
-- Vector database with semantic retrieval using FAISS
-- Real-time WebSocket communication layer
-- Mission-level task evaluation and memory
-- FastAPI + Next.js + Ollama + Gemini stack
+Autonomous task execution platform with distributed agent orchestration, multi-provider LLM inference, persistent vector memory, real-time WebSocket communication, planning, retrieval, routing, and evaluation loops.
 
 `Python` `FastAPI` `Next.js` `Ollama` `Gemini` `LangGraph` `FAISS` `WebSockets`
 
@@ -49,12 +73,7 @@ Autonomous task execution platform with distributed agent orchestration. Multi-p
 
 **AI Fintech Platform**
 
-Digital wallet with intelligent transaction analysis. Event-driven architecture with Kafka for real-time ledger processing.
-
-- Event-driven Kafka architecture
-- ML-powered anomaly detection
-- Spending analytics engine
-- Secure JWT authentication
+Digital wallet with intelligent transaction analysis, event-driven ledger processing, Kafka-based flows, ML-powered anomaly detection, spending analytics, and secure JWT authentication.
 
 `Spring Boot` `PostgreSQL` `Kafka` `Flutter`
 
@@ -62,33 +81,32 @@ Digital wallet with intelligent transaction analysis. Event-driven architecture 
 
 **Commerce Platform**
 
-Cross-platform marketplace with modular seller architecture. Responsive Flutter interfaces with reusable design systems and end-to-end commerce flows.
-
-- Modular seller-focused architecture
-- Product discovery flows
-- Catalog management system
-- Real-time database sync
+Cross-platform marketplace with modular seller architecture, product discovery, catalog management, real-time database sync, and reusable Flutter UI systems.
 
 `Flutter` `Firebase` `Dart`
 
-## Capabilities
-
-| AI/ML | Backend | Frontend | Infra |
-| --- | --- | --- | --- |
-| Gen-AI | FastAPI | Flutter | Docker |
-| Multi-Agent Systems | Spring Boot | Next.js | GitHub Actions |
-| LLM Applications | PostgreSQL | WebSockets | Linux |
-| RAG Pipelines | Kafka | UI Architecture | Cloud Deployment |
-| Prompt Engineering | REST APIs | Product UI | Observability |
-
-## Contact
+## Contribution Graph
 
 <div align="center">
 
-<a href="https://github.com/SharveeshM1">GitHub</a> | <a href="https://www.linkedin.com/in/sharveesh-m-52516a283/">LinkedIn</a> | <a href="https://leetcode.com/u/Sharveesh_m/">LeetCode</a> | <a href="mailto:sharveesh1@gmail.com">Email</a>
+<img src="output/snake.svg" width="100%" alt="Contribution graph animation"/>
 
-Sharveesh M | Computer Science | VIT-AP | Chennai, India
+<br/><br/>
 
-**Building systems that think.**
+<img src="https://github-readme-stats.vercel.app/api?username=SharveeshM1&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" height="165" alt="GitHub stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=SharveeshM1&theme=tokyonight&hide_border=true" height="165" alt="GitHub streak"/>
+
+</div>
+
+## Current Focus
+
+- Engineering AI systems that can plan, retrieve, act, and evaluate work across real product constraints
+- Designing mobile and web interfaces that make complex workflows feel simple
+- Deepening production knowledge across LLM applications, backend reliability, and cloud deployment
+- Open to AI/ML, backend, and full-stack product engineering roles
+
+<div align="center">
+
+### Building systems that think, ship, and scale.
 
 </div>

@@ -62,7 +62,7 @@ Autonomous task execution platform with distributed agent orchestration, multi-p
 ## GitHub Activity
 
 <p align="center">
-  <img src="./output/profile-3d-contrib.svg" width="100%" alt="3D contribution graph for SharveeshM1">
+  <img src="./project-work.svg" width="100%" alt="Project work distribution across HELIOS, MIDAS PAY, and Whole2">
 </p>
 
 <p align="center">

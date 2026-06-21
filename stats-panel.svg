@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub activity metrics</title>
+  <desc id="desc">Activity metrics for Sharveesh M including contributions, commits, repositories, streak, and collaboration.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#17040d"/>
+      <stop offset=".55" stop-color="#2a0716"/>
+      <stop offset="1" stop-color="#08070c"/>
+    </linearGradient>
+    <style>
+      .ui { font-family: Inter, "Segoe UI", Helvetica, Arial, system-ui, sans-serif; }
+      .num { fill: #fff7fb; font-size: 42px; font-weight: 950; letter-spacing: -1px; }
+      .lbl { fill: #d8b9c8; font-size: 14px; font-weight: 700; }
+    </style>
+  </defs>
+  <rect width="1200" height="190" rx="26" fill="url(#bg)" stroke="rgba(255,45,111,.34)"/>
+  <g class="ui" text-rendering="optimizeLegibility">
+    <animate attributeName="opacity" values="0;1" dur=".7s" fill="freeze"/>
+    <g transform="translate(72 55)"><text class="num">145+</text><text y="58" class="lbl">Contributions</text></g>
+    <g transform="translate(304 55)"><text class="num">250+</text><text y="58" class="lbl">Commits</text></g>
+    <g transform="translate(526 55)"><text class="num">25+</text><text y="58" class="lbl">Repositories</text></g>
+    <g transform="translate(744 55)"><text class="num">6</text><text y="58" class="lbl">Day streak</text></g>
+    <g transform="translate(940 55)"><text class="num">10+</text><text y="58" class="lbl">Collaborations</text></g>
+    <path d="M66 148 C220 119 353 144 522 123 C724 98 883 133 1134 76" stroke="#ff2d6f" stroke-width="3" fill="none" opacity=".85"/>
+  </g>
+</svg>

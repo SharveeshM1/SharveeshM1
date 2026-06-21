@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">HELIOS architecture panel</title>
+  <desc id="desc">HELIOS multi-agent AI operating system architecture map with planning, memory, retrieval, execution, and evaluation modules.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16040d"/>
+      <stop offset="1" stop-color="#08070c"/>
+    </linearGradient>
+    <linearGradient id="hot" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff2d6f"/>
+      <stop offset="1" stop-color="#ff91b8"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .ui { font-family: Inter, "Segoe UI", Helvetica, Arial, system-ui, sans-serif; }
+      .node { fill: rgba(255,255,255,.055); stroke: rgba(255,45,111,.42); }
+      .label { fill: #fff7fb; font-size: 18px; font-weight: 900; }
+      .small { fill: #d8b9c8; font-size: 13px; }
+      .wire { stroke: #ff2d6f; stroke-width: 1.5; fill: none; opacity: .58; }
+    </style>
+  </defs>
+  <rect width="1200" height="430" rx="28" fill="url(#panel)" stroke="rgba(255,45,111,.35)"/>
+  <g opacity=".24">
+    <path d="M42 350 C270 230 388 271 595 218 C777 172 923 112 1160 182" stroke="#ff2d6f" fill="none"/>
+    <path d="M40 92 H1160 M40 172 H1160 M40 252 H1160 M40 332 H1160" stroke="#fff" opacity=".08"/>
+    <path d="M160 40 V390 M320 40 V390 M480 40 V390 M640 40 V390 M800 40 V390 M960 40 V390" stroke="#fff" opacity=".06"/>
+  </g>
+  <g class="ui" text-rendering="optimizeLegibility">
+    <animate attributeName="opacity" values="0;1" dur=".7s" fill="freeze"/>
+    <text x="56" y="72" font-size="40" font-weight="950" fill="#fff">HELIOS</text>
+    <text x="56" y="104" font-size="17" font-weight="800" fill="#ff7aa8">Multi-Agent AI Operating System</text>
+    <text x="56" y="134" font-size="15" fill="#d8b9c8">Planning, retrieval, memory, execution, and evaluation working as one observable system.</text>
+    <g transform="translate(500 92)">
+      <path class="wire" d="M100 105 C30 20 -95 35 -170 72"/>
+      <path class="wire" d="M100 105 C42 196 -90 190 -175 153"/>
+      <path class="wire" d="M100 105 C169 22 292 38 365 72"/>
+      <path class="wire" d="M100 105 C171 196 306 190 376 154"/>
+      <path class="wire" d="M100 105 C100 205 100 241 100 270"/>
+      <circle cx="100" cy="105" r="70" fill="rgba(255,45,111,.11)" stroke="#ff2d6f" filter="url(#glow)"/>
+      <text x="58" y="101" class="label">Agent</text>
+      <text x="54" y="125" class="label">Core</text>
+      <g transform="translate(-320 30)">
+        <rect class="node" width="172" height="74" rx="18"/>
+        <text x="22" y="33" class="label">Planning</text><text x="22" y="56" class="small">DAG task routes</text>
+      </g>
+      <g transform="translate(-326 150)">
+        <rect class="node" width="182" height="74" rx="18"/>
+        <text x="22" y="33" class="label">Retrieval</text><text x="22" y="56" class="small">FAISS grounding</text>
+      </g>
+      <g transform="translate(360 30)">
+        <rect class="node" width="172" height="74" rx="18"/>
+        <text x="22" y="33" class="label">Memory</text><text x="22" y="56" class="small">Persistent context</text>
+      </g>
+      <g transform="translate(370 150)">
+        <rect class="node" width="182" height="74" rx="18"/>
+        <text x="22" y="33" class="label">Execution</text><text x="22" y="56" class="small">Tools + workflows</text>
+      </g>
+      <g transform="translate(8 270)">
+        <rect class="node" width="184" height="74" rx="18"/>
+        <text x="22" y="33" class="label">Evaluation</text><text x="22" y="56" class="small">Validation loops</text>
+      </g>
+    </g>
+    <g transform="translate(56 354)">
+      <rect width="98" height="28" rx="10" fill="rgba(255,45,111,.16)"/><text x="18" y="19" class="small">LangGraph</text>
+      <rect x="112" width="72" height="28" rx="10" fill="rgba(255,45,111,.16)"/><text x="130" y="19" class="small">Gemini</text>
+      <rect x="198" width="72" height="28" rx="10" fill="rgba(255,45,111,.16)"/><text x="216" y="19" class="small">Ollama</text>
+      <rect x="284" width="62" height="28" rx="10" fill="rgba(255,45,111,.16)"/><text x="303" y="19" class="small">FAISS</text>
+      <rect x="360" width="78" height="28" rx="10" fill="rgba(255,45,111,.16)"/><text x="378" y="19" class="small">FastAPI</text>
+      <rect x="452" width="108" height="28" rx="10" fill="rgba(255,45,111,.16)"/><text x="470" y="19" class="small">WebSockets</text>
+    </g>
+  </g>
+</svg>

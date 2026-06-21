@@ -1,45 +1,94 @@
 <div align="center">
 
-<img src="assets/hero-operating-system-2035.svg" width="100%" alt="Sharveesh M engineering control plane hero with mission brief, telemetry, and product-grade AI systems positioning"/>
+# Sharveesh M
+
+### Building intelligent systems at scale
+
+AI orchestration, backend infrastructure, and full-stack product engineering. Making complex workflows legible.
+
+<a href="https://github.com/SharveeshM1"><img src="assets/button-github.svg" width="20%" alt="GitHub"/></a><a href="mailto:sharveesh1@gmail.com"><img src="assets/button-email.svg" width="20%" alt="Email"/></a><a href="https://www.linkedin.com/in/sharveesh-m-52516a283/"><img src="assets/button-linkedin.svg" width="20%" alt="LinkedIn"/></a><a href="https://leetcode.com/u/Sharveesh_m/"><img src="assets/button-leetcode.svg" width="20%" alt="LeetCode"/></a>
 
 <br/><br/>
 
-<a href="https://www.linkedin.com/in/sharveesh-m-52516a283/"><img src="assets/button-linkedin.svg" width="20%" alt="LinkedIn"/></a><a href="mailto:sharveesh1@gmail.com"><img src="assets/button-email.svg" width="20%" alt="Email"/></a><a href="https://leetcode.com/u/Sharveesh_m/"><img src="assets/button-leetcode.svg" width="20%" alt="LeetCode"/></a><a href="https://github.com/SharveeshM1"><img src="assets/button-github.svg" width="20%" alt="GitHub"/></a><a href="https://github.com/SharveeshM1/HELIOS"><img src="assets/button-helios.svg" width="20%" alt="HELIOS"/></a>
+Based in Chennai | Available for AI/ML roles | Currently at Itomata + Rablo
 
 <br/><br/>
 
-<img src="assets/mission-live-metrics-console.svg" width="100%" alt="Live metrics console with system layers, API availability, retrieval mode, and agent network indicators"/>
+<img src="profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D GitHub contribution profile visual"/>
 
-<br/><br/>
+</div>
 
-<img src="assets/mission-architecture-control-plane.svg" width="100%" alt="AI systems architecture control plane showing interfaces, agent runtime, retrieval, backend services, deployment and observability"/>
+## Experience
 
-<br/><br/>
+### Shipping AI systems in production
 
-<img src="assets/mission-experience-control-room.svg" width="100%" alt="Experience control room with Itomata AI Engineer Intern and Rablo Flutter Developer Intern live operation cards"/>
+Engineering across infrastructure, orchestration, and product surfaces.
 
-<br/><br/>
+| Company | Role | Timeline | Focus |
+| --- | --- | --- | --- |
+| Itomata | AI Engineer Intern | June 2026 - Present | LLM orchestration, prompt engineering, agentic workflows, production deployment |
+| Rablo | Flutter Developer Intern | May 2026 - Present | Flutter, UI architecture, mobile performance, product engineering |
 
-<img src="assets/mission-tech-stack-matrix.svg" width="100%" alt="Technology stack matrix grouped by AI, backend, frontend, and DevOps operating roles"/>
+## Projects
 
-<br/><br/>
+### HELIOS
 
-<img src="assets/mission-project-operating-panels.svg" width="100%" alt="Project operating panels for HELIOS, MIDAS and whole_app with product-grade telemetry and system maps"/>
+**Multi-Agent AI Operating System**
 
-<br/><br/>
+Autonomous task execution platform with distributed agent orchestration. Multi-provider LLM inference, persistent memory via vector embeddings, and real-time WebSocket communication. Planning, retrieval, routing, and evaluation loops integrated as a coherent system.
 
-<img src="assets/mission-contribution-intelligence.svg" width="100%" alt="Contribution intelligence dashboard visualizing cadence, engineering distribution, review loops and shipping rhythm"/>
+- Multi-agent planning and orchestration across providers
+- Vector database with semantic retrieval using FAISS
+- Real-time WebSocket communication layer
+- Mission-level task evaluation and memory
+- FastAPI + Next.js + Ollama + Gemini stack
 
-<br/><br/>
+`Python` `FastAPI` `Next.js` `Ollama` `Gemini` `LangGraph` `FAISS` `WebSockets`
 
-<img src="assets/mission-experience-timeline.svg" width="100%" alt="Operating timeline showing system mapping, runtime build, validation, and launch behavior"/>
+### MIDAS PAY
 
-<br/><br/>
+**AI Fintech Platform**
 
-<img src="assets/mission-education-certifications.svg" width="100%" alt="Education and certifications control panel for VIT-AP University, AI foundations, software engineering, and machine learning credentials"/>
+Digital wallet with intelligent transaction analysis. Event-driven architecture with Kafka for real-time ledger processing.
 
-<br/><br/>
+- Event-driven Kafka architecture
+- ML-powered anomaly detection
+- Spending analytics engine
+- Secure JWT authentication
 
-<img src="assets/mission-footer-telemetry.svg" width="100%" alt="Closing telemetry rail for production-grade engineering availability and focus areas"/>
+`Spring Boot` `PostgreSQL` `Kafka` `Flutter`
+
+### Whole2
+
+**Commerce Platform**
+
+Cross-platform marketplace with modular seller architecture. Responsive Flutter interfaces with reusable design systems and end-to-end commerce flows.
+
+- Modular seller-focused architecture
+- Product discovery flows
+- Catalog management system
+- Real-time database sync
+
+`Flutter` `Firebase` `Dart`
+
+## Capabilities
+
+| AI/ML | Backend | Frontend | Infra |
+| --- | --- | --- | --- |
+| Gen-AI | FastAPI | Flutter | Docker |
+| Multi-Agent Systems | Spring Boot | Next.js | GitHub Actions |
+| LLM Applications | PostgreSQL | WebSockets | Linux |
+| RAG Pipelines | Kafka | UI Architecture | Cloud Deployment |
+| Prompt Engineering | REST APIs | Product UI | Observability |
+
+## Contact
+
+<div align="center">
+
+<a href="https://github.com/SharveeshM1">GitHub</a> | <a href="https://www.linkedin.com/in/sharveesh-m-52516a283/">LinkedIn</a> | <a href="https://leetcode.com/u/Sharveesh_m/">LeetCode</a> | <a href="mailto:sharveesh1@gmail.com">Email</a>
+
+Sharveesh M | Computer Science | VIT-AP | Chennai, India
+
+**Building systems that think.**
 
 </div>

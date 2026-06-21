@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
+  <title id="title">Sharveesh M experience timeline</title>
+  <desc id="desc">A custom timeline showing Rablo Flutter Developer Intern from May 2026 to present and Itomata AI Engineer Intern from June 2026 to present.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="1" stop-color="#0B1026"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.55" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-40%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="14" flood-color="#020617" flood-opacity="0.55"/>
+    </filter>
+    <filter id="halo" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .display { font-family: "Segoe UI", Helvetica, Arial, system-ui, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Courier New", monospace; }
+      .title { fill: #F8FAFC; font-size: 32px; font-weight: 800; }
+      .role { fill: #E2E8F0; font-size: 24px; font-weight: 700; }
+      .company { fill: #22D3EE; font-size: 20px; font-weight: 700; }
+      .date { fill: #F59E0B; font-size: 16px; }
+      .body { fill: #CBD5E1; font-size: 17px; }
+      .micro { fill: #94A3B8; font-size: 14px; }
+    </style>
+  </defs>
+  <rect width="1400" height="360" rx="26" fill="url(#bg)"/>
+  <g text-rendering="optimizeLegibility" shape-rendering="geometricPrecision">
+    <text x="70" y="68" class="display title">Experience Timeline</text>
+    <text x="70" y="99" class="mono micro">Production AI systems and mobile product engineering</text>
+
+    <path d="M112 188 L1288 188" stroke="url(#line)" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="112" cy="188" r="8" fill="#22D3EE" filter="url(#halo)"/>
+    <circle cx="668" cy="188" r="8" fill="#8B5CF6" filter="url(#halo)">
+      <animate attributeName="r" values="8;13;8" dur="2.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1288" cy="188" r="8" fill="#F59E0B" filter="url(#halo)"/>
+
+    <g filter="url(#soft)">
+      <rect x="154" y="122" width="430" height="150" rx="18" fill="#111827" stroke="#24304F"/>
+      <text x="184" y="160" class="display company">Rablo</text>
+      <text x="184" y="193" class="display role">Flutter Developer Intern</text>
+      <text x="184" y="222" class="mono date">May 2026 - Present</text>
+      <text x="184" y="252" class="display body">Scalable mobile product experiences with clean architecture and performance focus.</text>
+    </g>
+
+    <g filter="url(#soft)">
+      <rect x="814" y="122" width="430" height="150" rx="18" fill="#111827" stroke="#24304F"/>
+      <text x="844" y="160" class="display company">Itomata</text>
+      <text x="844" y="193" class="display role">AI Engineer Intern</text>
+      <text x="844" y="222" class="mono date">June 2026 - Present</text>
+      <text x="844" y="252" class="display body">LLM-powered systems, autonomous workflows, and production AI features.</text>
+    </g>
+  </g>
+</svg>

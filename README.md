@@ -65,27 +65,74 @@ Autonomous task execution platform with distributed agent orchestration, multi-p
   <img src="./output/profile-3d-contrib.svg" width="100%" alt="3D contribution graph for SharveeshM1">
 </p>
 
-| Contributions | Commits | Repositories | Current Streak |
-| --- | --- | --- | --- |
-| **145+** | **250+** | **25+** | **6 days** |
+<p align="center">
+  <img src="https://img.shields.io/badge/CONTRIBUTIONS-145%2B-b85c38?style=for-the-badge&labelColor=2a211c" alt="145 plus contributions">
+  <img src="https://img.shields.io/badge/COMMITS-250%2B-b85c38?style=for-the-badge&labelColor=2a211c" alt="250 plus commits">
+  <img src="https://img.shields.io/badge/REPOSITORIES-25%2B-b85c38?style=for-the-badge&labelColor=2a211c" alt="25 plus repositories">
+  <img src="https://img.shields.io/badge/CURRENT%20STREAK-6%20DAYS-b85c38?style=for-the-badge&labelColor=2a211c" alt="6 day current streak">
+</p>
 
 ## Experience
 
-| Company | Role | Timeline | Impact |
-| --- | --- | --- | --- |
-| **Itomata** | AI Engineer Intern | June 2026 - Present | Building LLM-powered systems, autonomous workflows, and production AI features |
-| **Rablo** | Flutter Developer Intern | May 2026 - Present | Developing scalable mobile product experiences with clean architecture and performance focus |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="https://img.shields.io/badge/ITOMATA-AI%20ENGINEER%20INTERN-b85c38?style=for-the-badge&labelColor=2a211c" alt="Itomata AI Engineer Intern">
+      <br><br>
+      <strong>June 2026 - Present</strong>
+      <br>
+      Building LLM-powered systems, autonomous workflows, and production AI features.
+    </td>
+    <td width="50%" valign="top">
+      <img src="https://img.shields.io/badge/RABLO-FLUTTER%20DEVELOPER%20INTERN-b85c38?style=for-the-badge&labelColor=2a211c" alt="Rablo Flutter Developer Intern">
+      <br><br>
+      <strong>May 2026 - Present</strong>
+      <br>
+      Developing scalable mobile product experiences with clean architecture and performance focus.
+    </td>
+  </tr>
+</table>
 
 ## Flagship Systems
 
-| System | Architecture | Stack | Impact |
-| --- | --- | --- | --- |
-| **HELIOS** | Multi-agent AI operating system with planning, retrieval, memory, execution, and evaluation loops | Python, FastAPI, Next.js, Ollama, Gemini, LangGraph, FAISS, WebSockets | Turns open-ended tasks into observable, retryable, stateful workflows |
-| **MIDAS PAY** | Event-driven fintech ledger with transaction intelligence and anomaly detection | Spring Boot, PostgreSQL, Kafka, Flutter, Isolation Forest ML | Decouples transaction workloads while preserving reliable balance state |
-| **Whole2** | Cross-platform commerce platform with seller tooling and reusable mobile UI architecture | Flutter, Firebase, Dart, Riverpod | Keeps marketplace features modular and usable under unreliable network conditions |
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <img src="https://img.shields.io/badge/HELIOS-MULTI--AGENT%20AI%20OS-b85c38?style=for-the-badge&labelColor=2a211c" alt="HELIOS multi-agent AI operating system">
+      <br><br>
+      Multi-agent AI operating system with planning, retrieval, memory, execution, and evaluation loops.
+      <br><br>
+      <code>Python</code> <code>FastAPI</code> <code>LangGraph</code> <code>FAISS</code>
+      <br><br>
+      Turns open-ended tasks into observable, retryable, stateful workflows.
+    </td>
+    <td width="33%" valign="top">
+      <img src="https://img.shields.io/badge/MIDAS%20PAY-AI%20FINTECH-b85c38?style=for-the-badge&labelColor=2a211c" alt="MIDAS PAY AI fintech platform">
+      <br><br>
+      Event-driven fintech ledger with transaction intelligence and anomaly detection.
+      <br><br>
+      <code>Spring Boot</code> <code>Kafka</code> <code>PostgreSQL</code> <code>Flutter</code>
+      <br><br>
+      Decouples transaction workloads while preserving reliable balance state.
+    </td>
+    <td width="33%" valign="top">
+      <img src="https://img.shields.io/badge/WHOLE2-COMMERCE%20PLATFORM-b85c38?style=for-the-badge&labelColor=2a211c" alt="Whole2 commerce platform">
+      <br><br>
+      Cross-platform commerce platform with seller tooling and reusable mobile UI architecture.
+      <br><br>
+      <code>Flutter</code> <code>Firebase</code> <code>Dart</code> <code>Riverpod</code>
+      <br><br>
+      Keeps marketplace features modular and usable under unreliable network conditions.
+    </td>
+  </tr>
+</table>
 
 ## Current Direction
 
-- Engineering AI systems that plan, retrieve, act, and evaluate under real product constraints.
-- Designing mobile and web interfaces that turn complex workflows into clean user journeys.
-- Deepening production depth across LLM applications, backend reliability, and cloud deployment.
+<p align="center">
+  <img src="https://img.shields.io/badge/PLAN%20%2B%20RETRIEVE%20%2B%20ACT-AI%20systems%20under%20real%20product%20constraints-b85c38?style=for-the-badge&labelColor=2a211c" alt="AI systems direction">
+  <br>
+  <img src="https://img.shields.io/badge/PRODUCT%20SURFACES-Clean%20mobile%20and%20web%20workflows-b85c38?style=for-the-badge&labelColor=2a211c" alt="Product surfaces direction">
+  <br>
+  <img src="https://img.shields.io/badge/PRODUCTION%20DEPTH-LLM%20apps%2C%20backend%20reliability%2C%20cloud%20deployment-b85c38?style=for-the-badge&labelColor=2a211c" alt="Production depth direction">
+</p>

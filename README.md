@@ -21,12 +21,6 @@ Building intelligent systems where planning, retrieval, execution, and product e
   <img src="https://komarev.com/ghpvc/?username=SharveeshM1&style=for-the-badge&label=PROFILE%20VIEWS&color=b85c38&labelColor=2a211c" alt="SharveeshM1 profile view counter">
 </p>
 
-## Focus
-
-| AI Systems | Backend Infrastructure | Product Engineering |
-| --- | --- | --- |
-| Multi-agent workflows, RAG, LangGraph, retrieval, evaluation loops | FastAPI, Spring Boot, Kafka, PostgreSQL, WebSockets, secure REST systems | Flutter, Next.js, reusable UI architecture, real-time product surfaces |
-
 ## Tech Stack
 
 <div align="center">

@@ -66,10 +66,10 @@ Autonomous task execution platform with distributed agent orchestration, multi-p
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/CONTRIBUTIONS-145%2B-b85c38?style=for-the-badge&labelColor=2a211c" alt="145 plus contributions">
-  <img src="https://img.shields.io/badge/COMMITS-250%2B-b85c38?style=for-the-badge&labelColor=2a211c" alt="250 plus commits">
-  <img src="https://img.shields.io/badge/REPOSITORIES-25%2B-b85c38?style=for-the-badge&labelColor=2a211c" alt="25 plus repositories">
-  <img src="https://img.shields.io/badge/CURRENT%20STREAK-6%20DAYS-b85c38?style=for-the-badge&labelColor=2a211c" alt="6 day current streak">
+  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=PUBLIC%20REPOS&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FSharveeshM1&color=b85c38&labelColor=2a211c" alt="Live public repository count from GitHub">
+  <img src="https://img.shields.io/github/stars/SharveeshM1/SharveeshM1?style=for-the-badge&label=PROFILE%20STARS&color=b85c38&labelColor=2a211c" alt="Live star count for the SharveeshM1 profile repository">
+  <img src="https://img.shields.io/github/forks/SharveeshM1/SharveeshM1?style=for-the-badge&label=PROFILE%20FORKS&color=b85c38&labelColor=2a211c" alt="Live fork count for the SharveeshM1 profile repository">
+  <img src="https://img.shields.io/github/issues/SharveeshM1/SharveeshM1?style=for-the-badge&label=OPEN%20ISSUES&color=b85c38&labelColor=2a211c" alt="Live open issue count for the SharveeshM1 profile repository">
 </p>
 
 ## Experience

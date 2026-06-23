@@ -644,6 +644,62 @@
       place-items: center;
     }
 
+    .tech-distribution {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .tech-donut {
+      width: min(44%, 144px);
+      height: auto;
+      flex: 0 1 144px;
+      overflow: visible;
+      shape-rendering: geometricPrecision;
+      text-rendering: geometricPrecision;
+    }
+
+    .tech-legend {
+      min-width: 0;
+      flex: 1 1 116px;
+      display: grid;
+      gap: 8px;
+    }
+
+    .tech-legend-item {
+      display: grid;
+      grid-template-columns: 8px minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-primary);
+      font-size: 11px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .tech-legend-item span {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      box-shadow: 0 0 10px currentColor;
+    }
+
+    .tech-legend-item strong,
+    .tech-legend-item em {
+      font: inherit;
+      font-style: normal;
+    }
+
+    .tech-legend-item strong {
+      min-width: 0;
+    }
+
+    .tech-legend-item em {
+      color: var(--text-secondary);
+    }
+
     .domain-table {
       width: 100%;
       border-collapse: collapse;
@@ -1261,10 +1317,43 @@
             </ul>
           </article>
           <article class="stats-card card reveal">
-            <h3 class="card-title">Language Distribution</h3>
-            <p class="stat-label">Animated from repository language totals</p>
+            <h3 class="card-title">Technology Distribution</h3>
+            <p class="stat-label">Actual engineering stack weighted by project depth</p>
             <div class="chart-wrap">
-              <canvas id="language-chart" width="260" height="260"></canvas>
+              <div class="tech-distribution" aria-label="Technology distribution by project depth">
+                <svg class="tech-donut" viewBox="0 0 160 160" role="img" aria-labelledby="tech-donut-title">
+                  <title id="tech-donut-title">Technology Distribution</title>
+                  <circle cx="80" cy="80" r="55" fill="none" stroke="var(--border)" stroke-width="24" opacity="0.5"></circle>
+                  <g transform="rotate(-90 80 80)" fill="none" stroke-linecap="round">
+                    <circle cx="80" cy="80" r="55" stroke="#ff8a3d" stroke-width="28" stroke-dasharray="90.9 254.7" stroke-dashoffset="0" opacity="0.16"></circle>
+                    <circle cx="80" cy="80" r="55" stroke="#a855f7" stroke-width="28" stroke-dasharray="71.4 274.2" stroke-dashoffset="-93.9" opacity="0.16"></circle>
+                    <circle cx="80" cy="80" r="55" stroke="#22d3ee" stroke-width="28" stroke-dasharray="58.4 287.2" stroke-dashoffset="-168.3" opacity="0.16"></circle>
+                    <circle cx="80" cy="80" r="55" stroke="#ff4fb8" stroke-width="28" stroke-dasharray="45.4 300.2" stroke-dashoffset="-229.7" opacity="0.16"></circle>
+                    <circle cx="80" cy="80" r="55" stroke="#34d399" stroke-width="28" stroke-dasharray="32.5 313.1" stroke-dashoffset="-278.1" opacity="0.16"></circle>
+                    <circle cx="80" cy="80" r="55" stroke="#3b82f6" stroke-width="28" stroke-dasharray="16.2 329.4" stroke-dashoffset="-313.6" opacity="0.16"></circle>
+                    <circle cx="80" cy="80" r="55" stroke="#facc15" stroke-width="28" stroke-dasharray="9.7 335.9" stroke-dashoffset="-332.8" opacity="0.16"></circle>
+                    <circle cx="80" cy="80" r="55" stroke="#ff8a3d" stroke-width="20" stroke-dasharray="90.9 254.7" stroke-dashoffset="0"></circle>
+                    <circle cx="80" cy="80" r="55" stroke="#a855f7" stroke-width="20" stroke-dasharray="71.4 274.2" stroke-dashoffset="-93.9"></circle>
+                    <circle cx="80" cy="80" r="55" stroke="#22d3ee" stroke-width="20" stroke-dasharray="58.4 287.2" stroke-dashoffset="-168.3"></circle>
+                    <circle cx="80" cy="80" r="55" stroke="#ff4fb8" stroke-width="20" stroke-dasharray="45.4 300.2" stroke-dashoffset="-229.7"></circle>
+                    <circle cx="80" cy="80" r="55" stroke="#34d399" stroke-width="20" stroke-dasharray="32.5 313.1" stroke-dashoffset="-278.1"></circle>
+                    <circle cx="80" cy="80" r="55" stroke="#3b82f6" stroke-width="20" stroke-dasharray="16.2 329.4" stroke-dashoffset="-313.6"></circle>
+                    <circle cx="80" cy="80" r="55" stroke="#facc15" stroke-width="20" stroke-dasharray="9.7 335.9" stroke-dashoffset="-332.8"></circle>
+                  </g>
+                  <circle cx="80" cy="80" r="34" fill="var(--surface)" stroke="var(--border)" stroke-width="1"></circle>
+                  <text x="80" y="78" text-anchor="middle" fill="var(--text-primary)" style="font-size: 20px; font-weight: 800;">100%</text>
+                  <text x="80" y="96" text-anchor="middle" fill="var(--text-secondary)" style="font-size: 9px; font-weight: 700;">STACK MIX</text>
+                </svg>
+                <div class="tech-legend" aria-label="Technology legend">
+                  <div class="tech-legend-item"><span style="background:#ff8a3d;color:#ff8a3d"></span><strong>Java / Spring Boot</strong><em>28%</em></div>
+                  <div class="tech-legend-item"><span style="background:#a855f7;color:#a855f7"></span><strong>Python / AI</strong><em>22%</em></div>
+                  <div class="tech-legend-item"><span style="background:#22d3ee;color:#22d3ee"></span><strong>Flutter / Dart</strong><em>18%</em></div>
+                  <div class="tech-legend-item"><span style="background:#ff4fb8;color:#ff4fb8"></span><strong>LangChain / LangGraph</strong><em>14%</em></div>
+                  <div class="tech-legend-item"><span style="background:#34d399;color:#34d399"></span><strong>Vector Databases</strong><em>10%</em></div>
+                  <div class="tech-legend-item"><span style="background:#3b82f6;color:#3b82f6"></span><strong>Next.js</strong><em>5%</em></div>
+                  <div class="tech-legend-item"><span style="background:#facc15;color:#facc15"></span><strong>Infrastructure</strong><em>3%</em></div>
+                </div>
+              </div>
             </div>
           </article>
         </div>
@@ -1387,7 +1476,6 @@
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
   <script defer>
     (() => {
       "use strict";
@@ -1550,16 +1638,6 @@
         const issueSearch = await fetchJson(`https://api.github.com/search/issues?q=author:${USERNAME}`);
         const pullSearch = await fetchJson(`https://api.github.com/search/issues?q=author:${USERNAME}+type:pr`);
 
-        const languages = {};
-        await Promise.all(repos.slice(0, 20).map(async repo => {
-          try {
-            const repoLangs = await fetchJson(repo.languages_url);
-            Object.entries(repoLangs).forEach(([name, bytes]) => {
-              languages[name] = (languages[name] || 0) + bytes;
-            });
-          } catch (_) {}
-        }));
-
         const commits = events.filter(event => event.type === "PushEvent").reduce((sum, event) => sum + (event.payload?.commits?.length || 0), 0);
         const stars = repos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
         const data = {
@@ -1568,8 +1646,7 @@
           pulls: Math.max(pullSearch.total_count || 0, 8),
           issues: Math.max(issueSearch.total_count || 0, 15),
           streak: 6,
-          contributions: Math.max(commits, 142),
-          languages
+          contributions: Math.max(commits, 142)
         };
         localStorage.setItem(CACHE_KEY, JSON.stringify({ timestamp: Date.now(), data }));
         return data;
@@ -1584,35 +1661,6 @@
         $("#streak").textContent = `${data.streak} days`;
         $("#api-status").textContent = fromFallback ? "Showing resilient fallback data" : "Fetched from GitHub REST API";
         renderHeatmap();
-        renderLanguageChart(data.languages);
-      }
-
-      function renderLanguageChart(languages) {
-        const fallback = { Python: 45, Dart: 25, TypeScript: 20, SQL: 10 };
-        const source = Object.keys(languages || {}).length ? languages : fallback;
-        const sorted = Object.entries(source).sort((a, b) => b[1] - a[1]).slice(0, 5);
-        const ctx = $("#language-chart");
-        if (!window.Chart || !ctx) return;
-        new Chart(ctx, {
-          type: "doughnut",
-          data: {
-            labels: sorted.map(([name]) => name),
-            datasets: [{
-              data: sorted.map(([, value]) => value),
-              backgroundColor: ["#2563eb", "#1d4ed8", "#16a34a", "#0a5a2b", "#0d3d1f"],
-              borderWidth: 0
-            }]
-          },
-          options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            animation: { duration: prefersReducedMotion ? 0 : 900 },
-            plugins: {
-              legend: { position: "bottom", labels: { color: getComputedStyle(root).getPropertyValue("--text-secondary"), boxWidth: 10, font: { family: "Inter", size: 12 } } }
-            },
-            cutout: "68%"
-          }
-        });
       }
 
       async function initGithub() {
@@ -1621,7 +1669,7 @@
           const data = await getGithubData();
           renderGithubStats(data);
         } catch (_) {
-          renderGithubStats({ stars: 12, commits: 142, pulls: 8, issues: 15, streak: 6, contributions: 142, languages: { Python: 45, Dart: 25, TypeScript: 20, SQL: 10 } }, true);
+          renderGithubStats({ stars: 12, commits: 142, pulls: 8, issues: 15, streak: 6, contributions: 142 }, true);
         }
       }
 

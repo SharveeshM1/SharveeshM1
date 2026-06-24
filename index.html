@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Sharveesh M - AI Engineer and full-stack systems builder creating intelligent products with LLM orchestration, backend architecture, and polished UX.">
   <meta name="theme-color" content="#fafafa">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://cdn.jsdelivr.net https://github-readme-stats.vercel.app https://github-readme-streak-stats.herokuapp.com https://img.shields.io https://skillicons.dev; connect-src 'self' https://api.github.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://cdn.jsdelivr.net https://cdn.simpleicons.org https://www.pinecone.io https://github-readme-stats.vercel.app https://github-readme-streak-stats.herokuapp.com https://img.shields.io https://skillicons.dev; connect-src 'self' https://api.github.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
   <title>Sharveesh M | AI Engineer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1389,15 +1389,23 @@
         <div class="icon-section">
           <div class="icon-block reveal">
             <h3 class="card-title">Languages</h3>
-            <div class="icon-grid" data-icons="python,java,dart,typescript,html5,css3"></div>
+            <div class="icon-grid" data-icons="python,java,dart,javascript,typescript,cplusplus,go,rust"></div>
           </div>
           <div class="icon-block reveal">
-            <h3 class="card-title">AI, Backend, Frontend</h3>
-            <div class="icon-grid" data-icons="fastapi,spring,nextjs,flutter,postgresql,apachekafka,firebase,graphql"></div>
+            <h3 class="card-title">AI, Frameworks & Orchestration</h3>
+            <div class="icon-grid" data-icons="openai,gemini,claude,ollama,langchain,langgraph,fastapi,spring,flutter,nextjs,firebase,pytorch,tensorflow,scikitlearn"></div>
           </div>
           <div class="icon-block reveal">
-            <h3 class="card-title">Tools & Infrastructure</h3>
-            <div class="icon-grid" data-icons="docker,git,github,linux,vscode,figma,streamlit,bash"></div>
+            <h3 class="card-title">Data, Vector Databases & Messaging</h3>
+            <div class="icon-grid" data-icons="postgresql,redis,mongodb,pinecone,qdrant,faiss,apachekafka"></div>
+          </div>
+          <div class="icon-block reveal">
+            <h3 class="card-title">Infrastructure & DevOps</h3>
+            <div class="icon-grid" data-icons="docker,kubernetes,linux,git,github,githubactions,vscode,postman"></div>
+          </div>
+          <div class="icon-block reveal">
+            <h3 class="card-title">Cloud & Deployment</h3>
+            <div class="icon-grid" data-icons="aws,googlecloud,vercel"></div>
           </div>
         </div>
       </div>
@@ -1531,16 +1539,35 @@
 
       function initIcons() {
         const names = {
-          python: "Python", java: "Java", dart: "Dart", typescript: "TypeScript", html5: "HTML5", css3: "CSS3",
-          fastapi: "FastAPI", spring: "Spring", nextjs: "Next.js", flutter: "Flutter", postgresql: "PostgreSQL",
-          apachekafka: "Kafka", firebase: "Firebase", graphql: "LangGraph", docker: "Docker", git: "Git",
-          github: "GitHub", linux: "Linux", vscode: "VSCode", figma: "Figma", streamlit: "Streamlit", bash: "Ollama"
+          python: "Python", java: "Java", dart: "Dart", javascript: "JavaScript", typescript: "TypeScript", cplusplus: "C++", go: "Go", rust: "Rust",
+          openai: "OpenAI", gemini: "Gemini", claude: "Claude", ollama: "Ollama", langchain: "LangChain", langgraph: "LangGraph",
+          fastapi: "FastAPI", spring: "Spring Boot", flutter: "Flutter", nextjs: "Next.js", firebase: "Firebase", pytorch: "PyTorch", tensorflow: "TensorFlow", scikitlearn: "Scikit-learn",
+          postgresql: "PostgreSQL", redis: "Redis", mongodb: "MongoDB", pinecone: "Pinecone", qdrant: "Qdrant", faiss: "FAISS", apachekafka: "Kafka",
+          docker: "Docker", kubernetes: "Kubernetes", linux: "Linux", git: "Git", github: "GitHub", githubactions: "GitHub Actions", vscode: "VS Code", postman: "Postman",
+          aws: "AWS", googlecloud: "Google Cloud", vercel: "Vercel"
+        };
+        const iconSources = {
+          openai: "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/openai.svg",
+          gemini: "https://cdn.simpleicons.org/googlegemini/8e75ff",
+          claude: "https://cdn.simpleicons.org/claude/d97757",
+          ollama: "https://cdn.simpleicons.org/ollama/ffffff",
+          langchain: "https://cdn.simpleicons.org/langchain/1c3c3c",
+          langgraph: "https://cdn.simpleicons.org/langchain/1c3c3c",
+          nextjs: "https://cdn.simpleicons.org/nextdotjs/ffffff",
+          rust: "https://cdn.simpleicons.org/rust/ffffff",
+          pinecone: "https://www.pinecone.io/favicon.ico",
+          qdrant: "https://cdn.simpleicons.org/qdrant/dc244c",
+          faiss: "https://cdn.simpleicons.org/meta/0866ff",
+          github: "https://cdn.simpleicons.org/github/ffffff",
+          githubactions: "https://cdn.simpleicons.org/githubactions/2088ff",
+          aws: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+          vercel: "https://cdn.simpleicons.org/vercel/ffffff"
         };
         $$("[data-icons]").forEach(grid => {
           const icons = grid.dataset.icons.split(",");
           grid.innerHTML = icons.map(icon => `
             <div class="tech-icon" tabindex="0" data-search="${names[icon] || icon}">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${icon}/${icon}-original.svg" alt="${names[icon] || icon} icon" loading="lazy" onerror="this.src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${icon}/${icon}-plain.svg'">
+              <img src="${iconSources[icon] || `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${icon}/${icon}-original.svg`}" alt="${names[icon] || icon} icon" loading="lazy" onerror="this.src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${icon}/${icon}-plain.svg'">
               <span>${names[icon] || icon}</span>
             </div>
           `).join("");

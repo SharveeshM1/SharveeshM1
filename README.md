@@ -19,45 +19,57 @@
   <img src="https://komarev.com/ghpvc/?username=SharveeshM1&style=for-the-badge&label=PROFILE%20VIEWS&color=b85c38&labelColor=2a211c" alt="SharveeshM1 profile view counter">
 </p>
 
-## Tech Stack
+<p align="center">
+  <img src="./section-tech-stack.svg" width="100%" alt="Tech Stack section header">
+</p>
 
 <div align="center">
 
-**Languages**
+<strong>01 · Languages</strong>
 
 <img src="https://skillicons.dev/icons?i=python,java,dart,js,ts,cpp,html,css&theme=dark" alt="Python, Java, Dart, JavaScript, TypeScript, C++, HTML5, and CSS3 icons">
 
-**AI, Backend, Frontend**
+<strong>02 · AI, Backend, Frontend</strong>
 
 <img src="https://skillicons.dev/icons?i=fastapi,spring,nextjs,flutter,firebase,postgres,kafka&theme=dark" alt="FastAPI, Spring Boot, Next.js, Flutter, Firebase, PostgreSQL, and Kafka icons">
 
-**Tools & Infrastructure**
+<strong>03 · Tools & Infrastructure</strong>
 
 <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,linux,postman,vscode&theme=dark" alt="Docker, Git, GitHub, GitHub Actions, Linux, Postman, and VS Code icons">
 
 </div>
 
-## HELIOS
+<p align="center">
+  <img src="./section-helios.svg" width="100%" alt="HELIOS section header">
+</p>
 
-**Multi-Agent AI Runtime**
+<strong>Runtime Focus</strong>
 
 HELIOS turns open-ended goals into observable agent workflows with planning, retrieval, memory, tool execution, and evaluation built into the loop.
+
+- Plans task graphs from open-ended goals
+- Retrieves grounded context for each step
+- Preserves durable state across long-running work
+- Routes tools and APIs through observable execution
+- Evaluates results and retries failed paths
 
 <p align="center">
   <img src="./system-map.svg" width="100%" alt="Animated HELIOS system map showing planning, retrieval, memory, execution, and evaluation modules">
 </p>
 
-| Layer | Role | Output |
+| Layer | Handles | Produces |
 | --- | --- | --- |
-| Planning | Breaks goals into ordered task graphs | Clear next actions |
-| Retrieval | Grounds each step with indexed context | Relevant evidence |
-| Memory | Carries state across long-running work | Durable context |
-| Execution | Routes tools, APIs, and workflow actions | Completed operations |
-| Evaluation | Checks results, retries failures, and closes loops | Verified outcomes |
+| Planning | Goal decomposition | Ordered task graph |
+| Retrieval | Semantic grounding | Relevant evidence |
+| Memory | Persistent state | Durable context |
+| Execution | Tool and API routing | Completed actions |
+| Evaluation | Validation and retries | Verified outcomes |
 
 `LangGraph` · `Gemini` · `Ollama` · `FAISS` · `FastAPI` · `WebSockets`
 
-## GitHub Activity
+<p align="center">
+  <img src="./section-github.svg" width="100%" alt="GitHub Activity section header">
+</p>
 
 <p align="center">
   <img src="./output/profile-3d-contrib.svg?v=technology-distribution" width="100%" alt="3D contribution graph for SharveeshM1">
@@ -70,7 +82,9 @@ HELIOS turns open-ended goals into observable agent workflows with planning, ret
   <img src="https://img.shields.io/github/issues/SharveeshM1/SharveeshM1?style=for-the-badge&label=OPEN%20ISSUES&color=b85c38&labelColor=2a211c" alt="Live open issue count for the SharveeshM1 profile repository">
 </p>
 
-## Experience
+<p align="center">
+  <img src="./section-experience.svg" width="100%" alt="Experience section header">
+</p>
 
 <table>
   <tr>
@@ -79,53 +93,87 @@ HELIOS turns open-ended goals into observable agent workflows with planning, ret
       <br><br>
       <strong>June 2026 - Present</strong>
       <br>
-      Building LLM-powered systems, autonomous workflows, and production AI features.
+      <sub><strong>FOCUS</strong></sub>
+      <br>
+      &rsaquo; LLM-powered systems
+      <br>
+      &rsaquo; Autonomous workflows
+      <br>
+      &rsaquo; Production AI features
     </td>
     <td width="50%" valign="top">
       <img src="https://img.shields.io/badge/RABLO-FLUTTER%20DEVELOPER%20INTERN-b85c38?style=for-the-badge&labelColor=2a211c" alt="Rablo Flutter Developer Intern">
       <br><br>
       <strong>May 2026 - Present</strong>
       <br>
-      Developing scalable mobile product experiences with clean architecture and performance focus.
+      <sub><strong>FOCUS</strong></sub>
+      <br>
+      &rsaquo; Scalable mobile experiences
+      <br>
+      &rsaquo; Clean architecture
+      <br>
+      &rsaquo; Performance-focused UI
     </td>
   </tr>
 </table>
 
-## Flagship Systems
+<p align="center">
+  <img src="./section-flagship.svg" width="100%" alt="Flagship Systems section header">
+</p>
 
 <table>
   <tr>
     <td width="33%" valign="top">
       <img src="https://img.shields.io/badge/HELIOS-MULTI--AGENT%20AI%20OS-b85c38?style=for-the-badge&labelColor=2a211c" alt="HELIOS multi-agent AI operating system">
       <br><br>
+      <sub><strong>WHAT</strong></sub>
+      <br>
       Multi-agent AI operating system with planning, retrieval, memory, execution, and evaluation loops.
       <br><br>
+      <sub><strong>STACK</strong></sub>
+      <br>
       <code>Python</code> <code>FastAPI</code> <code>LangGraph</code> <code>FAISS</code>
       <br><br>
+      <sub><strong>IMPACT</strong></sub>
+      <br>
       Turns open-ended tasks into observable, retryable, stateful workflows.
     </td>
     <td width="33%" valign="top">
       <img src="https://img.shields.io/badge/MIDAS%20PAY-AI%20FINTECH-b85c38?style=for-the-badge&labelColor=2a211c" alt="MIDAS PAY AI fintech platform">
       <br><br>
+      <sub><strong>WHAT</strong></sub>
+      <br>
       Event-driven fintech ledger with transaction intelligence and anomaly detection.
       <br><br>
+      <sub><strong>STACK</strong></sub>
+      <br>
       <code>Spring Boot</code> <code>Kafka</code> <code>PostgreSQL</code> <code>Flutter</code>
       <br><br>
+      <sub><strong>IMPACT</strong></sub>
+      <br>
       Decouples transaction workloads while preserving reliable balance state.
     </td>
     <td width="33%" valign="top">
       <img src="https://img.shields.io/badge/WHOLE2-COMMERCE%20PLATFORM-b85c38?style=for-the-badge&labelColor=2a211c" alt="Whole2 commerce platform">
       <br><br>
+      <sub><strong>WHAT</strong></sub>
+      <br>
       Cross-platform commerce platform with seller tooling and reusable mobile UI architecture.
       <br><br>
+      <sub><strong>STACK</strong></sub>
+      <br>
       <code>Flutter</code> <code>Firebase</code> <code>Dart</code> <code>Riverpod</code>
       <br><br>
+      <sub><strong>IMPACT</strong></sub>
+      <br>
       Keeps marketplace features modular and usable under unreliable network conditions.
     </td>
   </tr>
 </table>
 
-## Current Direction
+<p align="center">
+  <img src="./section-direction.svg" width="100%" alt="Current Direction section header">
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/PLAN%20%2B%20RETRIEVE%20%2B%20ACT-AI%20systems%20under%20real%20product%20constraints-b85c38?style=for-the-badge&labelColor=2a211c" alt="AI systems direction">

@@ -1,53 +1,116 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="420" height="300" viewBox="0 0 420 300" role="img" aria-labelledby="title desc">
-  <title id="title">Animated coding system illustration</title>
-  <desc id="desc">A crisp animated terminal and connected system nodes in a warm Claude-inspired palette.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="360" viewBox="0 0 620 360" role="img" aria-labelledby="title desc">
+  <title id="title">Animated AI systems console</title>
+  <desc id="desc">A clean animated console with agent flow nodes for planning, retrieval, execution, and evaluation.</desc>
   <defs>
     <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1c1713"/>
-      <stop offset="1" stop-color="#0f0d0b"/>
+      <stop offset="0" stop-color="#1b1714"/>
+      <stop offset="1" stop-color="#0f1115"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#f1c7a8"/>
       <stop offset="1" stop-color="#d97757"/>
     </linearGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
-  <rect x="72" y="58" width="276" height="178" rx="24" fill="#12100d" stroke="#3a2b24" stroke-width="2"/>
-  <rect x="88" y="78" width="244" height="132" rx="14" fill="url(#screen)" stroke="#2d231e"/>
-  <circle cx="108" cy="95" r="5" fill="#8b5e4b"/>
-  <circle cx="126" cy="95" r="5" fill="#b7795d"/>
-  <circle cx="144" cy="95" r="5" fill="#f1c7a8"/>
-  <g fill="none" stroke-linecap="round" stroke-width="7">
-    <path d="M112 128 H190" stroke="#f1c7a8"/>
-    <path d="M112 154 H245" stroke="#a27b68"/>
-    <path d="M112 180 H166" stroke="#d97757"/>
-    <path d="M184 180 H276" stroke="#665149"/>
+  <rect x="83" y="44" width="454" height="236" rx="28" fill="#111319" stroke="#3a2b24" stroke-width="2"/>
+  <rect x="107" y="72" width="406" height="164" rx="18" fill="url(#screen)" stroke="#2d231e"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="1">
+    <text x="133" y="103" fill="#f1c7a8">SHARVEESHM1</text>
+    <text x="373" y="103" fill="#7f6a5f">SYSTEM ONLINE</text>
   </g>
-  <rect x="282" y="121" width="9" height="17" rx="2" fill="#f1c7a8">
+
+  <g fill="#a66b52">
+    <circle cx="130" cy="126" r="5"/>
+    <circle cx="149" cy="126" r="5" fill="#c37b5d"/>
+    <circle cx="168" cy="126" r="5" fill="#f1c7a8"/>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">
+    <text x="132" y="156" fill="#a89384">&gt; route task through agent graph</text>
+    <text x="132" y="183" fill="#a89384">&gt; ground context with retrieval</text>
+    <text x="132" y="210" fill="#a89384">&gt; execute, observe, evaluate</text>
+  </g>
+
+  <g fill="none" stroke-linecap="round" stroke-width="6">
+    <path d="M392 151 H470" stroke="#f1c7a8">
+      <animate attributeName="stroke-dasharray" values="0 112;94 18;0 112" dur="3.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M392 181 H478" stroke="#a27b68">
+      <animate attributeName="stroke-dasharray" values="0 134;116 18;0 134" dur="4.2s" begin=".3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M392 211 H452" stroke="#d97757">
+      <animate attributeName="stroke-dasharray" values="0 91;73 18;0 91" dur="3.1s" begin=".6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <rect x="482" y="197" width="9" height="17" rx="2" fill="#f1c7a8">
     <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
   </rect>
-  <g stroke="url(#accent)" stroke-width="2" fill="none">
-    <path d="M210 236 C210 258 151 258 151 276"/>
-    <path d="M210 236 C210 258 269 258 269 276"/>
-    <path d="M210 236 V278"/>
+
+  <g stroke="#6f5548" stroke-width="2" fill="none">
+    <path d="M154 281 C194 314 249 314 289 281"/>
+    <path d="M289 281 C329 314 384 314 424 281"/>
+    <path d="M289 281 V321"/>
   </g>
-  <g fill="url(#accent)">
-    <circle cx="151" cy="276" r="10">
-      <animate attributeName="r" values="8;11;8" dur="2.4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="210" cy="278" r="10">
-      <animate attributeName="r" values="10;7;10" dur="2.7s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="269" cy="276" r="10">
-      <animate attributeName="r" values="7;11;7" dur="2.2s" repeatCount="indefinite"/>
-    </circle>
+  <g stroke="url(#accent)" stroke-width="3" fill="none" stroke-linecap="round" filter="url(#softGlow)">
+    <path d="M154 281 C194 314 249 314 289 281" stroke-dasharray="14 180">
+      <animate attributeName="stroke-dashoffset" values="194;0" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M289 281 C329 314 384 314 424 281" stroke-dasharray="14 180">
+      <animate attributeName="stroke-dashoffset" values="194;0" dur="2.8s" begin=".45s" repeatCount="indefinite"/>
+    </path>
+    <path d="M289 281 V321" stroke-dasharray="10 46">
+      <animate attributeName="stroke-dashoffset" values="56;0" dur="2.4s" begin=".9s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" text-anchor="middle">
+    <g>
+      <rect x="115" y="258" width="78" height="34" rx="10" fill="#2a211c" stroke="#7a5949"/>
+      <text x="154" y="279" fill="#f1c7a8">PLAN</text>
+      <animate attributeName="opacity" values=".72;1;.72" dur="2.2s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="238" y="258" width="102" height="34" rx="10" fill="#2a211c" stroke="#7a5949"/>
+      <text x="289" y="279" fill="#f1c7a8">RETRIEVE</text>
+      <animate attributeName="opacity" values=".72;1;.72" dur="2.2s" begin=".35s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="381" y="258" width="86" height="34" rx="10" fill="#2a211c" stroke="#7a5949"/>
+      <text x="424" y="279" fill="#f1c7a8">EXECUTE</text>
+      <animate attributeName="opacity" values=".72;1;.72" dur="2.2s" begin=".7s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="242" y="318" width="94" height="34" rx="10" fill="#2a211c" stroke="#7a5949"/>
+      <text x="289" y="339" fill="#f1c7a8">EVALUATE</text>
+      <animate attributeName="opacity" values=".72;1;.72" dur="2.2s" begin="1.05s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <g fill="url(#accent)" filter="url(#softGlow)">
+    <circle cx="154" cy="292" r="4"/>
+    <circle cx="289" cy="292" r="4"/>
+    <circle cx="424" cy="292" r="4"/>
+    <circle cx="289" cy="318" r="4"/>
+  </g>
+
+  <g stroke="#d97757" stroke-width="2" fill="none" opacity=".72">
+    <path d="M83 161 C42 161 42 126 107 126"/>
+    <path d="M537 161 C578 161 578 126 513 126"/>
   </g>
   <g fill="#2a211c" stroke="#6f5548">
-    <rect x="54" y="122" width="38" height="38" rx="10"/>
-    <rect x="328" y="122" width="38" height="38" rx="10"/>
-    <rect x="191" y="22" width="38" height="38" rx="10"/>
+    <rect x="42" y="139" width="56" height="44" rx="12"/>
+    <rect x="522" y="139" width="56" height="44" rx="12"/>
   </g>
-  <g stroke="#d97757" stroke-width="2" fill="none" opacity=".75">
-    <path d="M92 141 C128 120 142 106 191 49"/>
-    <path d="M328 141 C292 120 278 106 229 49"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">
+    <text x="70" y="165" fill="#f1c7a8">INPUT</text>
+    <text x="550" y="165" fill="#f1c7a8">OUTPUT</text>
   </g>
 </svg>

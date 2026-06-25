@@ -1,13 +1,13 @@
-<h1 align="center"><code>Hi, I'm Sharveesh M</code></h1>
+<h1 align="center"><code>Sharveesh M</code></h1>
 
-<h3 align="center">AI Systems Engineer · Backend Infrastructure · Product Architect</h3>
+<h3 align="center">AI Systems Engineer · Backend Architect · Product Builder</h3>
 
 <p align="center">
-Building intelligent systems where planning, retrieval, execution, and product experience converge.
+Turning LLM workflows into reliable, observable, product-ready systems.
 </p>
 
 <p align="center">
-  <img src="./terminal-loop.svg" width="360" alt="Animated coding and systems illustration">
+  <img src="./terminal-loop.svg" width="520" alt="Animated AI console showing planning, retrieval, execution, and evaluation flow">
 </p>
 
 <p align="center">

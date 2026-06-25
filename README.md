@@ -44,7 +44,7 @@
 </p>
 
 <p align="center">
-  <img src="./runtime-focus.svg" width="100%" alt="Runtime Focus panel describing HELIOS planning, retrieval, memory, execution, and evaluation capabilities">
+  <img src="./runtime-focus-clean.svg" width="100%" alt="Runtime Focus panel describing HELIOS planning, retrieval, memory, execution, and evaluation capabilities">
 </p>
 
 <p align="center">
@@ -123,7 +123,7 @@
 </p>
 
 <p align="center">
-  <img src="./experience-cards.svg" width="100%" alt="Experience cards for Itomata AI Engineer Intern and Rablo Flutter Developer Intern">
+  <img src="./experience-cards-clean.svg" width="100%" alt="Experience cards for Itomata AI Engineer Intern and Rablo Flutter Developer Intern">
 </p>
 
 <p align="center">
@@ -131,7 +131,7 @@
 </p>
 
 <p align="center">
-  <img src="./flagship-systems.svg" width="100%" alt="Flagship systems cards for HELIOS, MIDAS PAY, and WHOLE2">
+  <img src="./flagship-systems-clean.svg" width="100%" alt="Flagship systems cards for HELIOS, MIDAS PAY, and WHOLE2">
 </p>
 
 <p align="center">

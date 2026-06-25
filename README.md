@@ -43,15 +43,9 @@
   <img src="./section-helios.svg" width="100%" alt="HELIOS section header">
 </p>
 
-<strong>Runtime Focus</strong>
-
-HELIOS turns open-ended goals into observable agent workflows with planning, retrieval, memory, tool execution, and evaluation built into the loop.
-
-- Plans task graphs from open-ended goals
-- Retrieves grounded context for each step
-- Preserves durable state across long-running work
-- Routes tools and APIs through observable execution
-- Evaluates results and retries failed paths
+<p align="center">
+  <img src="./runtime-focus.svg" width="100%" alt="Runtime Focus panel describing HELIOS planning, retrieval, memory, execution, and evaluation capabilities">
+</p>
 
 <p align="center">
   <img src="./system-map.svg" width="100%" alt="Animated HELIOS system map showing planning, retrieval, memory, execution, and evaluation modules">
@@ -128,90 +122,17 @@ HELIOS turns open-ended goals into observable agent workflows with planning, ret
   <img src="./section-experience.svg" width="100%" alt="Experience section header">
 </p>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="https://img.shields.io/badge/ITOMATA-AI%20ENGINEER%20INTERN-b85c38?style=for-the-badge&labelColor=2a211c" alt="Itomata AI Engineer Intern">
-      <br><br>
-      <strong>June 2026 - Present</strong>
-      <br>
-      <strong><code>FOCUS</code></strong>
-      <br>
-      &rsaquo; <strong>LLM-powered systems</strong>
-      <br>
-      &rsaquo; <strong>Autonomous workflows</strong>
-      <br>
-      &rsaquo; <strong>Production AI features</strong>
-    </td>
-    <td width="50%" valign="top">
-      <img src="https://img.shields.io/badge/RABLO-FLUTTER%20DEVELOPER%20INTERN-b85c38?style=for-the-badge&labelColor=2a211c" alt="Rablo Flutter Developer Intern">
-      <br><br>
-      <strong>May 2026 - Present</strong>
-      <br>
-      <strong><code>FOCUS</code></strong>
-      <br>
-      &rsaquo; <strong>Scalable mobile experiences</strong>
-      <br>
-      &rsaquo; <strong>Clean architecture</strong>
-      <br>
-      &rsaquo; <strong>Performance-focused UI</strong>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./experience-cards.svg" width="100%" alt="Experience cards for Itomata AI Engineer Intern and Rablo Flutter Developer Intern">
+</p>
 
 <p align="center">
   <img src="./section-flagship.svg" width="100%" alt="Flagship Systems section header">
 </p>
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <img src="https://img.shields.io/badge/HELIOS-MULTI--AGENT%20AI%20OS-b85c38?style=for-the-badge&labelColor=2a211c" alt="HELIOS multi-agent AI operating system">
-      <br><br>
-      <strong><code>WHAT</code></strong>
-      <br>
-      Multi-agent AI operating system with planning, retrieval, memory, execution, and evaluation loops.
-      <br><br>
-      <strong><code>STACK</code></strong>
-      <br>
-      <code>Python</code> <code>FastAPI</code> <code>LangGraph</code> <code>FAISS</code>
-      <br><br>
-      <strong><code>IMPACT</code></strong>
-      <br>
-      Turns open-ended tasks into observable, retryable, stateful workflows.
-    </td>
-    <td width="33%" valign="top">
-      <img src="https://img.shields.io/badge/MIDAS%20PAY-AI%20FINTECH-b85c38?style=for-the-badge&labelColor=2a211c" alt="MIDAS PAY AI fintech platform">
-      <br><br>
-      <strong><code>WHAT</code></strong>
-      <br>
-      Event-driven fintech ledger with transaction intelligence and anomaly detection.
-      <br><br>
-      <strong><code>STACK</code></strong>
-      <br>
-      <code>Spring Boot</code> <code>Kafka</code> <code>PostgreSQL</code> <code>Flutter</code>
-      <br><br>
-      <strong><code>IMPACT</code></strong>
-      <br>
-      Decouples transaction workloads while preserving reliable balance state.
-    </td>
-    <td width="33%" valign="top">
-      <img src="https://img.shields.io/badge/WHOLE2-COMMERCE%20PLATFORM-b85c38?style=for-the-badge&labelColor=2a211c" alt="Whole2 commerce platform">
-      <br><br>
-      <strong><code>WHAT</code></strong>
-      <br>
-      Cross-platform commerce platform with seller tooling and reusable mobile UI architecture.
-      <br><br>
-      <strong><code>STACK</code></strong>
-      <br>
-      <code>Flutter</code> <code>Firebase</code> <code>Dart</code> <code>Riverpod</code>
-      <br><br>
-      <strong><code>IMPACT</code></strong>
-      <br>
-      Keeps marketplace features modular and usable under unreliable network conditions.
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./flagship-systems.svg" width="100%" alt="Flagship systems cards for HELIOS, MIDAS PAY, and WHOLE2">
+</p>
 
 <p align="center">
   <img src="./section-direction.svg" width="100%" alt="Current Direction section header">

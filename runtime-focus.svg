@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+  <title id="title">Runtime Focus</title>
+  <desc id="desc">HELIOS turns open-ended goals into observable agent workflows with planning, retrieval, memory, tool execution, and evaluation.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171b22"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d97757" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#f1c7a8" stop-opacity="1"/>
+      <stop offset="1" stop-color="#d97757" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-90%" width="180%" height="280%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="26" y="22" width="948" height="248" rx="8" fill="url(#panel)" stroke="#30363d"/>
+  <rect x="26" y="22" width="948" height="3" fill="#b85c38" opacity=".75"/>
+  <rect x="26" y="22" width="160" height="3" fill="url(#scan)" filter="url(#glow)">
+    <animate attributeName="x" values="26;814;26" dur="5.2s" repeatCount="indefinite"/>
+  </rect>
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Inter, Helvetica, Arial, sans-serif">
+    <text x="58" y="72" fill="#f1c7a8" font-size="14" font-weight="800" letter-spacing="2">RUNTIME FOCUS</text>
+    <text x="58" y="110" fill="#e6edf3" font-size="24" font-weight="760">HELIOS turns open-ended goals into observable agent workflows.</text>
+    <text x="58" y="142" fill="#8b949e" font-size="16" font-weight="650">Planning · retrieval · memory · tool execution · evaluation, built into one loop.</text>
+    <g font-size="15" font-weight="760">
+      <g>
+        <rect x="58" y="176" width="256" height="34" rx="8" fill="#2a211c" stroke="#b85c38"/>
+        <circle cx="78" cy="193" r="4" fill="#f1c7a8"/>
+        <text x="94" y="198" fill="#e6edf3">Plans task graphs</text>
+      </g>
+      <g>
+        <rect x="336" y="176" width="276" height="34" rx="8" fill="#2a211c" stroke="#c07a3f"/>
+        <circle cx="356" cy="193" r="4" fill="#f1c7a8"/>
+        <text x="372" y="198" fill="#e6edf3">Retrieves grounded context</text>
+      </g>
+      <g>
+        <rect x="634" y="176" width="286" height="34" rx="8" fill="#161b22" stroke="#6f7f8f"/>
+        <circle cx="654" cy="193" r="4" fill="#dbe3ee"/>
+        <text x="670" y="198" fill="#e6edf3">Preserves durable state</text>
+      </g>
+      <g>
+        <rect x="58" y="226" width="392" height="34" rx="8" fill="#2a211c" stroke="#d97757"/>
+        <circle cx="78" cy="243" r="4" fill="#f1c7a8"/>
+        <text x="94" y="248" fill="#e6edf3">Routes tools and APIs through observable execution</text>
+      </g>
+      <g>
+        <rect x="472" y="226" width="448" height="34" rx="8" fill="#162019" stroke="#7a9f68"/>
+        <circle cx="492" cy="243" r="4" fill="#cde7c1"/>
+        <text x="508" y="248" fill="#e6edf3">Evaluates results and retries failed paths</text>
+      </g>
+    </g>
+  </g>
+</svg>

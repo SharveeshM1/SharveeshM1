@@ -1,58 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="270" viewBox="0 0 1000 270" role="img" aria-labelledby="title desc">
-  <title id="title">Experience cards</title>
-  <desc id="desc">Itomata AI Engineer Intern and Rablo Flutter Developer Intern experience cards with highlighted focus areas.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-labelledby="title desc">
+  <title id="title">Experience</title>
+  <desc id="desc">Two clean experience panels for Itomata and Rablo with compact focus lists.</desc>
   <defs>
     <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#d97757" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#f1c7a8" stop-opacity="1"/>
-      <stop offset="1" stop-color="#d97757" stop-opacity="0"/>
+      <stop offset="0" stop-color="#b85c38" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#f1c7a8" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#b85c38" stop-opacity="0"/>
     </linearGradient>
-    <filter id="glow" x="-40%" y="-90%" width="180%" height="280%">
-      <feGaussianBlur stdDeviation="2.4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
-  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Inter, Helvetica, Arial, sans-serif">
+  <g font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
     <g>
-      <rect x="42" y="24" width="438" height="214" rx="8" fill="#0d1117" stroke="#30363d"/>
-      <rect x="42" y="24" width="438" height="3" fill="#b85c38"/>
-      <rect x="42" y="24" width="100" height="3" fill="url(#scan)" filter="url(#glow)">
-        <animate attributeName="x" values="42;380;42" dur="4.6s" repeatCount="indefinite"/>
+      <rect x="48" y="28" width="424" height="188" rx="3" fill="#0d1117" stroke="#30363d"/>
+      <rect x="48" y="28" width="424" height="1" fill="#30363d"/>
+      <rect x="48" y="28" width="88" height="1" fill="url(#scan)">
+        <animate attributeName="x" values="48;384;48" dur="5s" repeatCount="indefinite"/>
       </rect>
-      <rect x="70" y="52" width="116" height="36" rx="4" fill="#2a211c"/>
-      <rect x="186" y="52" width="238" height="36" rx="4" fill="#b85c38"/>
-      <text x="128" y="75" fill="#ffffff" font-size="14" font-weight="800" text-anchor="middle" letter-spacing="2">ITOMATA</text>
-      <text x="305" y="75" fill="#ffffff" font-size="14" font-weight="800" text-anchor="middle" letter-spacing="2">AI ENGINEER INTERN</text>
-      <text x="70" y="124" fill="#e6edf3" font-size="25" font-weight="760">June 2026 - Present</text>
-      <text x="70" y="158" fill="#f1c7a8" font-size="13" font-weight="800" letter-spacing="2">FOCUS</text>
-      <text x="70" y="190" fill="#e6edf3" font-size="18" font-weight="700">LLM-powered systems</text>
-      <text x="70" y="219" fill="#e6edf3" font-size="18" font-weight="700">Autonomous workflows</text>
-      <text x="284" y="190" fill="#e6edf3" font-size="18" font-weight="700">Production AI features</text>
-      <circle cx="58" cy="184" r="4" fill="#f1c7a8"/>
-      <circle cx="58" cy="213" r="4" fill="#f1c7a8"/>
-      <circle cx="272" cy="184" r="4" fill="#f1c7a8"/>
+      <text x="72" y="64" fill="#f1c7a8" font-size="12" font-weight="700" letter-spacing="1.8">ITOMATA</text>
+      <text x="72" y="93" fill="#e6edf3" font-size="20" font-weight="650">AI Engineer Intern</text>
+      <text x="72" y="121" fill="#8b949e" font-size="13" font-weight="600">June 2026 - Present</text>
+      <text x="72" y="150" fill="#dbe3ee" font-size="13" font-weight="600">LLM-powered systems</text>
+      <text x="72" y="171" fill="#dbe3ee" font-size="13" font-weight="600">Autonomous workflows</text>
+      <text x="72" y="192" fill="#dbe3ee" font-size="13" font-weight="600">Production AI features</text>
+      <circle cx="62" cy="149" r="2.5" fill="#b85c38"/>
+      <circle cx="62" cy="170" r="2.5" fill="#c07a3f"/>
+      <circle cx="62" cy="191" r="2.5" fill="#7a9f68"/>
     </g>
     <g>
-      <rect x="520" y="24" width="438" height="214" rx="8" fill="#0d1117" stroke="#30363d"/>
-      <rect x="520" y="24" width="438" height="3" fill="#d97757"/>
-      <rect x="520" y="24" width="100" height="3" fill="url(#scan)" filter="url(#glow)">
-        <animate attributeName="x" values="520;858;520" dur="4.6s" begin=".6s" repeatCount="indefinite"/>
+      <rect x="528" y="28" width="424" height="188" rx="3" fill="#0d1117" stroke="#30363d"/>
+      <rect x="528" y="28" width="424" height="1" fill="#30363d"/>
+      <rect x="528" y="28" width="88" height="1" fill="url(#scan)">
+        <animate attributeName="x" values="528;864;528" dur="5s" begin=".6s" repeatCount="indefinite"/>
       </rect>
-      <rect x="548" y="52" width="104" height="36" rx="4" fill="#2a211c"/>
-      <rect x="652" y="52" width="262" height="36" rx="4" fill="#b85c38"/>
-      <text x="600" y="75" fill="#ffffff" font-size="14" font-weight="800" text-anchor="middle" letter-spacing="2">RABLO</text>
-      <text x="783" y="75" fill="#ffffff" font-size="14" font-weight="800" text-anchor="middle" letter-spacing="2">FLUTTER DEVELOPER INTERN</text>
-      <text x="548" y="124" fill="#e6edf3" font-size="25" font-weight="760">May 2026 - Present</text>
-      <text x="548" y="158" fill="#f1c7a8" font-size="13" font-weight="800" letter-spacing="2">FOCUS</text>
-      <text x="548" y="190" fill="#e6edf3" font-size="18" font-weight="700">Scalable mobile experiences</text>
-      <text x="548" y="219" fill="#e6edf3" font-size="18" font-weight="700">Clean architecture</text>
-      <text x="756" y="219" fill="#e6edf3" font-size="18" font-weight="700">Performance UI</text>
-      <circle cx="536" cy="184" r="4" fill="#f1c7a8"/>
-      <circle cx="536" cy="213" r="4" fill="#f1c7a8"/>
-      <circle cx="744" cy="213" r="4" fill="#f1c7a8"/>
+      <text x="552" y="64" fill="#f1c7a8" font-size="12" font-weight="700" letter-spacing="1.8">RABLO</text>
+      <text x="552" y="93" fill="#e6edf3" font-size="20" font-weight="650">Flutter Developer Intern</text>
+      <text x="552" y="121" fill="#8b949e" font-size="13" font-weight="600">May 2026 - Present</text>
+      <text x="552" y="150" fill="#dbe3ee" font-size="13" font-weight="600">Scalable mobile experiences</text>
+      <text x="552" y="171" fill="#dbe3ee" font-size="13" font-weight="600">Clean architecture</text>
+      <text x="552" y="192" fill="#dbe3ee" font-size="13" font-weight="600">Performance-focused UI</text>
+      <circle cx="542" cy="149" r="2.5" fill="#b85c38"/>
+      <circle cx="542" cy="170" r="2.5" fill="#c07a3f"/>
+      <circle cx="542" cy="191" r="2.5" fill="#7a9f68"/>
     </g>
   </g>
 </svg>

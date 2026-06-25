@@ -41,21 +41,21 @@ Turning LLM workflows into reliable, observable, product-ready systems.
 
 ## HELIOS
 
-**Multi-Agent AI Operating System**
+**Multi-Agent AI Runtime**
 
-Autonomous task execution platform with distributed agent orchestration, multi-provider LLM inference, persistent vector memory, real-time WebSocket communication, planning, retrieval, routing, and evaluation loops.
+HELIOS turns open-ended goals into observable agent workflows with planning, retrieval, memory, tool execution, and evaluation built into the loop.
 
 <p align="center">
-  <img src="./system-map.svg" width="100%" alt="Abstract AI system architecture map for planning, retrieval, memory, execution, and evaluation">
+  <img src="./system-map.svg" width="100%" alt="Animated HELIOS system map showing planning, retrieval, memory, execution, and evaluation modules">
 </p>
 
-| Module | Responsibility |
-| --- | --- |
-| Planning | Decomposes goals into executable task graphs |
-| Memory | Preserves state, context, and long-running task knowledge |
-| Retrieval | Grounds work through document indexing and semantic search |
-| Execution | Routes tools, APIs, and workflow actions |
-| Evaluation | Validates outputs and retries failed steps |
+| Layer | Role | Output |
+| --- | --- | --- |
+| Planning | Breaks goals into ordered task graphs | Clear next actions |
+| Retrieval | Grounds each step with indexed context | Relevant evidence |
+| Memory | Carries state across long-running work | Durable context |
+| Execution | Routes tools, APIs, and workflow actions | Completed operations |
+| Evaluation | Checks results, retries failures, and closes loops | Verified outcomes |
 
 `LangGraph` · `Gemini` · `Ollama` · `FAISS` · `FastAPI` · `WebSockets`
 

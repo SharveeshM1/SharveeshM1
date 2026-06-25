@@ -1,9 +1,7 @@
 <h1 align="center"><code>Sharveesh M</code></h1>
 
-<h3 align="center">AI Systems Engineer · Backend Architect · Product Builder</h3>
-
 <p align="center">
-Turning LLM workflows into reliable, observable, product-ready systems.
+  <img src="./hero-wordmark.svg" width="780" alt="Animated intro showing AI Systems Engineer, Backend Architect, Product Builder, and product-ready LLM systems">
 </p>
 
 <p align="center">

@@ -59,11 +59,11 @@ HELIOS turns open-ended goals into observable agent workflows with planning, ret
 
 | Layer | Handles | Produces |
 | --- | --- | --- |
-| Planning | Goal decomposition | Ordered task graph |
-| Retrieval | Semantic grounding | Relevant evidence |
-| Memory | Persistent state | Durable context |
-| Execution | Tool and API routing | Completed actions |
-| Evaluation | Validation and retries | Verified outcomes |
+| <strong><code>Planning</code></strong> | Goal decomposition | <strong>Ordered task graph</strong> |
+| <strong><code>Retrieval</code></strong> | Semantic grounding | <strong>Relevant evidence</strong> |
+| <strong><code>Memory</code></strong> | Persistent state | <strong>Durable context</strong> |
+| <strong><code>Execution</code></strong> | Tool and API routing | <strong>Completed actions</strong> |
+| <strong><code>Evaluation</code></strong> | Validation and retries | <strong>Verified outcomes</strong> |
 
 `LangGraph` · `Gemini` · `Ollama` · `FAISS` · `FastAPI` · `WebSockets`
 
@@ -93,26 +93,26 @@ HELIOS turns open-ended goals into observable agent workflows with planning, ret
       <br><br>
       <strong>June 2026 - Present</strong>
       <br>
-      <sub><strong>FOCUS</strong></sub>
+      <strong><code>FOCUS</code></strong>
       <br>
-      &rsaquo; LLM-powered systems
+      &rsaquo; <strong>LLM-powered systems</strong>
       <br>
-      &rsaquo; Autonomous workflows
+      &rsaquo; <strong>Autonomous workflows</strong>
       <br>
-      &rsaquo; Production AI features
+      &rsaquo; <strong>Production AI features</strong>
     </td>
     <td width="50%" valign="top">
       <img src="https://img.shields.io/badge/RABLO-FLUTTER%20DEVELOPER%20INTERN-b85c38?style=for-the-badge&labelColor=2a211c" alt="Rablo Flutter Developer Intern">
       <br><br>
       <strong>May 2026 - Present</strong>
       <br>
-      <sub><strong>FOCUS</strong></sub>
+      <strong><code>FOCUS</code></strong>
       <br>
-      &rsaquo; Scalable mobile experiences
+      &rsaquo; <strong>Scalable mobile experiences</strong>
       <br>
-      &rsaquo; Clean architecture
+      &rsaquo; <strong>Clean architecture</strong>
       <br>
-      &rsaquo; Performance-focused UI
+      &rsaquo; <strong>Performance-focused UI</strong>
     </td>
   </tr>
 </table>
@@ -126,45 +126,45 @@ HELIOS turns open-ended goals into observable agent workflows with planning, ret
     <td width="33%" valign="top">
       <img src="https://img.shields.io/badge/HELIOS-MULTI--AGENT%20AI%20OS-b85c38?style=for-the-badge&labelColor=2a211c" alt="HELIOS multi-agent AI operating system">
       <br><br>
-      <sub><strong>WHAT</strong></sub>
+      <strong><code>WHAT</code></strong>
       <br>
       Multi-agent AI operating system with planning, retrieval, memory, execution, and evaluation loops.
       <br><br>
-      <sub><strong>STACK</strong></sub>
+      <strong><code>STACK</code></strong>
       <br>
       <code>Python</code> <code>FastAPI</code> <code>LangGraph</code> <code>FAISS</code>
       <br><br>
-      <sub><strong>IMPACT</strong></sub>
+      <strong><code>IMPACT</code></strong>
       <br>
       Turns open-ended tasks into observable, retryable, stateful workflows.
     </td>
     <td width="33%" valign="top">
       <img src="https://img.shields.io/badge/MIDAS%20PAY-AI%20FINTECH-b85c38?style=for-the-badge&labelColor=2a211c" alt="MIDAS PAY AI fintech platform">
       <br><br>
-      <sub><strong>WHAT</strong></sub>
+      <strong><code>WHAT</code></strong>
       <br>
       Event-driven fintech ledger with transaction intelligence and anomaly detection.
       <br><br>
-      <sub><strong>STACK</strong></sub>
+      <strong><code>STACK</code></strong>
       <br>
       <code>Spring Boot</code> <code>Kafka</code> <code>PostgreSQL</code> <code>Flutter</code>
       <br><br>
-      <sub><strong>IMPACT</strong></sub>
+      <strong><code>IMPACT</code></strong>
       <br>
       Decouples transaction workloads while preserving reliable balance state.
     </td>
     <td width="33%" valign="top">
       <img src="https://img.shields.io/badge/WHOLE2-COMMERCE%20PLATFORM-b85c38?style=for-the-badge&labelColor=2a211c" alt="Whole2 commerce platform">
       <br><br>
-      <sub><strong>WHAT</strong></sub>
+      <strong><code>WHAT</code></strong>
       <br>
       Cross-platform commerce platform with seller tooling and reusable mobile UI architecture.
       <br><br>
-      <sub><strong>STACK</strong></sub>
+      <strong><code>STACK</code></strong>
       <br>
       <code>Flutter</code> <code>Firebase</code> <code>Dart</code> <code>Riverpod</code>
       <br><br>
-      <sub><strong>IMPACT</strong></sub>
+      <strong><code>IMPACT</code></strong>
       <br>
       Keeps marketplace features modular and usable under unreliable network conditions.
     </td>

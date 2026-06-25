@@ -57,15 +57,57 @@ HELIOS turns open-ended goals into observable agent workflows with planning, ret
   <img src="./system-map.svg" width="100%" alt="Animated HELIOS system map showing planning, retrieval, memory, execution, and evaluation modules">
 </p>
 
-| Layer | Handles | Produces |
-| --- | --- | --- |
-| <strong><code>Planning</code></strong> | Goal decomposition | <strong>Ordered task graph</strong> |
-| <strong><code>Retrieval</code></strong> | Semantic grounding | <strong>Relevant evidence</strong> |
-| <strong><code>Memory</code></strong> | Persistent state | <strong>Durable context</strong> |
-| <strong><code>Execution</code></strong> | Tool and API routing | <strong>Completed actions</strong> |
-| <strong><code>Evaluation</code></strong> | Validation and retries | <strong>Verified outcomes</strong> |
+<table align="center">
+  <tr>
+    <th>
+      <img src="https://img.shields.io/badge/LAYER-2a211c?style=for-the-badge&labelColor=0d1117&color=2a211c" alt="Layer">
+    </th>
+    <th>
+      <img src="https://img.shields.io/badge/HANDLES-2a211c?style=for-the-badge&labelColor=0d1117&color=2a211c" alt="Handles">
+    </th>
+    <th>
+      <img src="https://img.shields.io/badge/PRODUCES-2a211c?style=for-the-badge&labelColor=0d1117&color=2a211c" alt="Produces">
+    </th>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/PLANNING-b85c38?style=for-the-badge&labelColor=2a211c&color=b85c38" alt="Planning"></td>
+    <td><strong>Goal decomposition</strong></td>
+    <td><code>Ordered task graph</code></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/RETRIEVAL-c07a3f?style=for-the-badge&labelColor=2a211c&color=c07a3f" alt="Retrieval"></td>
+    <td><strong>Semantic grounding</strong></td>
+    <td><code>Relevant evidence</code></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/MEMORY-6f7f8f?style=for-the-badge&labelColor=161b22&color=6f7f8f" alt="Memory"></td>
+    <td><strong>Persistent state</strong></td>
+    <td><code>Durable context</code></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/EXECUTION-d97757?style=for-the-badge&labelColor=2a211c&color=d97757" alt="Execution"></td>
+    <td><strong>Tool and API routing</strong></td>
+    <td><code>Completed actions</code></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/EVALUATION-7a9f68?style=for-the-badge&labelColor=161b22&color=7a9f68" alt="Evaluation"></td>
+    <td><strong>Validation and retries</strong></td>
+    <td><code>Verified outcomes</code></td>
+  </tr>
+</table>
 
-`LangGraph` · `Gemini` · `Ollama` · `FAISS` · `FastAPI` · `WebSockets`
+<p align="center">
+  <img src="./helios-flow.svg" width="880" alt="Animated HELIOS flow from planning to retrieval, memory, execution, and evaluation">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/LangGraph-b85c38?style=for-the-badge&labelColor=2a211c" alt="LangGraph">
+  <img src="https://img.shields.io/badge/Gemini-c07a3f?style=for-the-badge&labelColor=2a211c" alt="Gemini">
+  <img src="https://img.shields.io/badge/Ollama-6f7f8f?style=for-the-badge&labelColor=161b22" alt="Ollama">
+  <img src="https://img.shields.io/badge/FAISS-d97757?style=for-the-badge&labelColor=2a211c" alt="FAISS">
+  <img src="https://img.shields.io/badge/FastAPI-7a9f68?style=for-the-badge&labelColor=161b22" alt="FastAPI">
+  <img src="https://img.shields.io/badge/WebSockets-8b949e?style=for-the-badge&labelColor=161b22" alt="WebSockets">
+</p>
 
 <p align="center">
   <img src="./section-github.svg" width="100%" alt="GitHub Activity section header">
